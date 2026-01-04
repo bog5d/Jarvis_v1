@@ -60,3 +60,12 @@ Jarvis has evolved from a simple file automation script into an **Executive Deci
 *   [Feat] Added `Start_Jarvis_HUD.bat` for one-click silent startup.
 *   [Feat] Developed **HUD Widget 3.0** with Zen/Active modes and Briefing integration.
 *   [Refactor] Updated all Handlers to use YAML Frontmatter.
+
+## 4. Deployment & Migration (The "Colonization" Protocol)
+*   **Strategy**: "One-Click" Deployment via deployment/setup.bat.
+*   **Capabilities**:
+    *   Auto-installs Python environment.
+    *   Replicates folder structure (Inbox, Drafts, etc.).
+    *   Configures paths in settings.yaml dynamically.
+    *   Creates Desktop Shortcuts.
+*   **Documentation**: See deployment/MIGRATION_GUIDE.md for detailed user instructions (including Mobile Sync setup).
