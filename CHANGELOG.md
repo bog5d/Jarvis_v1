@@ -39,3 +39,14 @@
 - **Startup**: Fixed issue where Dashboard browser would not launch automatically on system startup by enforcing \--server.headless false\.
 - **Documentation**: Updated project context and changelog for better AI handover.
 
+
+## [0.4.0] - 2026-01-05
+### Added
+- **Remote Access**: Added comprehensive guides (MOBILE_GUIDE.md, REMOTE_ACCESS_GUIDE.md) for LAN and Tailscale access.
+- **Server Mode**: Configured system power settings to support 'Lid Closed' operation (Clamshell Mode).
+- **Mobile Voice**: Implemented st.audio_input in Dashboard for direct voice interaction from mobile devices.
+
+### Fixed
+- **Dashboard**: Resolved 502 Bad Gateway error by disabling headless mode and manually handling browser launch.
+- **Config**: Fixed KeyError in dashboard.py regarding output directory path.
+

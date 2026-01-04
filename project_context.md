@@ -64,18 +64,19 @@ Jarvis has evolved from a simple file automation script into an **Executive Deci
     *   **Aliyun Qwen** (Fallback Brain)
 *   **Prompts**: Managed externally in `prompts/` folder.
 
-## 5. Recent Changelog (2026-01-04)
-*   [Fix] **Startup**: Enforced browser launch for Dashboard on system startup.
-*   [Feat] **DeepSeek Integration**: Switched primary cognitive engine to DeepSeek-V3 for better logic and cost efficiency.
-*   [Feat] **Chat Mode**: Added `src/chat_engine.py` with long-term memory (Hippocampus) and real-time archiving.
-*   [Feat] **Smart Scheduler**: Briefing now triggers at 8:00 AM or upon first boot after 8 AM.
-*   [Feat] **Smart Lookback**: Briefing context now covers "everything since last briefing" instead of fixed 24h.
-*   [Refactor] **Prompt Modularization**: Extracted system prompts to `prompts/*.md` for easy editing without code changes.
-*   [Feat] Implemented `CabinetSecretary` service.
-*   [Feat] Created `02_Briefings` dedicated folder.
-*   [Feat] Added `Start_Jarvis_HUD.bat` and `Start_Jarvis_Chat.bat`.
+## 5. Recent Changelog (2026-01-05)
+*   [Feat] **Remote Access**: Integrated Tailscale for secure, anywhere-access to Jarvis Dashboard.
+*   [Feat] **Server Mode**: Configured power settings to allow laptop operation with lid closed (Clamshell Mode).
+*   [Feat] **Mobile Voice**: Added native voice input support in Dashboard for mobile browsers.
+*   [Fix] **Dashboard Startup**: Fixed 502 Bad Gateway errors by disabling headless mode and manually launching browser.
+*   [Docs] **Guides**: Added `MOBILE_GUIDE.md` and `REMOTE_ACCESS_GUIDE.md`.
 
-## 4. Deployment & Migration (The "Colonization" Protocol)
+## 6. Remote Access & Server Mode (The "Throne Room")
+*   **Server Mode**: Laptop configured to stay awake with lid closed (PowerCfg).
+*   **Remote Access**: Tailscale VPN integration for secure anywhere-access.
+*   **Mobile Guide**: See `MOBILE_GUIDE.md` and `REMOTE_ACCESS_GUIDE.md`.
+
+## 7. Deployment & Migration (The "Colonization" Protocol)
 *   **Strategy**: "One-Click" Deployment via deployment/setup.bat.
 *   **Capabilities**:
     *   Auto-installs Python environment.

@@ -60,6 +60,48 @@ class AudioHandler:
                 logger.error(f"❌ 读取 Prompt 文件失败: {e}")
         return default_prompt
 
+    def transcribe_audio(self, file_path: str) -> str:
+        """
+        仅转录音频，返回文本 (用于实时对话)
+        """
+        try:
+            if not dashscope.api_key:
+                logger.error("跳过处理：缺少 API Key")
+                return ""
+
+            input_path = Path(file_path)
+            
+            # 1. 上传文件
+            from dashscope.file import File
+            file_url = File.upload(str(input_path))
+            
+            # 2. 提交转录任务
+            task = Transcription.async_call(
+                model='paraformer-v1',
+                file_urls=[file_url],
+                language_hints=['zh', 'en'] 
+            )
+            task_id = task.output.task_id
+            
+            # 3. 等待结果
+            status = Transcription.wait(task=task_id)
+            
+            if status.status_code == 200 and status.output['task_status'] == 'SUCCEEDED':
+                transcription_results = status.output['results']
+                full_text = ""
+                for result in transcription_results:
+                    if 'subtask_status' in result and result['subtask_status'] == 'SUCCEEDED':
+                            if 'sentences' in result:
+                                for sentence in result['sentences']:
+                                    full_text += sentence['text'] + " "
+                return full_text.strip()
+            else:
+                logger.error(f"❌ 转录失败: {status.output}")
+                return ""
+        except Exception as e:
+            logger.error(f"❌ 转录出错: {e}")
+            return ""
+
     def handle(self, file_path: str) -> None:
         """
         处理音频文件：上传 -> 转录 -> 保存

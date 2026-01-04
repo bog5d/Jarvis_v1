@@ -8,6 +8,7 @@ import sys
 # Add src to path
 sys.path.append(str(Path(__file__).parent.parent))
 from src.chat_engine import JarvisChat
+from src.handlers.audio_handler import AudioHandler
 
 st.set_page_config(
     page_title="Jarvis Command Center",
@@ -75,8 +76,19 @@ st.markdown("""
 # --- Init Jarvis ---
 if "jarvis" not in st.session_state:
     config_path = Path(__file__).parent.parent / "config" / "settings.yaml"
+    
+    # Load Config
+    with open(config_path, 'r', encoding='utf-8') as f:
+        config = yaml.safe_load(f)
+        
     st.session_state.jarvis = JarvisChat(str(config_path))
     st.session_state.jarvis.initialize_context()
+    
+    # Init AudioHandler for Voice Chat
+    st.session_state.audio_handler = AudioHandler(
+        output_dir=config['paths']['output_dir'],
+        api_key=config['aliyun']['api_key']
+    )
 
 if "last_check_time" not in st.session_state:
     st.session_state.last_check_time = time.time()
@@ -210,11 +222,51 @@ with tab2:
             with st.chat_message(msg["role"]):
                 st.markdown(msg["content"])
 
-    # Chat Input
-    if prompt := st.chat_input("请下达指令或询问..."):
+    # --- Input Area ---
+    # 1. Audio Input
+    audio_value = st.audio_input("🎤 语音输入 (Voice Input)")
+    
+    # 2. Text Input
+    text_prompt = st.chat_input("请下达指令或询问...")
+    
+    final_prompt = None
+    
+    # Handle Text Input
+    if text_prompt:
+        final_prompt = text_prompt
+        
+    # Handle Audio Input
+    elif audio_value:
+        # Use hash to prevent re-processing the same audio on rerun
+        audio_id = hash(audio_value.getvalue())
+        if "last_audio_id" not in st.session_state or st.session_state.last_audio_id != audio_id:
+            st.session_state.last_audio_id = audio_id
+            
+            # Save and Transcribe
+            temp_audio_path = Path("temp_voice_input.wav")
+            with open(temp_audio_path, "wb") as f:
+                f.write(audio_value.getvalue())
+            
+            with st.spinner("👂 正在听取您的指令..."):
+                transcribed_text = st.session_state.audio_handler.transcribe_audio(str(temp_audio_path))
+            
+            if transcribed_text:
+                final_prompt = transcribed_text
+                st.toast(f"🗣️ 识别内容: {final_prompt}")
+            else:
+                st.warning("未能识别到语音内容")
+            
+            # Cleanup
+            try:
+                temp_audio_path.unlink()
+            except:
+                pass
+
+    # Process Message
+    if final_prompt:
         # User message
         with st.chat_message("user"):
-            st.markdown(prompt)
+            st.markdown(final_prompt)
         
         # AI Response
         with st.chat_message("assistant"):
@@ -222,7 +274,7 @@ with tab2:
             message_placeholder.markdown("Thinking...")
             
             # Call Jarvis
-            response = st.session_state.jarvis.chat(prompt)
+            response = st.session_state.jarvis.chat(final_prompt)
             
             message_placeholder.markdown(response)
 
