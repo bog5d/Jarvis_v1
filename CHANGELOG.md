@@ -3,10 +3,10 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.0.0/) 规范。
 所有对本项目的重大更改都将记录在此文件中。
 
-## [Unreleased] - 待发布
+## [0.2.0] - 2026-01-04
 ### Added
-- **PDF 支持**: 计划引入 `pdfplumber`，实现 PDF 文件的文本提取与智能总结 (P0)。
-- **错误重试**: 计划为 API 调用添加自动重试机制。
+- **PDF 支持**: 新增 `src/handlers/pdf_handler.py`，使用 `pdfplumber` 提取文本并调用 Qwen-Plus 进行总结。
+- **配置更新**: `settings.yaml` 新增 `.pdf` 文件类型支持。
 
 ## [0.1.0] - 2026-01-04
 ### Added

@@ -1,6 +1,7 @@
 import time
 import json
 import dashscope
+from dashscope import Generation
 from pathlib import Path
 from datetime import datetime
 from dashscope.audio.asr import Transcription
@@ -60,7 +61,38 @@ class AudioHandler:
                 if status.output['task_status'] == 'SUCCEEDED':
                     logger.info("✅ 转录成功！")
                     transcription_results = status.output['results']
-                    self._save_result(input_path, transcription_results)
+                    
+                    # 提取全文
+                    full_text = ""
+                    try:
+                        for result in transcription_results:
+                            if 'subtask_status' in result and result['subtask_status'] == 'SUCCEEDED':
+                                 if 'sentences' in result:
+                                     for sentence in result['sentences']:
+                                         full_text += sentence['text'] + " "
+                    except Exception:
+                        pass
+                    
+                    # 调用总结
+                    ai_summary = ""
+                    if full_text:
+                        logger.info("🧠 正在调用 Qwen 模型进行总结...")
+                        try:
+                            prompt = """你是一个专业的秘书。请阅读以下会议/录音转录内容，并按以下格式输出：
+1. 提取 3-5 个关键标签 (Tags)
+2. 生成一句话的精炼总结 (Summary)
+3. 列出具体的待办事项 (Action Items)
+4. 总结核心观点
+
+请确保你的回答包含以上所有部分。"""
+                            messages = [{'role': 'system', 'content': prompt}, {'role': 'user', 'content': full_text[:30000]}]
+                            response = Generation.call(model='qwen-plus', messages=messages, result_format='message')
+                            if response.status_code == 200:
+                                ai_summary = response.output.choices[0].message.content
+                        except Exception as e:
+                            logger.error(f"总结失败: {e}")
+
+                    self._save_result(input_path, full_text, ai_summary)
                 else:
                     logger.error(f"❌ 转录失败: {status.output}")
             else:
@@ -69,40 +101,37 @@ class AudioHandler:
         except Exception as e:
             logger.error(f"❌ 处理音频文件时出错: {file_path}, 错误: {e}")
 
-    def _save_result(self, input_path: Path, results: list):
-        """保存转录结果到 Markdown"""
+    def _save_result(self, input_path: Path, full_text: str, ai_summary: str):
+        """保存转录结果到 Markdown (带 YAML Frontmatter)"""
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        created_time = datetime.now().strftime("%Y-%m-%d %H:%M")
         output_filename = f"{input_path.stem}_transcribed_{timestamp}.md"
         output_path = self.output_dir / output_filename
 
-        # 提取文本内容
-        full_text = ""
-        try:
-            for result in results:
-                if 'subtask_status' in result and result['subtask_status'] == 'SUCCEEDED':
-                     if 'sentences' in result:
-                         for sentence in result['sentences']:
-                             full_text += sentence['text'] + " "
-        except Exception as e:
-            logger.warning(f"解析结果结构时遇到问题: {e}，尝试直接 dump JSON")
-            full_text = json.dumps(results, ensure_ascii=False, indent=2)
+        markdown_content = f"""---
+created: "{created_time}"
+source_file: "{input_path.name}"
+type: "audio"
+tags: [AI转录, 语音]
+status: inbox
+---
 
-        markdown_content = f"""# 音频转录结果
+# 音频转录与总结
 
-## 源文件信息
-- **文件名**: {input_path.name}
-- **处理时间**: {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}
-- **文件类型**: 音频文件
+## AI 总结与待办
 
-## 转录内容
+{ai_summary}
+
+## 转录全文
 
 {full_text}
 
 ---
-*由 Jarvis_v1 (Aliyun Paraformer) 自动生成*
+*由 Jarvis_v1 (Aliyun Paraformer + Qwen) 自动生成*
 """
-        
-        with open(output_path, 'w', encoding='utf-8') as f:
-            f.write(markdown_content)
-        
-        logger.info(f"💾 结果已保存: {output_path}")
+        try:
+            with open(output_path, 'w', encoding='utf-8') as f:
+                f.write(markdown_content)
+            logger.info(f"💾 结果已保存: {output_path}")
+        except Exception as e:
+            logger.error(f"❌ 保存文件失败: {e}")

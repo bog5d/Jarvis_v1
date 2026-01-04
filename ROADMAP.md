@@ -15,7 +15,7 @@
 ## 2. 待优化方向 (Optimization Backlog)
 
 ### 优先级 P0 (近期目标)
-- [ ] **PDF 支持**: 新增 `src/handlers/pdf_handler.py`，使用 `pdfplumber` 提取文本并总结。
+- [x] **PDF 支持**: 新增 `src/handlers/pdf_handler.py`，使用 `pdfplumber` 提取文本并总结。- [x] **手机端闭环 (Mobile Loop)**: 通过微力同步 (VerySync) 打通 `01_Drafts` 到手机端的自动回传。- [ ] **每日汇报 (Daily Digest)**: 每天自动汇总当天的处理结果，生成一份简报 (Markdown/邮件)。
 - [ ] **错误重试机制**: 当前 API 调用失败仅记录日志，需要增加 `retrying` 装饰器进行自动重试。
 - [ ] **长文本处理**: 针对超过 Token 限制的长文，实现“分段总结 + 汇总”逻辑。
 

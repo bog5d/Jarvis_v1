@@ -1,0 +1,36 @@
+paths:
+  input_dir: "D:\\My_System\\Inbox"
+  output_dir: "D:\\My_System\\01_Drafts"
+  briefing_dir: "D:\\My_System\\02_Briefings"
+  archive_dir: "D:\\My_System\\99_Archive"
+
+file_types:
+  audio: 
+    - .mp3
+    - .wav
+    - .m4a
+  text: 
+    - .txt
+    - .md
+  pdf:
+    - .pdf
+
+ignore:
+  extensions: 
+    - .tmp
+    - .crdownload
+    - .partial
+    - .downloading
+  folders: 
+    - .verysync
+    - .sync
+    - .stversions
+    - Thumbs.db
+  prefixes: 
+    - "~"
+    - "."
+    - "📅"
+
+
+aliyun:
+  api_key: "sk-9302ea779fb14227afe2fd5d15dda68b"
