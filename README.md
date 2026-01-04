@@ -1,5 +1,16 @@
 # Jarvis_v1
 
+> **🤖 To AI Assistant (AI 助手必读)**
+> 
+> 1. **Context**: Before starting any task, **PLEASE READ** `ROADMAP.md` (for architecture & plans) and `CHANGELOG.md` (for history).
+> 2. **Protocol**: 
+>    - Follow the modular architecture: `Watcher` -> `Handlers`.
+>    - Keep configuration separated in `config/settings.yaml`.
+>    - **Update `CHANGELOG.md`** after every significant change.
+> 3. **Current Goal**: Check `ROADMAP.md` for the latest P0 tasks.
+
+---
+
 个人知识库自动化系统。监控指定目录，自动处理录音（转录）和文本文件（处理/归档）。
 
 ## 目录结构
