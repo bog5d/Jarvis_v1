@@ -1,5 +1,7 @@
 import time
 import os
+import threading
+from datetime import datetime
 from pathlib import Path
 # from watchdog.observers import Observer
 from watchdog.observers.polling import PollingObserver as Observer
@@ -31,10 +33,14 @@ class JarvisEventHandler(FileSystemEventHandler):
 
         briefing_dir = config['paths'].get('briefing_dir', output_dir)
         
-        self.audio_handler = AudioHandler(output_dir, api_key)
+        # DeepSeek & Prompts Config
+        deepseek_config = config.get('deepseek', {})
+        prompts_config = config.get('prompts', {})
+
+        self.audio_handler = AudioHandler(output_dir, api_key, deepseek_config, prompts_config.get('audio'))
         self.text_handler = TextHandler(output_dir, api_key)
         self.pdf_handler = PDFHandler(output_dir, api_key)
-        self.cabinet_secretary = CabinetSecretary(output_dir, briefing_dir, api_key)
+        self.cabinet_secretary = CabinetSecretary(output_dir, briefing_dir, api_key, deepseek_config, prompts_config.get('secretary'))
         
         # 加载配置规则
         self.audio_exts = set(config['file_types']['audio'])
@@ -43,6 +49,45 @@ class JarvisEventHandler(FileSystemEventHandler):
         self.ignore_exts = set(config['ignore']['extensions'])
         self.ignore_folders = set(config['ignore']['folders'])
         self.ignore_prefixes = tuple(config['ignore']['prefixes'])
+
+        # 启动定时任务线程
+        self._start_scheduler()
+
+    def _start_scheduler(self):
+        """启动后台调度线程，检查是否需要生成晨报"""
+        def run_schedule():
+            logger.info("⏰ 调度器已启动：将在每天 8:00 后自动生成晨报")
+            while True:
+                try:
+                    self._check_and_run_briefing()
+                except Exception as e:
+                    logger.error(f"调度器出错: {e}")
+                time.sleep(60) # 每分钟检查一次
+
+        t = threading.Thread(target=run_schedule, daemon=True)
+        t.start()
+
+    def _check_and_run_briefing(self):
+        """检查条件并运行晨报生成"""
+        now = datetime.now()
+        
+        # 1. 检查时间是否已过 8:00
+        if now.hour < 8:
+            return
+
+        # 2. 检查今天是否已经生成过晨报
+        today_str = now.strftime("%Y-%m-%d")
+        briefing_filename = f"📅_每日内阁晨报_{today_str}.md"
+        briefing_path = self.cabinet_secretary.briefing_dir / briefing_filename
+        
+        if briefing_path.exists():
+            # 今天已生成，跳过
+            return
+            
+        # 3. 满足条件 (8点后且未生成)，执行生成
+        logger.info(f"⏰ 检测到今日 ({today_str}) 尚未生成晨报，且当前时间 >= 8:00，立即触发...")
+        self.cabinet_secretary.generate_briefing()
+
 
     def _should_ignore(self, file_path: str) -> bool:
         path = Path(file_path)

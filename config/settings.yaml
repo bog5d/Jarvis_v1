@@ -34,3 +34,11 @@ ignore:
 
 aliyun:
   api_key: "sk-9302ea779fb14227afe2fd5d15dda68b"
+
+deepseek:
+  api_key: "sk-da9d300dd6814aaba1dc112e60dc8202"
+  base_url: "https://api.deepseek.com"
+
+prompts:
+  secretary: "d:\\My_System\\Jarvis_v1\\prompts\\secretary_briefing.md"
+  audio: "d:\\My_System\\Jarvis_v1\\prompts\\audio_summary.md"

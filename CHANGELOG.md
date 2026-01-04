@@ -33,3 +33,9 @@
 ### Fixed
 - 修复了 `AudioHandler` 和 `TextHandler` 初始化时参数不匹配导致的 `TypeError`。
 - 解决了 Git 推送时的网络连接重置问题（配置本地代理）。
+
+## [0.3.0] - 2026-01-04
+### Fixed
+- **Startup**: Fixed issue where Dashboard browser would not launch automatically on system startup by enforcing \--server.headless false\.
+- **Documentation**: Updated project context and changelog for better AI handover.
+

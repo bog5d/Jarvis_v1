@@ -21,45 +21,59 @@ Jarvis has evolved from a simple file automation script into an **Executive Deci
     *   *Sync*: Synced to mobile for "Macro-level" decision making.
 *   **`D:\My_System\99_Archive` (Royal Archives)**:
     *   Storage for original raw files after processing.
+*   **`D:\My_System\20_Knowledge_Base\Chat_Logs` (起居注)**:
+    *   Stores chat history with Jarvis for long-term memory context.
+*   **`D:\My_System\Jarvis_v1\prompts` (圣旨库)**:
+    *   Stores modular system prompts (`secretary_briefing.md`, `audio_summary.md`).
 
 ### 🧩 Core Components
 1.  **Watcher (`src/core/watcher.py`)**:
     *   Real-time file monitoring.
-    *   **Startup Check**: Automatically triggers `CabinetSecretary` if today's briefing is missing.
+    *   **Scheduler**: Checks daily at 8:00 AM. If no briefing exists for today, triggers `CabinetSecretary`.
 2.  **Handlers (`src/handlers/`)**:
     *   `PDFHandler`, `AudioHandler`, `TextHandler`.
-    *   **Standard**: All outputs now include **YAML Frontmatter** (Metadata) for easier parsing.
+    *   **AI Engine**: Now uses **DeepSeek-V3** for high-level summarization and logic extraction (Aliyun Paraformer still used for ASR).
+    *   **Standard**: All outputs now include **YAML Frontmatter** (Metadata).
 3.  **Cabinet Secretary (`src/services/cabinet_secretary.py`)**:
-    *   **Logic**: Scans `01_Drafts` for files modified in the last 24h.
-    *   **AI**: Calls `qwen-max` to aggregate, analyze, and highlight "Decisions Needed" (需圣裁事项).
-    *   **Output**: Generates the Daily Briefing Markdown.
-4.  **HUD Widget (`src/hud_widget.py`)**:
+    *   **Logic**: Scans `01_Drafts` for files modified **since the last briefing** (Smart Lookback).
+    *   **AI**: Calls **DeepSeek-V3** to aggregate, analyze, and highlight "Decisions Needed" (需圣裁事项).
+    *   **Output**: Generates the Daily Briefing Markdown with interactive checkboxes.
+4.  **Chat Engine (`src/chat_engine.py`)**:
+    *   **Role**: Interactive "Chief of Staff" chat interface.
+    *   **Memory**: Auto-loads recent chat logs from `20_Knowledge_Base` to maintain context across sessions.
+    *   **Archiving**: Real-time saving of conversations to Markdown.
+5.  **HUD Widget (`src/hud_widget.py`)**:
     *   **Tech**: Python `tkinter` (No external UI deps).
-    *   **Features**:
-        *   **Zen Mode**: Compact, shows daily file count.
-        *   **Active Mode (Hover)**: Expands to show "Latest File" and "Pending Decisions" (scraped from Briefing).
-        *   **Cyberpunk UI**: Transparent, frameless, always-on-top.
+    *   **Features**: Zen Mode / Active Mode (Hover).
 
 ## 3. Workflow (The "Loop")
 1.  **Input**: User drops file into `Inbox` (PC or Mobile Sync).
 2.  **Process**: Jarvis processes it -> Moves original to `Archive` -> Saves Summary to `01_Drafts`.
 3.  **Notify**: HUD Widget counter increments.
 4.  **Briefing**:
-    *   *Trigger*: Auto-runs on startup OR manually triggered.
+    *   *Trigger*: Auto-runs at 8:00 AM or on startup if missed.
     *   *Result*: Generates/Updates the Daily Briefing in `02_Briefings`.
-5.  **Review**: User checks `02_Briefings` on mobile for high-level overview.
+5.  **Review**: User checks `02_Briefings` on mobile, ticks checkboxes.
+6.  **Chat**: User discusses details with Jarvis via `Start_Jarvis_Chat.bat`.
 
 ## 4. Configuration
 *   **Config File**: `config/settings.yaml`
-*   **Model**: `qwen-max` (Briefing), `qwen-plus` (Summaries).
-*   **API**: Aliyun DashScope.
+*   **Models**: 
+    *   **DeepSeek-V3** (Logic, Summarization, Chat) - *Primary Brain*
+    *   **Aliyun Paraformer** (ASR) - *Ears*
+    *   **Aliyun Qwen** (Fallback Brain)
+*   **Prompts**: Managed externally in `prompts/` folder.
 
 ## 5. Recent Changelog (2026-01-04)
+*   [Fix] **Startup**: Enforced browser launch for Dashboard on system startup.
+*   [Feat] **DeepSeek Integration**: Switched primary cognitive engine to DeepSeek-V3 for better logic and cost efficiency.
+*   [Feat] **Chat Mode**: Added `src/chat_engine.py` with long-term memory (Hippocampus) and real-time archiving.
+*   [Feat] **Smart Scheduler**: Briefing now triggers at 8:00 AM or upon first boot after 8 AM.
+*   [Feat] **Smart Lookback**: Briefing context now covers "everything since last briefing" instead of fixed 24h.
+*   [Refactor] **Prompt Modularization**: Extracted system prompts to `prompts/*.md` for easy editing without code changes.
 *   [Feat] Implemented `CabinetSecretary` service.
 *   [Feat] Created `02_Briefings` dedicated folder.
-*   [Feat] Added `Start_Jarvis_HUD.bat` for one-click silent startup.
-*   [Feat] Developed **HUD Widget 3.0** with Zen/Active modes and Briefing integration.
-*   [Refactor] Updated all Handlers to use YAML Frontmatter.
+*   [Feat] Added `Start_Jarvis_HUD.bat` and `Start_Jarvis_Chat.bat`.
 
 ## 4. Deployment & Migration (The "Colonization" Protocol)
 *   **Strategy**: "One-Click" Deployment via deployment/setup.bat.

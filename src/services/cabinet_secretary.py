@@ -8,24 +8,62 @@ from src.utils.logger import setup_logger
 
 logger = setup_logger("CabinetSecretary")
 
+# Try importing OpenAI for DeepSeek
+try:
+    from openai import OpenAI
+except ImportError:
+    OpenAI = None
+
 class CabinetSecretary:
-    def __init__(self, drafts_dir: str, briefing_dir: str, api_key: str = None):
+    def __init__(self, drafts_dir: str, briefing_dir: str, api_key: str = None, deepseek_config: dict = None, prompt_path: str = None):
         self.drafts_dir = Path(drafts_dir)
         self.briefing_dir = Path(briefing_dir)
         self.briefing_dir.mkdir(parents=True, exist_ok=True)
+        
+        # Aliyun Config (Fallback)
         if api_key:
             dashscope.api_key = api_key
         else:
-            logger.error("未提供 Aliyun API Key，内阁秘书无法工作。")
+            logger.warning("⚠️ 未提供 Aliyun API Key，Qwen 降级模式不可用。")
+
+        # DeepSeek Config
+        self.deepseek_client = None
+        self.deepseek_model = "deepseek-chat" 
+        if deepseek_config and deepseek_config.get('api_key'):
+            if OpenAI:
+                try:
+                    self.deepseek_client = OpenAI(
+                        api_key=deepseek_config['api_key'],
+                        base_url=deepseek_config.get('base_url', "https://api.deepseek.com")
+                    )
+                    logger.info("🧠 DeepSeek 引擎已加载 (内阁首辅模式)")
+                except Exception as e:
+                    logger.error(f"❌ DeepSeek 初始化失败: {e}")
+            else:
+                logger.warning("⚠️ 未安装 openai 库，无法使用 DeepSeek。请运行 pip install openai")
+
+        # Prompt Config
+        self.prompt_path = prompt_path
+        self.system_prompt = self._load_prompt()
+
+    def _load_prompt(self) -> str:
+        default_prompt = """你不仅是 AI 助手，更是用户的“内阁首辅”。请根据以下过去 24 小时的文件摘要，撰写一份《每日施政要略》。"""
+        if self.prompt_path and os.path.exists(self.prompt_path):
+            try:
+                logger.info(f"📜 加载 Prompt: {self.prompt_path}")
+                return Path(self.prompt_path).read_text(encoding='utf-8')
+            except Exception as e:
+                logger.error(f"❌ 读取 Prompt 文件失败: {e}")
+        return default_prompt
 
     def generate_briefing(self):
         """生成每日内阁晨报"""
         logger.info("👑 内阁首辅正在整理每日晨报...")
         
-        # 1. 扫描过去 24 小时的文件
+        # 1. 扫描自上次晨报以来的文件
         recent_files = self._scan_recent_files()
         if not recent_files:
-            logger.info("📭 过去 24 小时无新奏折，无需上朝。")
+            logger.info("📭 自上次晨报以来无新奏折，无需上朝。")
             return
 
         # 2. 提取关键信息
@@ -37,11 +75,36 @@ class CabinetSecretary:
         if briefing_content:
             self._save_briefing(briefing_content)
 
+    def _get_last_briefing_time(self) -> float:
+        """获取上一份晨报的生成时间"""
+        if not self.briefing_dir.exists():
+            return 0.0
+        
+        # 查找所有晨报文件
+        briefings = list(self.briefing_dir.glob("📅_每日内阁晨报_*.md"))
+        if not briefings:
+            return 0.0
+            
+        # 按修改时间排序，找最新的
+        try:
+            latest_briefing = max(briefings, key=lambda p: p.stat().st_mtime)
+            return latest_briefing.stat().st_mtime
+        except Exception:
+            return 0.0
+
     def _scan_recent_files(self) -> list[Path]:
-        """扫描 01_Drafts 下过去 24 小时修改过的 .md 文件 (排除晨报本身)"""
+        """扫描 01_Drafts 下自上次晨报以来修改过的 .md 文件 (排除晨报本身)"""
         recent_files = []
-        now = time.time()
-        one_day_ago = now - 24 * 3600
+        
+        last_briefing_time = self._get_last_briefing_time()
+        
+        if last_briefing_time == 0.0:
+            # 如果从未生成过，默认回溯 24 小时
+            last_briefing_time = time.time() - 24 * 3600
+            logger.info("🔍 未找到历史晨报，默认扫描过去 24 小时...")
+        else:
+            last_date = datetime.fromtimestamp(last_briefing_time).strftime("%Y-%m-%d %H:%M")
+            logger.info(f"🔍 上次晨报时间: {last_date}，正在扫描此后更新的奏折...")
         
         if not self.drafts_dir.exists():
             return []
@@ -50,10 +113,11 @@ class CabinetSecretary:
             if "每日内阁晨报" in file_path.name:
                 continue
                 
-            if file_path.stat().st_mtime > one_day_ago:
+            # 只要文件的修改时间晚于上次晨报时间
+            if file_path.stat().st_mtime > last_briefing_time:
                 recent_files.append(file_path)
         
-        logger.info(f"📄 找到 {len(recent_files)} 份近期奏折")
+        logger.info(f"📄 找到 {len(recent_files)} 份新奏折")
         return recent_files
 
     def _extract_context(self, files: list[Path]) -> str:
@@ -93,37 +157,32 @@ class CabinetSecretary:
         return context
 
     def _call_ai_briefing(self, context: str) -> str:
-        """调用 Qwen-Max 生成晨报"""
+        """调用 AI 生成晨报 (优先 DeepSeek, 降级 Qwen)"""
+        
+        # 1. Try DeepSeek
+        if self.deepseek_client:
+            logger.info("🧠 正在起草内阁晨报 (DeepSeek)...")
+            try:
+                response = self.deepseek_client.chat.completions.create(
+                    model=self.deepseek_model,
+                    messages=[
+                        {"role": "system", "content": self.system_prompt},
+                        {"role": "user", "content": context},
+                    ],
+                    stream=False
+                )
+                return response.choices[0].message.content
+            except Exception as e:
+                logger.error(f"❌ DeepSeek 调用失败: {e}, 尝试切换回 Aliyun...")
+        
+        # 2. Fallback to Aliyun
         logger.info("🧠 正在起草内阁晨报 (Qwen-Max)...")
-        
-        prompt = """你不仅是 AI 助手，更是用户的“内阁首辅”。请根据以下过去 24 小时的文件摘要，撰写一份《每日施政要略》。
-
-要求：
-1. **核心情报 (Executive Summary)**: 宏观概述昨日处理了哪些关键议题，发现什么关联或冲突。
-2. **需圣裁事项 (Decisions Required)**: 从待办事项或风险中，提炼出需要用户亲自决策或关注的高优先级事项。
-3. **风险与机遇 (Risks & Opportunities)**: 洞察潜在的风险点或新的机会。
-4. **语气**: 专业、干练、不仅是陈述事实，要有洞察力 (Insight)。
-
-格式参考：
-# 📅 每日内阁晨报 (YYYY-MM-DD)
-
-## 👑 核心情报
-...
-
-## ⚡ 需圣裁事项
-...
-
-## 🛡️ 风险与机遇
-...
-"""
-        
         try:
             messages = [
-                {'role': 'system', 'content': prompt},
+                {'role': 'system', 'content': self.system_prompt},
                 {'role': 'user', 'content': context}
             ]
             
-            # 使用 qwen-max 以获得更好的逻辑分析能力
             response = Generation.call(
                 model='qwen-max', 
                 messages=messages,
