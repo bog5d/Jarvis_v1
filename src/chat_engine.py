@@ -5,6 +5,14 @@ import glob
 from datetime import datetime
 from pathlib import Path
 
+# Add src to path for module imports
+sys.path.append(str(Path(__file__).parent.parent))
+try:
+    from src.core.retriever import Retriever
+except ImportError:
+    # Attempt local import if running directly from src
+    from core.retriever import Retriever
+    
 # Try importing OpenAI
 try:
     from openai import OpenAI
@@ -21,6 +29,13 @@ class JarvisChat:
         self.config = self._load_config(config_path)
         self.client = self._init_client()
         self.messages = []
+
+        # Initialize Retriever (The Librarian)
+        self.jarvis_root = self.base_dir / "Jarvis_v1"
+        self.retriever = Retriever(
+            index_path=self.jarvis_root / "data/knowledge_index.json",
+            root_dir=self.jarvis_root / "data/simulated_archive"
+        )
         
     def _load_config(self, path):
         try:
@@ -105,6 +120,27 @@ class JarvisChat:
         except Exception as e:
             print(f"❌ 存档失败: {e}")
 
+    def _load_system_prompt(self):
+        """加载系统级 Prompt"""
+        prompt_path = self.base_dir / "Jarvis_v1" / "prompts" / "system_prompt.md"
+        if prompt_path.exists():
+            try:
+                return prompt_path.read_text(encoding='utf-8')
+            except Exception:
+                pass
+        return "你不仅是 AI 助手，更是用户的 Jarvis 内阁首辅。"
+
+    def _load_context_from_tags(self, query):
+        """[Phase 3] 基于标签检索记忆"""
+        try:
+            hits = self.retriever.find_relevant_files(query)
+            if hits:
+                print(f"📖 检索到 {len(hits)} 份相关文档...")
+                return self.retriever.get_context(hits)
+        except Exception as e:
+            print(f"⚠️ 检索失败: {e}")
+        return ""
+
     def initialize_context(self):
         """初始化上下文（加载记忆 + 背景 + 晨报），如果尚未加载"""
         if not self.messages:
@@ -112,8 +148,9 @@ class JarvisChat:
             project_context = self._load_project_context()
             latest_briefing = self._load_latest_briefing()
             past_chat_history = self._load_memory()
+            core_system_prompt = self._load_system_prompt()
             
-            system_prompt = f"""你是 Jarvis，我的私人内阁顾问。
+            system_prompt = f"""{core_system_prompt}
 
 【系统背景】
 {project_context}
@@ -127,7 +164,7 @@ class JarvisChat:
 {past_chat_history}
 === 历史记忆结束 ===
 
-你的回答应专业、简洁、有洞察力。
+你的回答应专业、简洁、有洞察力，并严格遵循双轨标签输出格式。
 """
             self.messages.append({"role": "system", "content": system_prompt})
 
@@ -135,14 +172,28 @@ class JarvisChat:
         """供外部调用的对话接口"""
         self.initialize_context()
         
-        # 记录用户输入
-        self.messages.append({"role": "user", "content": user_input})
-        self._save_log("User", user_input)
+        # 1. 尝试检索历史背景
+        additional_context = self._load_context_from_tags(user_input)
         
+        # 2. 构造最终输入
+        if additional_context:
+            final_user_content = f"{user_input}\n\n【Jarvis 历史档案库】\n{additional_context}\n(请根据上述档案补充回答细节)"
+        else:
+            final_user_content = user_input
+
+        # 记录用户输入
+        self.messages.append({"role": "user", "content": final_user_content})
+        self._save_log("User", final_user_content)
+        
+        # 获取配置
+        model_name = self.config.get('deepseek', {}).get('model', "deepseek-chat")
+        temperature = self.config.get('deepseek', {}).get('temperature', 1.3)
+
         try:
             response = self.client.chat.completions.create(
-                model="deepseek-chat",
+                model=model_name,
                 messages=self.messages,
+                temperature=temperature,
                 stream=False
             )
             ai_content = response.choices[0].message.content

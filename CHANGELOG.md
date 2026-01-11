@@ -3,6 +3,34 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.0.0/) 规范。
 所有对本项目的重大更改都将记录在此文件中。
 
+## [0.5.0] - 2026-01-10
+### Changed
+- **System Migration**: 核心存储库从物理磁盘 `D:\My_System` 迁移至 OneDrive 云同步目录 `C:\Users\王波\OneDrive - Personal\my_system`。
+- **Core Configuration**: 更新了所有的硬编码路径，确保系统在新的环境路径下可以正常运行。
+- **Migration Verification**: 新增 `verify_migration.py` 用于自动监测和修复路径迁移后的文件夹完整性。
+
+## [0.4.0] - 2026-01-07
+### Added
+- **Historian (Indexer)**: 新增 `src/core/indexer.py`，实现“三级火箭”策略的第二级。能够扫描静态 Markdown 档案，提取 Frontmatter 和内联标签 (#Tag)，构建轻量级 JSON 索引。
+- **Librarian (Retriever)**: 新增 `src/core/retriever.py`，实现“零成本”上下文检索。能够根据用户对话中的关键词，自动查找并提取相关历史笔记。
+- **RAG Capability**: 升级 `chat_engine.py`，集成检索器。实现了“标签触发式 RAG”，只在需要时（匹配到标签）才读取历史文件，极大降低 Token 消耗。
+
+## [0.3.0] - 2026-01-07
+### Added
+- **DeepSeek V3 接入**: 全面替换阿里云 Qwen 模型，成为新的“内阁首辅”大脑 (`llm_engine`)。
+- **Streamlit 移动指挥所**:
+  - 重构 `src/dashboard.py`，采用 **Tabs (分页)** 架构：
+    - **Tab 1 Chat**: DeepSeek 聊天窗口，支持流式对话。
+    - **Tab 2 Voice**: 集成语音转文字功能。
+    - **Tab 3 Files**: 文件监控与手动上传。
+  - 增加 **Atomic Tags (原子标签)** 可视化显示，实现内容与元数据的视觉分离。
+- **系统级 Prompt**: 新增 `prompts/system_prompt.md`，定义“双轨制标签”输出规范 (Category + Keywords)。
+- **Tailscale 适配**: 优化 Dashboard 网络配置，支持局域网/Tailscale 远程访问。
+
+### Changed
+- **Config**: `settings.yaml` 新增 `deepseek` 配置节 (API Key, Temperature, Caching)。
+- **Doc**: 更新 `project_context.md` 重新定义系统身份为 "Executive Decision Support System" 并固化原子化笔记方法论。
+
 ## [0.2.0] - 2026-01-04
 ### Added
 - **PDF 支持**: 新增 `src/handlers/pdf_handler.py`，使用 `pdfplumber` 提取文本并调用 Qwen-Plus 进行总结。

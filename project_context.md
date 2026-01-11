@@ -3,51 +3,60 @@
 > **Note to AI Agents**: This file contains the architectural blueprint and current state of the Jarvis system. Read this first to understand the project context.
 
 ## 1. System Identity: "The Cabinet Secretary" (内阁首辅)
-Jarvis has evolved from a simple file automation script into an **Executive Decision Support System**.
-*   **Old Role**: File Converter (Audio -> Text, PDF -> Summary).
-*   **New Role**: Cabinet Secretary. It reviews all "Drafts" (奏折) submitted throughout the day and compiles a "Daily Briefing" (每日内阁晨报) for the user (The Emperor/Executive).
+Jarvis has evolved into a DeepSeek-powered **Executive Decision Support System**.
+*   **Core Brain**: **DeepSeek-V3** (High reasoning capability).
+*   **Mission**: Not just automation, but **Knowledge Emergence**. It transforms raw ideas into "Atomic Notes" (原子笔记) suitable for future autobiography or publication.
+*   **Personality**: Professional, insightful, proactive. Uses the "Dual-Track Tagging" system for every output.
 
 ## 2. Architecture Overview
 
 ### 📂 Folder Structure (The "Palace" Layout)
-*   **`D:\My_System\Inbox` (The Box)**:
+*   **`C:\Users\王波\OneDrive - Personal\my_system\Inbox` (The Box)**:
     *   Entry point for all raw files (Audio, PDF, Text).
     *   *Action*: Watcher monitors this.
-*   **`D:\My_System\01_Drafts` (奏折库)**:
+*   **`C:\Users\王波\OneDrive - Personal\my_system\01_Drafts` (奏折库)**:
     *   Stores individual processed files (Summaries, Transcripts).
-    *   *Sync*: Synced to mobile for "Micro-level" lookup.
-*   **`D:\My_System\02_Briefings` (御书房)**:
-    *   Stores the **Daily Cabinet Briefing** (`📅_每日内阁晨报_YYYY-MM-DD.md`).
-    *   *Sync*: Synced to mobile for "Macro-level" decision making.
-*   **`D:\My_System\99_Archive` (Royal Archives)**:
-    *   Storage for original raw files after processing.
-*   **`D:\My_System\20_Knowledge_Base\Chat_Logs` (起居注)**:
-    *   Stores chat history with Jarvis for long-term memory context.
-*   **`D:\My_System\Jarvis_v1\prompts` (圣旨库)**:
-    *   Stores modular system prompts (`secretary_briefing.md`, `audio_summary.md`).
+*   **`C:\Users\王波\OneDrive - Personal\my_system\02_Briefings` (御书房)**:
+    *   Stores output from `CabinetSecretary` (Daily Briefings).
+*   **`C:\Users\王波\OneDrive - Personal\my_system\20_Knowledge_Base/Chat_Logs` (起居注)**:
+    *   Long-term conversation history with DeepSeek.
+*   **`C:\Users\王波\OneDrive - Personal\my_system\Jarvis_v1\prompts` (圣旨库)**:
+    *   **`system_prompt.md`**: The Constitution. Defines "Dual-Track Tagging" & "Atomic Thinking".
 
 ### 🧩 Core Components
-1.  **Watcher (`src/core/watcher.py`)**:
-    *   Real-time file monitoring.
-    *   **Scheduler**: Checks daily at 8:00 AM. If no briefing exists for today, triggers `CabinetSecretary`.
+1.  **Dashboard (The "Mobile Command Center")**:
+    *   **File**: `src/dashboard.py` (Streamlit).
+    *   **Access**: Accessible via Mobile (Tailscale/LAN).
+    *   **Features**:
+        *   **Tab 1 (Chat)**: DeepSeek Interface with separated "Atomic Tags" card.
+        *   **Tab 2 (Voice)**: Audio recording & transcription.
+        *   **Tab 3 (Monitor)**: File status & System health.
+    
 2.  **Handlers (`src/handlers/`)**:
     *   `PDFHandler`, `AudioHandler`, `TextHandler`.
-    *   **AI Engine**: Now uses **DeepSeek-V3** for high-level summarization and logic extraction (Aliyun Paraformer still used for ASR).
-    *   **Standard**: All outputs now include **YAML Frontmatter** (Metadata).
+    *   **AI Engine**: **DeepSeek-V3** for analysis.
+    
 3.  **Cabinet Secretary (`src/services/cabinet_secretary.py`)**:
-    *   **Logic**: Scans `01_Drafts` for files modified **since the last briefing** (Smart Lookback).
-    *   **AI**: Calls **DeepSeek-V3** to aggregate, analyze, and highlight "Decisions Needed" (需圣裁事项).
-    *   **Output**: Generates the Daily Briefing Markdown with interactive checkboxes.
+    *   Scans `01_Drafts` -> Calls DeepSeek -> Generates Daily Briefing.
+
 4.  **Chat Engine (`src/chat_engine.py`)**:
-    *   **Role**: Interactive "Chief of Staff" chat interface.
-    *   **Memory**: Auto-loads recent chat logs from `20_Knowledge_Base` to maintain context across sessions.
-    *   **Archiving**: Real-time saving of conversations to Markdown.
-5.  **HUD Widget (`src/hud_widget.py`)**:
-    *   **Tech**: Python `tkinter` (No external UI deps).
-    *   **Features**: Zen Mode / Active Mode (Hover).
+    *   **Role**: Backend logic for the Chat Interface.
+    *   **Logic**: Loads Context -> Injects System Prompt (Tags) -> Calls DeepSeek -> Saves Log.
 
 ## 3. Workflow (The "Loop")
-1.  **Input**: User drops file into `Inbox` (PC or Mobile Sync).
+1.  **Input**: User talks to Mobile/Dash or drops file.
+2.  **Process**: 
+    *   If Chat: DeepSeek responds with **Tags** (Category: Project/Insight...).
+    *   If File: Handlers transcribe/summarize -> Save to `01_Drafts`.
+3.  **Review**: User checks Dashboard.
+4.  **Emergence (Phase 3)**: (Planned) Gardener scans Tags -> Suggests "Emergence" (Book Chapters/Insights).
+
+## 4. Key Protocols (The "Constitution")
+1.  **Atomic Thinking**: De-contextualize stories into abstract concepts.
+2.  **Dual-Track Tagging**: Every AI output MUST include a `**Tags**` section.
+3.  **Local First**: Priorities local files and local network (Tailscale).
+
+```
 2.  **Process**: Jarvis processes it -> Moves original to `Archive` -> Saves Summary to `01_Drafts`.
 3.  **Notify**: HUD Widget counter increments.
 4.  **Briefing**:
@@ -65,13 +74,26 @@ Jarvis has evolved from a simple file automation script into an **Executive Deci
 *   **Prompts**: Managed externally in `prompts/` folder.
 
 ## 5. Recent Changelog (2026-01-05)
+*   [Feat] **Web UI Refactor**: Rebuilt the frontend (`src/web_ui/index.html`) to mimic Google Gemini's aesthetic (Material Design 3).
+*   [Feat] **Split-Screen Mode**: Implemented a "Canvas" style layout where reports open in a side panel while chatting.
+*   [Feat] **Backend API**: Created a lightweight Python backend (`src/web_ui/server.py`) to bridge the frontend with DeepSeek API.
+*   [Feat] **Real-time Chat**: Connected the Web UI to DeepSeek-V3 for live, interactive dialogue.
 *   [Feat] **Remote Access**: Integrated Tailscale for secure, anywhere-access to Jarvis Dashboard.
 *   [Feat] **Server Mode**: Configured power settings to allow laptop operation with lid closed (Clamshell Mode).
 *   [Feat] **Mobile Voice**: Added native voice input support in Dashboard for mobile browsers.
 *   [Fix] **Dashboard Startup**: Fixed 502 Bad Gateway errors by disabling headless mode and manually launching browser.
 *   [Docs] **Guides**: Added `MOBILE_GUIDE.md` and `REMOTE_ACCESS_GUIDE.md`.
 
-## 6. Remote Access & Server Mode (The "Throne Room")
+## 6. Web UI Architecture (The "Gemini" Interface)
+*   **Frontend**: Single-file HTML (`src/web_ui/index.html`) using Tailwind CSS (CDN) and Marked.js.
+*   **Backend**: `src/web_ui/server.py` (Python `http.server` + `urllib`).
+*   **API**: Direct integration with DeepSeek API (`deepseek-chat`).
+*   **Features**:
+    *   **Chat**: Real-time conversation with "Thinking" state.
+    *   **Briefing Panel**: Markdown rendering of daily reports in a collapsible side panel.
+    *   **Responsive**: Mobile-friendly sidebar and layout.
+
+## 7. Remote Access & Server Mode (The "Throne Room")
 *   **Server Mode**: Laptop configured to stay awake with lid closed (PowerCfg).
 *   **Remote Access**: Tailscale VPN integration for secure anywhere-access.
 *   **Mobile Guide**: See `MOBILE_GUIDE.md` and `REMOTE_ACCESS_GUIDE.md`.

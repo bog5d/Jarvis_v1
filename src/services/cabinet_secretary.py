@@ -148,8 +148,8 @@ class CabinetSecretary:
                     context += "[待办事项]\n" + "\n".join(todos) + "\n"
                 
                 # 提取 AI 总结部分 (假设在 "## AI" 标题下)
-                # 简单起见，截取前 800 字
-                context += f"\n[内容摘要]\n{body[:800]}...\n\n"
+                # 增加上下文长度以支持深度萃取 (V2.0)
+                context += f"\n[内容摘要]\n{body[:5000]}...\n\n"
                 
             except Exception as e:
                 logger.error(f"读取文件失败 {file_path}: {e}")

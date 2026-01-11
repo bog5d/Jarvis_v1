@@ -6,7 +6,8 @@ echo ========================================================
 echo.
 echo [Access Guide]
 echo 1. Local (This PC): http://localhost:8501
-echo 2. Mobile (LAN):    http://192.168.31.49:8501
+echo 2. Mobile (LAN):    http://10.217.27.190:8501
+echo 3. Remote (VPN):    http://100.101.227.116:8501
 echo.
 echo Launching browser automatically...
 start http://localhost:8501
