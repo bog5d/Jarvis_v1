@@ -1,0 +1,30 @@
+paths:
+  input_dir: "D:\\My_System\\Inbox"
+  output_dir: "D:\\My_System\\01_Drafts"
+
+file_types:
+  audio: 
+    - .mp3
+    - .wav
+    - .m4a
+  text: 
+    - .txt
+    - .md
+
+ignore:
+  extensions: 
+    - .tmp
+    - .crdownload
+    - .partial
+    - .downloading
+  folders: 
+    - .verysync
+    - .sync
+    - .stversions
+    - Thumbs.db
+  prefixes: 
+    - "~"
+    - "."
+
+aliyun:
+  api_key: "YOUR_API_KEY_HERE"

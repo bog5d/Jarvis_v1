@@ -1,0 +1,228 @@
+{
+  "main": {
+    "id": "2e781c384eb86d8e",
+    "type": "split",
+    "children": [
+      {
+        "id": "93fe29891a6ae304",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4e10b819877f3b1b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01_Drafts/（免密）泽天智航-企业介绍_pdf_summary_20260104_143451.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "（免密）泽天智航-企业介绍_pdf_summary_20260104_143451"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ea9202f280451e2a",
+    "type": "split",
+    "children": [
+      {
+        "id": "102ff3fb85eee49e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "37bb7077dffe4c4d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "afb79da06b5f38b6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "7563857185b4ecf8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "1456480c7a67c9ca",
+    "type": "split",
+    "children": [
+      {
+        "id": "76e9b723c0e03b14",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f489aaa39164a9e1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "01_Drafts/（免密）泽天智航-企业介绍_pdf_summary_20260104_143451.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for （免密）泽天智航-企业介绍_pdf_summary_20260104_143451"
+            }
+          },
+          {
+            "id": "7557f0e2ae94e5f8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "01_Drafts/（免密）泽天智航-企业介绍_pdf_summary_20260104_143451.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from （免密）泽天智航-企业介绍_pdf_summary_20260104_143451"
+            }
+          },
+          {
+            "id": "3808eaef29384424",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "fd8a92a64d602ddc",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "712b8e5c8af549ad",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "01_Drafts/（免密）泽天智航-企业介绍_pdf_summary_20260104_143451.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of （免密）泽天智航-企业介绍_pdf_summary_20260104_143451"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "37bb7077dffe4c4d",
+  "lastOpenFiles": [
+    "Jarvis_v1/deployment/setup.bat",
+    "Jarvis_v1/deployment/install.ps1",
+    "Jarvis_v1/deployment/MIGRATION_GUIDE.md",
+    "Jarvis_v1/deployment",
+    "Jarvis_v1/project_context.md",
+    "Jarvis_v1/src/hud_widget.py",
+    "Jarvis_v1/Start_Jarvis_HUD.bat",
+    "02_Briefings/📅_每日内阁晨报_2026-01-04.md",
+    "Jarvis_v1/generate_briefing.py",
+    "2026-01-04.md",
+    "Untitled.canvas",
+    "01_Drafts/（免密）泽天智航-企业介绍_pdf_summary_20260104_143451.md",
+    "01_Drafts/test_document_pdf_summary_20260104_143709.md",
+    "02_Briefings/天泽灵翼ZenixOS发布会邀请函_pdf_summary_20260104_143826.md",
+    "02_Briefings/周三 14点13分韩老师交流_transcribed_20260104_102628.md",
+    "02_Briefings/88390008fd144e5da5398a322242c757_pdf_summary_20260104_143656.md",
+    "02_Briefings/test_trigger_summary_20260104_143534.md",
+    "02_Briefings/test_meeting_note_summary_20260104_104756.md",
+    "02_Briefings/项目背景与执行现状备忘录 (P_summary_20260104_143804.md",
+    "02_Briefings/天泽灵翼（修改2）(1)_pdf_summary_20260104_143647.md",
+    "02_Briefings/（免密）泽天智航-企业介绍_pdf_summary_20260104_143451.md",
+    "02_Briefings/天泽灵翼ZenixOS发布会邀请函_pdf_summary_20260104_143840.md",
+    "02_Briefings/test_document_pdf_summary_20260104_143709.md",
+    "02_Briefings/国科电磁电磁防护产品手册25.4.9_pdf_summary_20260104_143606.md",
+    "02_Briefings/会议内容_summary_20260104_142724.md",
+    "02_Briefings/广东国科电磁企业介绍_pdf_summary_20260104_143624.md",
+    "02_Briefings/新质生产力赋能低空经济：从战略破局到产业腾飞_pdf_summary_20260104_143751.md",
+    "02_Briefings/test_meeting_note_summary_20260104_143424.md",
+    "02_Briefings/20分钟演讲 傅司长_pdf_summary_20260104_143417.md",
+    "02_Briefings/1.1_AI__pdf_summary_20260104_143403.md",
+    "02_Briefings/周三 16点35分韩老师_transcribed_20260104_102619.md",
+    "02_Briefings/天泽灵翼ZenixOS发布会邀请函_pdf_summary_20260104_135251.md",
+    "02_Briefings",
+    "Jarvis_v1/logs/jarvis.log",
+    "Jarvis_v1/logs",
+    "Jarvis_v1/src/services/__pycache__/cabinet_secretary.cpython-313.pyc",
+    "Jarvis_v1/src/services/__pycache__",
+    "Inbox/IMG_20260102_205507.jpg",
+    "Inbox/IMG_20260102_205430.jpg"
+  ]
+}

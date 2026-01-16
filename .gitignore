@@ -1,0 +1,6 @@
+"# Exclude archives and legacy vault"  
+"99_Archives/"  
+".venv/"  
+"node_modules/"  
+"__pycache__/"  
+"*.pyc" 

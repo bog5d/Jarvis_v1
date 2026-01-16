@@ -1,0 +1,11 @@
+# 忽略代码库 (手机不需要看代码)
+Jarvis_v1/
+Scripts/
+
+# 忽略巨大的归档文件 (保护手机存储)
+99_Archive/
+
+# 忽略系统临时文件
+.trash/
+.DS_Store
+Thumbs.db

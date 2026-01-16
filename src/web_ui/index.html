@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jarvis - 内阁首辅</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <style>
+        body { font-family: 'Roboto', sans-serif; background-color: #F0F4F9; }
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: transparent; }
+        ::-webkit-scrollbar-thumb { background: #D1D5DB; border-radius: 4px; }
+        .markdown-body h1 { font-size: 1.5em; font-weight: bold; margin: 0.5em 0; }
+        .markdown-body p { margin-bottom: 0.8em; line-height: 1.6; }
+        .markdown-body ul { list-style-type: disc; padding-left: 1.5em; margin-bottom: 0.8em; }
+        .markdown-body code { background-color: #E5E7EB; padding: 0.2em 0.4em; border-radius: 4px; font-family: monospace; font-size: 0.9em; color: #C7254E; }
+        .markdown-body pre { background-color: #1F2937; color: #F9FAFB; padding: 1em; border-radius: 8px; overflow-x: auto; margin-bottom: 1em; }
+        .markdown-body pre code { background-color: transparent; color: #E5E7EB; padding: 0; }
+    </style>
+</head>
+<body class="flex h-screen overflow-hidden text-[#1F1F1F]">
+
+    <!-- 左侧边栏 -->
+    <aside id="sidebar" class="w-[280px] bg-[#F0F4F9] flex flex-col p-4 hidden md:flex flex-shrink-0 transition-all">
+        <div class="flex items-center justify-between mb-8">
+            <button onclick="toggleSidebar()" class="p-2 rounded-full hover:bg-[#E3E3E3]"><span class="material-symbols-outlined">menu</span></button>
+        </div>
+        <button class="flex items-center gap-3 bg-[#D3E3FD] text-[#001D35] px-4 py-3 rounded-2xl hover:shadow-md mb-6 w-fit">
+            <span class="material-symbols-outlined">add</span><span class="text-sm font-medium">新奏折</span>
+        </button>
+        <div class="flex-1 overflow-y-auto">
+            <div class="mb-4"><h3 class="text-xs font-medium text-gray-500 mb-2 px-3">最近</h3>
+                <div onclick="togglePanel()" class="flex items-center gap-3 px-3 py-2 rounded-full bg-[#D3E3FD] text-[#001D35] cursor-pointer hover:bg-[#C2D7FB]">
+                    <span class="material-symbols-outlined">chat_bubble</span><span class="text-sm truncate">📅 每日内阁晨报</span>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <!-- 主区域 -->
+    <main class="flex-1 flex bg-white md:rounded-l-3xl shadow-sm relative overflow-hidden">
+        <!-- 聊天区 -->
+        <div id="chat-container" class="flex-1 overflow-y-auto p-4 md:p-8 pb-32 transition-all duration-300">
+            <div id="messages" class="max-w-[800px] mx-auto space-y-8">
+                <!-- 欢迎语 -->
+                <div class="flex flex-col items-center justify-center py-10 opacity-80">
+                    <span class="material-symbols-outlined text-6xl text-[#1967D2] mb-4">smart_toy</span>
+                    <h1 class="text-4xl font-medium text-gray-800">你好, 王总</h1>
+                    <p class="text-xl text-gray-400 mt-2">今日内阁晨报已准备就绪。</p>
+                </div>
+                <!-- 模拟消息 -->
+                <div class="flex gap-4">
+                    <div class="w-8 h-8 rounded-full bg-blue-600 flex items-center justify-center text-white mt-1 flex-shrink-0"><span class="material-symbols-outlined text-sm">smart_toy</span></div>
+                    <div class="flex-1">
+                        <p>今日晨报已准备就绪。</p>
+                        <button onclick="togglePanel()" class="mt-2 flex items-center gap-2 bg-[#D3E3FD] text-[#001D35] px-4 py-2 rounded-xl hover:shadow-md transition cursor-pointer">
+                            <span class="material-symbols-outlined">description</span><span>点击查看完整晨报</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 右侧阅读面板 (默认隐藏) -->
+        <div id="reading-panel" class="hidden w-0 border-l border-gray-200 bg-white flex flex-col transition-all duration-300">
+            <div class="flex items-center justify-between p-4 border-b"><h2 class="font-medium">📅 每日内阁晨报</h2><button onclick="togglePanel()" class="p-2 hover:bg-gray-100 rounded-full"><span class="material-symbols-outlined">close</span></button></div>
+            <div id="panel-content" class="p-6 overflow-y-auto markdown-body flex-1">
+                <!-- 内容将由 JS 填充 -->
+            </div>
+        </div>
+
+        <!-- 输入框 -->
+        <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-white via-white to-transparent pt-10 pb-6 px-4">
+            <div class="max-w-[800px] mx-auto bg-[#F0F4F9] rounded-[2rem] flex items-center px-4 py-2 border border-transparent focus-within:border-gray-200 focus-within:bg-white focus-within:shadow-md transition-all">
+                <button class="p-2 rounded-full hover:bg-[#E3E3E3] text-gray-600"><span class="material-symbols-outlined">add_circle</span></button>
+                <input id="msg-input" type="text" class="flex-1 bg-transparent border-none outline-none py-3 px-2 text-[#1F1F1F]" placeholder="输入指令，或上传奏折..." onkeypress="if(event.key==='Enter') sendMessage()">
+                <button class="p-2 rounded-full hover:bg-[#E3E3E3] text-gray-600"><span class="material-symbols-outlined">mic</span></button>
+                <button onclick="sendMessage()" class="p-2 text-[#0B57D0] hover:bg-[#E3E3E3] rounded-full ml-1"><span class="material-symbols-outlined">send</span></button>
+            </div>
+            <p class="text-center text-[10px] text-gray-400 mt-3">Jarvis may display inaccurate info, including about people, so double-check its responses.</p>
+        </div>
+    </main>
+
+    <script>
+        // 晨报内容
+        const briefingContent = `
+# 📅 每日内阁晨报 (2026-01-05)
+
+**呈递时间**: 2026年1月5日 08:00
+**呈递人**: Jarvis (内阁首辅)
+
+---
+
+## 🚨 需圣裁事项 (Action Items)
+
+### 1. RWA 项目白皮书审核
+- **文件**: 贝莱德最新的 RWA 基金提案
+- **位置**: \`D:\\My_System\\Inbox\\BlackRock_RWA_Whitepaper.pdf\`
+- **状态**: 已下载，待审阅
+- **建议**: 启动深度分析，评估投资可行性
+- **优先级**: 🔴 高
+
+### 2. Evernote 备份进度
+- **当前状态**: 数据库同步已完成 30%
+- **预计完成**: 约 12 小时
+- **建议**: 继续后台挂机下载
+- **操作**: [ ] 确认继续备份
+
+---
+
+## 📝 奏折摘要 (Briefings)
+
+### 关于 RWA (Real World Assets) 的最新动态
+> 市场趋势显示，传统金融机构正在加速将国债、房地产等实物资产上链。
+
+#### 关键观察：
+1. **机构参与度提升**: 贝莱德、富达等传统资管巨头加速布局
+2. **监管框架完善**: 多国监管机构正在制定 RWA 相关法规
+3. **技术基础设施成熟**: 跨链桥、预言机等技术方案日趋完善
+
+#### 投资策略建议：
+- **关注标的**: Ondo Finance (国债代币化)、MakerDAO (房地产抵押)
+- **风险提示**: 监管不确定性、流动性风险
+- **时间窗口**: 未来 3-6 个月为关键布局期
+
+---
+
+## 📊 数据分析
+
+\`\`\`python
+# 自动分析脚本建议
+def analyze_rwa_trend():
+    import pandas as pd
+    import numpy as np
+    
+    print("正在抓取 Bloomberg 数据...")
+    # 模拟数据
+    data = {
+        'metric': ['机构流入', '监管进展', '技术成熟度', '市场情绪'],
+        'score': [85, 70, 80, 75],
+        'trend': ['↑', '→', '↑', '→']
+    }
+    df = pd.DataFrame(data)
+    print(df)
+    
+    return "总体趋势: Bullish (看涨)"
+\`\`\`
+`;
+
+        function togglePanel() {
+            const panel = document.getElementById('reading-panel');
+            const chat = document.getElementById('chat-container');
+            const content = document.getElementById('panel-content');
+            
+            if (panel.classList.contains('hidden')) {
+                // 展开
+                panel.classList.remove('hidden', 'w-0');
+                panel.classList.add('w-1/2', 'flex');
+                chat.classList.add('w-1/2');
+                // 渲染内容
+                content.innerHTML = marked.parse(briefingContent);
+            } else {
+                // 收起
+                panel.classList.add('hidden', 'w-0');
+                panel.classList.remove('w-1/2', 'flex');
+                chat.classList.remove('w-1/2');
+            }
+        }
+
+        function toggleSidebar() {
+            const sidebar = document.getElementById('sidebar');
+            sidebar.classList.toggle('hidden');
+            sidebar.classList.toggle('flex');
+        }
+
+        async function sendMessage() {
+            const input = document.getElementById('msg-input');
+            const text = input.value.trim();
+            if (!text) return;
+            
+            const msgs = document.getElementById('messages');
+            const chatContainer = document.getElementById('chat-container');
+
+            // 用户消息
+            const userDiv = document.createElement('div');
+            userDiv.className = 'flex justify-end mt-4';
+            userDiv.innerHTML = `<div class="bg-[#F0F4F9] px-5 py-3 rounded-2xl rounded-tr-sm max-w-[80%] text-[#1F1F1F]">${text}</div>`;
+            msgs.appendChild(userDiv);
+            
+            input.value = '';
+            chatContainer.scrollTop = chatContainer.scrollHeight;
+
+            // Loading 占位符
+            const loadingDiv = document.createElement('div');
+            loadingDiv.id = 'loading-msg';
+            loadingDiv.className = 'flex gap-4 mt-4';
+            loadingDiv.innerHTML = `
+                <div class="w-8 h-8 rounded-full bg-blue-600 flex items-center justify-center text-white mt-1 flex-shrink-0">
+                    <span class="material-symbols-outlined text-sm animate-spin">sync</span>
+                </div>
+                <div class="flex-1 markdown-body">
+                    <p class="text-gray-500">Jarvis 正在思考...</p>
+                </div>`;
+            msgs.appendChild(loadingDiv);
+            chatContainer.scrollTop = chatContainer.scrollHeight;
+
+            try {
+                const response = await fetch('/api/chat', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ message: text })
+                });
+                
+                const data = await response.json();
+                
+                // 移除 Loading
+                const currentLoading = document.getElementById('loading-msg');
+                if (currentLoading) msgs.removeChild(currentLoading);
+
+                // AI 回复
+                const aiDiv = document.createElement('div');
+                aiDiv.className = 'flex gap-4 mt-4';
+                
+                let replyContent = data.reply || "抱歉，我遇到了一些问题。";
+                if (data.error) replyContent = `Error: ${data.error}`;
+
+                aiDiv.innerHTML = `
+                    <div class="w-8 h-8 rounded-full bg-blue-600 flex items-center justify-center text-white mt-1 flex-shrink-0">
+                        <span class="material-symbols-outlined text-sm">smart_toy</span>
+                    </div>
+                    <div class="flex-1 markdown-body">
+                        ${marked.parse(replyContent)}
+                    </div>`;
+                msgs.appendChild(aiDiv);
+                
+            } catch (error) {
+                const currentLoading = document.getElementById('loading-msg');
+                if (currentLoading) msgs.removeChild(currentLoading);
+                
+                const errDiv = document.createElement('div');
+                errDiv.className = 'flex gap-4 mt-4';
+                errDiv.innerHTML = `<div class="text-red-500">连接服务器失败: ${error.message}</div>`;
+                msgs.appendChild(errDiv);
+            }
+            
+            chatContainer.scrollTop = chatContainer.scrollHeight;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,241 @@
+---
+created: 2018-12-02 15:12:16
+jarvis_ai_meta:
+  key_people:
+  - 姚贤贤(CSDN博主)
+  mood: 平静
+  summary: 博主姚贤贤分享了一段Python代码，用于实现每天凌晨3点执行指定方法的定时器功能。
+  tagged_at: '2026-01-11 02:40:05'
+  time_space:
+    date: '2018-04-20'
+    location: ''
+source: https://blog.csdn.net/u011311291/article/details/80016859
+tags:
+- 自动化
+- Python
+- 定时器
+- 线程
+- 编程
+updated: 2018-12-02 15:12:16
+---
+
+# python 定时器，每天凌晨3点执行方法 - u011311291的博客 - CSDN博客
+
+![unknown_filename.1.png](./_resources/python_定时器，每天凌晨3点执行方法_-_u011311291的博客_-_CSDN博客.resources/unknown_filename.1.png)
+
+#### CSDN官方APP
+
+**中国专业的IT社区**
+立即下载
+
+* [CSDN首页](https://www.csdn.net/)
+
+* [博客](https://blog.csdn.net/)
+* [学院](https://edu.csdn.net/)
+* [下载](https://download.csdn.net/)
+* [GitChat](https://gitbook.cn/?ref=csdn)
+* [论坛](https://bbs.csdn.net/)
+* [APP](https://www.csdn.net/app/)
+* [问答](https://ask.csdn.net/)
+* [商城](https://mall.csdn.net/)
+* [VIP](https://download.csdn.net/vip_code)
+* [活动](http://huiyi.csdn.net/)
+* [招聘](http://job.csdn.net/)
+* [ITeye](http://www.iteye.com/)
+* [TinyMind](https://www.tinymind.cn/)
+
+Copyright © 1999-2018,
+CSDN.NET, All Rights Reserved
+
+[u011311291的博客](https://blog.csdn.net/u011311291)
+
+<http://so.csdn.net/so/?t=blog>
+[登录](https://passport.csdn.net/account/login?ref=toolbar)
+[![unknown_filename.gif](./_resources/python_定时器，每天凌晨3点执行方法_-_u011311291的博客_-_CSDN博客.resources/unknown_filename.gif)](https://my.csdn.net/)
+
+ [![unknown_filename.2.png](./_resources/python_定时器，每天凌晨3点执行方法_-_u011311291的博客_-_CSDN博客.resources/unknown_filename.2.png) 姚贤贤](https://blog.csdn.net/u011311291) 
+关注
+
+[访问量 10万+ 原创 104 博主更多文章>](https://blog.csdn.net/u011311291)
+
+# 原 python 定时器，每天凌晨3点执行方法
+
+ [![unknown_filename.2.png](./_resources/python_定时器，每天凌晨3点执行方法_-_u011311291的博客_-_CSDN博客.resources/unknown_filename.2.png) 姚贤贤](https://blog.csdn.net/u011311291) 阅读数：3858 2018-04-20
+
+版权声明：本文为博主原创文章，未经博主允许不得转载。 https://blog.csdn.net/u011311291/article/details/80016859
+
+    '''
+    Created on 2018-4-20
+    
+    例子:每天凌晨3点执行func方法
+    '''
+    import datetime
+    import threading
+    
+    def func():
+        print("haha")
+        #如果需要循环调用，就要添加以下方法
+        timer = threading.Timer(86400, func)
+        timer.start()
+    
+    # 获取现在时间
+    now_time = datetime.datetime.now()
+    # 获取明天时间
+    next_time = now_time + datetime.timedelta(days=+1)
+    next_year = next_time.date().year
+    next_month = next_time.date().month
+    next_day = next_time.date().day
+    # 获取明天3点时间
+    next_time = datetime.datetime.strptime(str(next_year)+"-"+str(next_month)+"-"+str(next_day)+" 03:00:00", "%Y-%m-%d %H:%M:%S")
+    # # 获取昨天时间
+    # last_time = now_time + datetime.timedelta(days=-1)
+    
+    # 获取距离明天3点时间，单位为秒
+    timer_start_time = (next_time - now_time).total_seconds()
+    print(timer_start_time)
+    # 54186.75975
+    
+    
+    #定时器,参数为(多少时间后执行，单位为秒，执行的方法)
+    timer = threading.Timer(timer_start_time, func)
+    timer.start()
+    
+
+* 1
+
+* 2
+* 3
+* 4
+* 5
+* 6
+* 7
+* 8
+* 9
+* 10
+* 11
+* 12
+* 13
+* 14
+* 15
+* 16
+* 17
+* 18
+* 19
+* 20
+* 21
+* 22
+* 23
+* 24
+* 25
+* 26
+* 27
+* 28
+* 29
+* 30
+* 31
+* 32
+* 33
+* 34
+* 35
+* 36
+
+[APP打开，阅读更顺畅](https://blog.csdn.net/u011311291/article/details/80016859)
+
+当前没有评论 [点击发表评论](https://blog.csdn.net/u011311291/comment/post?id=80016859)
+
+#### [_python_ _定时器_，轮询_定时器_ - GOODDEEP](https://blog.csdn.net/u013378306/article/details/79024432)
+#### [_Python_的_定时器_ - saltriver的专栏](https://blog.csdn.net/saltriver/article/details/52194915)
+
+#### [_Python_-_定时器_使用 - ljp1919的专栏](https://blog.csdn.net/ljp1919/article/details/51803585)
+#### [如何用_Python_写一个_每天_的定时程序 - 热爱我的热爱](https://blog.csdn.net/wj123446/article/details/78336561)
+#### [如何用_python_实现一个多线程_定时器_ - Mage的专栏](https://blog.csdn.net/fengmm521/article/details/78446409)
+#### [30W年薪的人工智能工程师只是“白菜价”？](https://edu.csdn.net/topic/ai20?utm_source=blogt7)
+#### [_Python_: _定时器_(Timer)简单实现 - cn_yaojin](https://blog.csdn.net/cn_yaojin/article/details/82110845)
+
+#### [_python_中_定时器_的使用 - weixin_37127273的博客](https://blog.csdn.net/weixin_37127273/article/details/56287561)
+#### [PHP_每天_固定时间点_执行_一次函数 - ljh243581579的博客](https://blog.csdn.net/ljh243581579/article/details/78497953)
+#### [_Python_定时_执行_之Timer - chenglinhust的专栏](https://blog.csdn.net/chenglinhust/article/details/50397672)
+#### [mysql定时任务，_每天__凌晨_1点_执行_ - 包子源的博客](https://blog.csdn.net/ziwoods/article/details/80569063)
+
+#### [【编程语言】_Python_ 程序死循环解决方案 - 莫小苝Blog](https://blog.csdn.net/j790675692/article/details/51852246)
+#### [java Timer 定时_每天__凌晨_1点_执行_任务 - 胡汉三](https://blog.csdn.net/hzw2312/article/details/13295745)
+#### [设定指定任务task在指定时间time_执行_ schedule(TimerTask task, Date time) - ruiguang21的博客](https://blog.csdn.net/ruiguang21/article/details/79021702)
+#### [_Python_的pycharm设置随学随时更新 - u010713935的博客](https://blog.csdn.net/u010713935/article/details/80003293)
+
+#### [_python__定时器_ - 吴永胡的博客](https://blog.csdn.net/qq_28893679/article/details/68926451)
+#### [_Python__定时器_ - 吉他程序员的博客](https://blog.csdn.net/LuoZheng4698729/article/details/77979871)
+#### [MySQL定时任务（_每天__凌晨_3点钟_执行_） - 红太阳](https://blog.csdn.net/s445320/article/details/51897179)
+#### [oracle job 实例 ：_每天__凌晨_2点调用过程删日志。 - 我的成长之路！](https://blog.csdn.net/hunhun1122/article/details/78569220)
+
+#### [spring+quartz实现定时任务（_每天_零点删除指定文件夹中缓存文件） - I_Am_Zou的博客](https://blog.csdn.net/I_Am_Zou/article/details/52020579)
+#### [设置定时任务为_每天__凌晨_2点_执行_和每小时_执行_一次？ - zalan01408980的博客](https://blog.csdn.net/zalan01408980/article/details/80555492)
+#### [_Python_系列之循环_定时器_ - 会了加减乘除亦会亦](https://blog.csdn.net/studyCBC/article/details/44194335)
+#### [_python_ 可定制化 _定时器_ - 苍原狮啸的专栏](https://blog.csdn.net/hesiyuan4/article/details/19251681)
+
+#### [_python_通过线程实现_定时器_timer的代码 - Better Thinker](https://blog.csdn.net/a6225301/article/details/45061243)
+#### [操作系统内核开发：实现_定时器_功能 - tyler_download的专栏](https://blog.csdn.net/tyler_download/article/details/53487885)
+#### [_python_ 时间模块 time 与 datetime 小结 - Think](https://blog.csdn.net/lizzy05/article/details/78415017)
+#### [提升_Python_编程效率的10点建议 - hubeitmkk的博客](https://blog.csdn.net/hubeitmkk/article/details/50654056)
+
+#### [oracle-job(定时_每天_0点五分_执行_一个存储过程) - java学习者](https://blog.csdn.net/iteye_2451/article/details/81926633)
+#### [shell脚本定时_每天__凌晨_结束某一进程 - yang725614的博客](https://blog.csdn.net/yang725614/article/details/80280005)
+#### [mysql_每天__凌晨_0点准时启动taskeng.exe如何关闭 - guomainet309的专栏](https://blog.csdn.net/guomainet309/article/details/52655065)
+#### [Spring Task定时任务_每天_零点_执行_一次 - a745533787的博客](https://blog.csdn.net/a745533787/article/details/80066666)
+
+#### [_Python_写的一个优美的_定时器_，定时精度可调 - 风之翼的专栏](https://blog.csdn.net/ccpw_cn/article/details/25493891)
+#### [_Python_: 简单的_定时器_ - weixin_41620285的博客](https://blog.csdn.net/weixin_41620285/article/details/80449862)
+#### [_python_编程（_定时器_） - 平凡的程序员](https://blog.csdn.net/feixiaoxing/article/details/50500335)
+#### [_python_用schedule模块实现定时任务 - zd147896325的博客](https://blog.csdn.net/zd147896325/article/details/80003982)
+
+#### [_Python_ 脚本如何_执行_另一个脚本 - shenjin_s的博客](https://blog.csdn.net/shenjin_s/article/details/79976954)
+#### [_python_——time模块实现指定时间触发器 - 九日王朝](https://blog.csdn.net/sm9sun/article/details/53465246)
+#### [Timer_定时器__每天_的固定时间_执行_ - 明天你好](https://blog.csdn.net/x2570799116/article/details/78860448)
+#### [java 定时任务每日晚上_凌晨__执行_数据统计 - 感冒石头的博客](https://blog.csdn.net/qq_39291929/article/details/80626786)
+
+#### [出于好奇，我去暗网里瞧了瞧 —— 你就别去了 - Marvel__Dead 胡艺宝的博客](https://blog.csdn.net/Marvel__Dead/article/details/78499468)
+#### [PC傻瓜式安装黑苹果并打造成全能逆向工作站 - 艾小米](https://blog.csdn.net/mier9042/article/details/80541368)
+#### [详细讲解混合编程——C++调用MATLAB程序，以及常用问题解决（附加程序演示和下载） - qq_26464039的博客](https://blog.csdn.net/qq_26464039/article/details/84305030)
+#### [pixiv（P站）网页版进不去打不开的恢复方法 - yukinoai的博客](https://blog.csdn.net/yukinoai/article/details/81603819)
+
+#### [如何使用阿里云主机(Ubuntu)搭建FTP服务器(超详细) - Soleilluo的博客](https://blog.csdn.net/weixin_42363997/article/details/84439218)
+#### [mongodb的高级操作(游标、聚合) - 卖克的专栏](https://blog.csdn.net/zy_281870667/article/details/50242441)
+#### [mongodb的基本操作(crud) - 卖克的专栏](https://blog.csdn.net/zy_281870667/article/details/50180661)
+#### [java 生产者消费者模式 - 卖克的专栏](https://blog.csdn.net/zy_281870667/article/details/70853474)
+
+#### [可视化FreeBasic集成开发环境 - yfvb2010的专栏](https://blog.csdn.net/yfvb2010/article/details/79369125)
+#### [如何把百度网盘下载速度提高 100 倍，我推荐这个下载工具 - 志哥的博客](https://blog.csdn.net/zhige_me/article/details/80465191)
+#### [扩展欧几里得模板与个人见解 - brandong](https://blog.csdn.net/qq_40160605/article/details/81090225)
+#### [Xmind 8 pro 软件破解版 - 小白的未来—视界](https://blog.csdn.net/qq_16093323/article/details/80967867)
+
+#### [解决上p站问题，关于国内上pixiv插画站的方法 - heizai2009的博客](https://blog.csdn.net/heizai2009/article/details/84641041)
+#### [关于Dev-C++的安装以及基本使用方法 - brandong](https://blog.csdn.net/qq_40160605/article/details/82940228)
+#### [智慧树走进故宫章节测试答案智慧树走进故宫刷课插件2018年智慧树走进故宫期末考试答案 - 柠檬很酸的博客](https://blog.csdn.net/qq_22644927/article/details/80529208)
+#### [vs2017安装和使用教程（详细） - qq_36556893的博客](https://blog.csdn.net/qq_36556893/article/details/79430133)
+
+#### [mongodb3.0.6的下载和安装 - 卖克的专栏](https://blog.csdn.net/zy_281870667/article/details/50180215)
+#### [mongodb的集群部分的问题及其理解整理 - 卖克的专栏](https://blog.csdn.net/zy_281870667/article/details/50302771)
+#### [军事理论课答案（中国国防史） - ling_wang的博客](https://blog.csdn.net/ling_wang/article/details/78648058)
+#### [手把手教你如何安装Pycharm——靠谱的Pycharm安装详细教程 - pdcfighting的博客](https://blog.csdn.net/pdcfighting/article/details/80297499)
+
+#### [DirectX修复工具增强版 - VBcom的专栏](https://blog.csdn.net/VBcom/article/details/7245186)
+#### [Dijkstra算法模板 C++ - 帅比王的博客](https://blog.csdn.net/weixin_41162823/article/details/82018867)
+#### [Swagger教程三 - 愤怒的懒洋洋的博客](https://blog.csdn.net/qq_25814003/article/details/82017668)
+#### [国内用户无法使用TikTok(国外版抖音)的解决方案 - 潇风寒月](https://blog.csdn.net/xfhy_/article/details/82697609)
+
+#### [Kafka了解一下 - 卖克的专栏](https://blog.csdn.net/zy_281870667/article/details/79946919)
+#### [C#Winform窗口移动 - Maybe_ch的博客](https://blog.csdn.net/Maybe_ch/article/details/81482054)
+#### [FFmpeg详解及常用命令使用 - qq_26464039的博客](https://blog.csdn.net/qq_26464039/article/details/84503335)
+#### [什么是B-树？ - 卖克的专栏](https://blog.csdn.net/zy_281870667/article/details/82831196)
+
+#### [Proxyee-down的下载与安装教程 - shadandeajian的博客](https://blog.csdn.net/shadandeajian/article/details/80349939)
+#### [SQL提升（一） - 愤怒的懒洋洋的博客](https://blog.csdn.net/qq_25814003/article/details/82387224)
+#### [什么是计数排序？ - 卖克的专栏](https://blog.csdn.net/zy_281870667/article/details/83479479)
+#### [市值3万亿的facebook再出丑闻，你的数据，到底应该归谁？ - omnigeeker的博客](https://blog.csdn.net/omnigeeker/article/details/83784268)
+
+点赞
+评论
+收藏
+
+<https://blog.csdn.net/u011311291/article/details/80016859#>
+
+文章收藏成功

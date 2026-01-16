@@ -1,0 +1,32 @@
+{
+    "enexSources": [
+        "C:\\Users\\王波\\OneDrive - Personal\\my_system\\Inbox\\Enex_Export\\02 = \u4e0b\u4e00\u6b65\u884c\u52a8.enex"
+    ],
+    "outputDir": "C:\\Users\\王波\\OneDrive - Personal\\my_system\\Inbox\\Yarle_Output",
+    "isMetadataNeeded": true,
+    "isNotebookNameNeeded": true,
+    "isZettelkastenNeeded": false,
+    "useZettelIdAsFilename": false,
+    "plainTextNotesOnly": false,
+    "skipLocation": true,
+    "skipCreationTime": false,
+    "skipUpdateTime": false,
+    "skipSourceUrl": false,
+    "skipWebClips": false,
+    "skipTags": false,
+    "useHashTags": true,
+    "outputFormat": "ObsidianMD",
+    "skipEnexFileNameFromOutputPath": true,
+    "keepMDCharactersOfENNotes": false,
+    "monospaceIsCodeBlock": true,
+    "keepOriginalHtml": false,
+    "nestedTags": {
+        "separatorInEN": "/",
+        "replaceSeparatorWith": "/"
+    },
+    "resourcesDir": "_resources",
+    "turndownOptions": {
+        "headingStyle": "atx"
+    },
+    "templateFile": "D:\\My_System\\Jarvis_v1\\config\\yarle_template.md"
+}

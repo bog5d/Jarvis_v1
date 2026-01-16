@@ -1,0 +1,32 @@
+{
+    "enexSources": [
+        "D:\\My_System\\Inbox\\Enex_Export\\old1·记录留档的\\1.2【生活】计划_要件&存档.enex"
+    ],
+    "outputDir": "D:\\Yarle_Out",
+    "isMetadataNeeded": true,
+    "isNotebookNameNeeded": true,
+    "isZettelkastenNeeded": false,
+    "useZettelIdAsFilename": false,
+    "plainTextNotesOnly": false,
+    "skipLocation": true,
+    "skipCreationTime": false,
+    "skipUpdateTime": false,
+    "skipSourceUrl": false,
+    "skipWebClips": false,
+    "skipTags": false,
+    "useHashTags": true,
+    "outputFormat": "ObsidianMD",
+    "skipEnexFileNameFromOutputPath": true,
+    "keepMDCharactersOfENNotes": false,
+    "monospaceIsCodeBlock": true,
+    "keepOriginalHtml": false,
+    "nestedTags": {
+        "separatorInEN": "/",
+        "replaceSeparatorWith": "/"
+    },
+    "resourcesDir": "_resources",
+    "turndownOptions": {
+        "headingStyle": "atx"
+    },
+    "templateFile": "D:\\My_System\\Jarvis_v1\\config\\yarle_template.md"
+}

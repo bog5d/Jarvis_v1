@@ -1,0 +1,5 @@
+{
+  "base_url": "https://api.deepseek.com",
+  "api_key": "sk-da9d300dd6814aaba1dc112e60dc8202",
+  "model": "deepseek-coder"
+}

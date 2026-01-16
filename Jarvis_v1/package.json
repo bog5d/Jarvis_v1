@@ -1,0 +1,23 @@
+{
+  "name": "jarvis_v1",
+  "version": "1.0.0",
+  "description": "> **🤖 To AI Assistant (AI 助手必读)**\r > \r > 1. **Context**: Before starting any task, **PLEASE READ** `ROADMAP.md` (for architecture & plans) and `CHANGELOG.md` (for history).\r > 2. **Protocol**: \r >    - Follow the modular architecture: `Watcher` -> `Handlers`.\r >    - Keep configuration separated in `config/settings.yaml`.\r >    - **Update `CHANGELOG.md`** after every significant change.\r > 3. **Current Goal**: Check `ROADMAP.md` for the latest P0 tasks.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bog5d/Jarvis_v1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bog5d/Jarvis_v1/issues"
+  },
+  "homepage": "https://github.com/bog5d/Jarvis_v1#readme",
+  "dependencies": {
+    "yarle-evernote-to-md": "^6.14.7"
+  }
+}

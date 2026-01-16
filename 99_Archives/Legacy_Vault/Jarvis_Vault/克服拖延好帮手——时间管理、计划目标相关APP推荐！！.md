@@ -1,0 +1,525 @@
+---
+created: 2014-11-24 19:16:26
+jarvis_ai_meta:
+  key_people: []
+  mood: 分享热情
+  summary: 用户（酱油搬砖工）在豆瓣小组分享了一篇关于克服拖延症的时间管理类APP推荐文章。
+  tagged_at: '2026-01-11 03:10:38'
+  time_space:
+    date: '2013-05-30'
+    location: 豆瓣小组
+source: http://www.douban.com/group/topic/39854398
+tags:
+- 效率工具
+- 拖延症
+- APP推荐
+- 时间管理
+- 番茄工作法
+updated: 2014-11-24 19:17:44
+---
+
+# 克服拖延好帮手——时间管理、计划目标相关APP推荐！！
+
+[![ab552d9e6922946d8dec9d0de9dd507a.jpeg](./_resources/克服拖延好帮手——时间管理、计划目标相关APP推荐！！.resources/ab552d9e6922946d8dec9d0de9dd507a.jpeg)](http://www.douban.com/group/people/unicar/)
+
+### 来自: [酱油搬砖工](http://www.douban.com/group/people/unicar/)(微信号：焦虑星球) 2013-05-30 21:15:12
+
+|     |     |     |
+| --- | --- | --- |
+|     |     |     |
+|     | **标题：**克服拖延好帮手——时间管理、计划目标相关APP推荐！！ |     |
+|     |     |     |
+
+由于LZ是轻微拖延症，脑子想法一堆但是行动力为0那种，所以就收集了一堆时间管理类的APP，慢慢订好计划慢慢实践。
+另外LZ还是UI控，且未越狱，所以推荐的都是UI设计都不错的，免费的，或者收费版APP的轻量版，或者内置有可收费的服务，大家可以酌情选择。。。。。
+第一类是目标类。。。
+如果大家有个长期计划，每天都会做的事，或者很有规律性，就可以用到这类APP，可以提醒，还可以看看完成情况的数据分析，再调整。。。。
+
+![989ff8519b8e0f18ea38dd37de08637b.jpeg](./_resources/克服拖延好帮手——时间管理、计划目标相关APP推荐！！.resources/989ff8519b8e0f18ea38dd37de08637b.jpeg)
+
+以下是具体分析列表。。。。
+
+![8a7da651d86a7d212a49a3f821469b0b.jpeg](./_resources/克服拖延好帮手——时间管理、计划目标相关APP推荐！！.resources/8a7da651d86a7d212a49a3f821469b0b.jpeg)
+
+第二类是日程计划类。。。
+如果是每天的计划，就可以列个to-do list。。。这里LZ就没有再推荐Wunderlist或者Astrid这种常见常用的APP了。。。都是挑的比较非主流且比较少见的来推荐。。。希望大家有更多的选择和体验。。。。
+
+![9310e646a8f14b668c0b5c7103143900.jpeg](./_resources/克服拖延好帮手——时间管理、计划目标相关APP推荐！！.resources/9310e646a8f14b668c0b5c7103143900.jpeg)
+
+以下是具体分析列表。。。。
+
+![ace30ac30813d9c7ff5608d841bfb50a.jpeg](./_resources/克服拖延好帮手——时间管理、计划目标相关APP推荐！！.resources/ace30ac30813d9c7ff5608d841bfb50a.jpeg)
+
+第三类是计时类。。。。
+如果是正在执行一项计划或者任务，为了提高效率，可以按照番茄工作法或者自己制定的时间来计时增加紧迫感。。。这类APP一般UI都很漂亮但是功能就比较简单。。。。所以就直接给大家看看APP截图，，，自行下载体验即可。。。
+
+![141f298d382d9eed9a3ff9cba73db5ce.jpeg](./_resources/克服拖延好帮手——时间管理、计划目标相关APP推荐！！.resources/141f298d382d9eed9a3ff9cba73db5ce.jpeg)
+
+第四类是记事类。。。
+如果平时在生活或者学习中有其他的想法和点子需要马上记下来，这里也有几款UI很靓功能也很强大的记事本。。。直接上截图好了。。。
+
+![14832531ff13e6d0bfb6781a82484896.jpeg](./_resources/克服拖延好帮手——时间管理、计划目标相关APP推荐！！.resources/14832531ff13e6d0bfb6781a82484896.jpeg)
+
+如果大家觉得有用记得推荐哦~~~多分享多快乐~~哇哈哈哈~~
+
+[1452人](http://www.douban.com/group/topic/39854398/?type=like#sep) 喜欢 [喜欢](http://www.douban.com/accounts/register?reason=like)
+
+.
+
+[回应](http://www.douban.com/group/topic/39854398/#sep) [推荐](http://www.douban.com/group/topic/39854398/?type=rec#sep) [喜欢](http://www.douban.com/group/topic/39854398/?type=like#sep) [只看楼主](http://www.douban.com/group/topic/39854398/?author=1#sep)
+
+### 最赞回应
+
+		#### [已注销](http://www.douban.com/group/people/101531297/) 2014-10-17 16:40:03
+	
+	《2014年双十一活动商品清单》是2014年双十一活动所有参加活动商品历史价格对比清单！这是
+	我一个在阿里巴巴上班的朋友给我的。
+	同时还有他们内部的购物入口，有很多商品的价格都是3折甚至更低！
+	想要的朋友自己去下载吧：<http://dou.bz/05QTIr>
+	0000000
+	
+	[赞 (30)](#) [回应](http://www.douban.com/group/topic/39854398/?cid=781114417#last)
+	
+	.
+
+		#### [已注销](http://www.douban.com/group/people/93670247/) 2014-08-05 14:49:43
+	
+	不要说你不知道哦 群里太多秒杀抢购的东东了。。 36 3519 018 加 吧。。
+	秒杀抢购嗨翻天。。。
+	不管你们的东西有多便宜。。反正肯定没有我的便宜。。
+	不服来加群 36 35 1901 8
+	
+	[赞 (5)](#) [回应](http://www.douban.com/group/topic/39854398/?cid=727012724#last)
+	
+	.
+
+* [![701fd12dc2c4a47ce067b4228a5b8673.jpeg](./_resources/克服拖延好帮手——时间管理、计划目标相关APP推荐！！.resources/701fd12dc2c4a47ce067b4228a5b8673.jpeg)](http://www.douban.com/group/people/66966055/) 
+	
+	#### [热柠檬咖啡](http://www.douban.com/group/people/66966055/) (西風多少恨，吹不散眉彎。) 2013-05-31 10:12:06
+	
+	多谢分享，回家用wifi试试
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/39854398/?cid=483216828#last)
+	
+	.
+
+* [![7f6cbfdb141b21d711dc809f1af01017.jpeg](./_resources/克服拖延好帮手——时间管理、计划目标相关APP推荐！！.resources/7f6cbfdb141b21d711dc809f1af01017.jpeg)](http://www.douban.com/group/people/55795067/) 
+	
+	#### [summer](http://www.douban.com/group/people/55795067/) (如果这就是人生，那我欣然接受啊) 2013-05-31 10:16:02
+	
+	顶
+	
+	[赞 (1)](#) [回应](http://www.douban.com/group/topic/39854398/?cid=483218910#last)
+	
+	.
+* [![213e7974d461dfe99a48e853e76e4333.jpeg](./_resources/克服拖延好帮手——时间管理、计划目标相关APP推荐！！.resources/213e7974d461dfe99a48e853e76e4333.jpeg)](http://www.douban.com/group/people/43980175/) 
+	
+	#### [蛋黄也不酥](http://www.douban.com/group/people/43980175/) 2013-05-31 10:24:16
+	
+	壁纸好萌
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/39854398/?cid=483223008#last)
+	
+	.
+* [![ab552d9e6922946d8dec9d0de9dd507a.jpeg](./_resources/克服拖延好帮手——时间管理、计划目标相关APP推荐！！.resources/ab552d9e6922946d8dec9d0de9dd507a.jpeg)](http://www.douban.com/group/people/unicar/) 
+	
+	#### [酱油搬砖工](http://www.douban.com/group/people/unicar/) (微信号：焦虑星球) 2013-05-31 10:47:12
+	
+	壁纸好萌 <http://www.douban.com/group/topic/39854398/#>[蛋黄也不酥](http://www.douban.com/group/people/43980175/)
+	
+	哈哈我也觉得。。。
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/39854398/?cid=483235399#last)
+	
+	.
+* [![ab552d9e6922946d8dec9d0de9dd507a.jpeg](./_resources/克服拖延好帮手——时间管理、计划目标相关APP推荐！！.resources/ab552d9e6922946d8dec9d0de9dd507a.jpeg)](http://www.douban.com/group/people/unicar/) 
+	
+	#### [酱油搬砖工](http://www.douban.com/group/people/unicar/) (微信号：焦虑星球) 2013-05-31 10:47:40
+	
+	多谢分享，回家用wifi试试 <http://www.douban.com/group/topic/39854398/#>[热柠檬咖啡](http://www.douban.com/group/people/66966055/)
+	
+	好的哈。。。也欢迎后续推荐。。。
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/39854398/?cid=483235684#last)
+	
+	.
+* [![83329d076a81035614e370feb11ad9e5.jpeg](./_resources/克服拖延好帮手——时间管理、计划目标相关APP推荐！！.resources/83329d076a81035614e370feb11ad9e5.jpeg)](http://www.douban.com/group/people/chimingzi/) 
+	
+	#### [迟明子](http://www.douban.com/group/people/chimingzi/) (即使疼痛，依旧有笑容。) 2013-05-31 13:35:57
+	
+	lz弄的很全面啊~~话说拖延症真的很头疼。
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/39854398/?cid=483320765#last)
+	
+	.
+* [![ab552d9e6922946d8dec9d0de9dd507a.jpeg](./_resources/克服拖延好帮手——时间管理、计划目标相关APP推荐！！.resources/ab552d9e6922946d8dec9d0de9dd507a.jpeg)](http://www.douban.com/group/people/unicar/) 
+	
+	#### [酱油搬砖工](http://www.douban.com/group/people/unicar/) (微信号：焦虑星球) 2013-05-31 14:21:24
+	
+	lz弄的很全面啊~~话说拖延症真的很头疼。 <http://www.douban.com/group/topic/39854398/#>[迟明子](http://www.douban.com/group/people/chimingzi/)
+	
+	对啊，，，战拖是一场持久战啊。。。。= =每当我想做事就喝一杯咖啡，，但是现在都不怎么管用了。。。因为喝多了就！想！睡！觉！T.T
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/39854398/?cid=483343872#last)
+	
+	.
+* [![f2c200ef08d6d45aea3204ce19956453.jpeg](./_resources/克服拖延好帮手——时间管理、计划目标相关APP推荐！！.resources/f2c200ef08d6d45aea3204ce19956453.jpeg)](http://www.douban.com/group/people/52072794/) 
+	
+	#### [最难消受美人恩](http://www.douban.com/group/people/52072794/) (我的青春的确是被狗吃了。) 2013-06-06 14:52:10
+	
+	马克
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/39854398/?cid=486399777#last)
+	
+	.
+* [![2bc6878cd545a02cea5005ea8b375ae4.jpeg](./_resources/克服拖延好帮手——时间管理、计划目标相关APP推荐！！.resources/2bc6878cd545a02cea5005ea8b375ae4.jpeg)](http://www.douban.com/group/people/47105797/) 
+	
+	#### [真夜中の葉](http://www.douban.com/group/people/47105797/) (精神…灵修、唯心主义) 2013-06-06 16:06:49
+	
+	问下楼主，怎么在一个发言中贴多张图片？不会啊
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/39854398/?cid=486440178#last)
+	
+	.
+* [![ab552d9e6922946d8dec9d0de9dd507a.jpeg](./_resources/克服拖延好帮手——时间管理、计划目标相关APP推荐！！.resources/ab552d9e6922946d8dec9d0de9dd507a.jpeg)](http://www.douban.com/group/people/unicar/) 
+	
+	#### [酱油搬砖工](http://www.douban.com/group/people/unicar/) (微信号：焦虑星球) 2013-06-08 14:03:03
+	
+	问下楼主，怎么在一个发言中贴多张图片？不会啊 <http://www.douban.com/group/topic/39854398/#>[真夜中の葉](http://www.douban.com/group/people/47105797/)
+	
+	点添加图片就好了啊。。。。如果显示不出来可以换一个浏览器试试~~~
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/39854398/?cid=487426360#last)
+	
+	.
+* [![195c5f69545cedcc1ffa3baed464f9b8.jpeg](./_resources/克服拖延好帮手——时间管理、计划目标相关APP推荐！！.resources/195c5f69545cedcc1ffa3baed464f9b8.jpeg)](http://www.douban.com/group/people/49046884/) 
+	
+	#### [Leonor](http://www.douban.com/group/people/49046884/) (微博：肉山大魔王宿敌布鲁托) 2013-06-08 14:43:43
+	
+	马克哦好东西
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/39854398/?cid=487447058#last)
+	
+	.
+* [![2bc6878cd545a02cea5005ea8b375ae4.jpeg](./_resources/克服拖延好帮手——时间管理、计划目标相关APP推荐！！.resources/2bc6878cd545a02cea5005ea8b375ae4.jpeg)](http://www.douban.com/group/people/47105797/) 
+	
+	#### [真夜中の葉](http://www.douban.com/group/people/47105797/) (精神…灵修、唯心主义) 2013-06-09 16:24:19
+	
+	点添加图片就好了啊。。。。如果显示不出来可以换一个浏览器试试~~~ <http://www.douban.com/group/topic/39854398/#>[酱油搬砖工](http://www.douban.com/group/people/unicar/)
+	
+	我现在爱用habit list，对我很有用
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/39854398/?cid=488024313#last)
+	
+	.
+* [![5d2a26e359f0aefb6f0196df820b233b.jpeg](./_resources/克服拖延好帮手——时间管理、计划目标相关APP推荐！！.resources/5d2a26e359f0aefb6f0196df820b233b.jpeg)](http://www.douban.com/group/people/GabyErica/) 
+	
+	#### [时光之礼。](http://www.douban.com/group/people/GabyErica/) (|°记 忆 匪 浅。止 于 流 年、) 2013-06-11 00:16:45
+	
+	嗯，一直有用这类软件。
+	感谢LZ提供这么多，试一下咯！
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/39854398/?cid=488692088#last)
+	
+	.
+* [![383efdcea3449f026ef6aaac83aab55c.jpeg](./_resources/克服拖延好帮手——时间管理、计划目标相关APP推荐！！.resources/383efdcea3449f026ef6aaac83aab55c.jpeg)](http://www.douban.com/group/people/2233519/) 
+	
+	#### [ztmdxhn](http://www.douban.com/group/people/2233519/) 2013-10-22 14:00:50
+	
+	求壁纸下载链接
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/39854398/?cid=555510348#last)
+	
+	.
+* [![ab552d9e6922946d8dec9d0de9dd507a.jpeg](./_resources/克服拖延好帮手——时间管理、计划目标相关APP推荐！！.resources/ab552d9e6922946d8dec9d0de9dd507a.jpeg)](http://www.douban.com/group/people/unicar/) 
+	
+	#### [酱油搬砖工](http://www.douban.com/group/people/unicar/) (微信号：焦虑星球) 2013-10-22 16:54:19
+	
+	求壁纸下载链接 <http://www.douban.com/group/topic/39854398/#>[ztmdxhn](http://www.douban.com/group/people/2233519/)
+	
+	是在‘爱疯了壁纸’app里面随便找哒~
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/39854398/?cid=555596050#last)
+	
+	.
+		#### [已注销](http://www.douban.com/group/people/73519051/) 2013-10-23 11:00:33
+	
+	好棒
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/39854398/?cid=555914112#last)
+	
+	.
+* [![d3b908eaefe3676b07a7404aa2795777.jpeg](./_resources/克服拖延好帮手——时间管理、计划目标相关APP推荐！！.resources/d3b908eaefe3676b07a7404aa2795777.jpeg)](http://www.douban.com/group/people/honeyyezi/) 
+	
+	#### [&純白丶](http://www.douban.com/group/people/honeyyezi/) 2013-10-23 11:09:52
+	
+	m。
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/39854398/?cid=555919047#last)
+	
+	.
+		#### [在云端](http://www.douban.com/group/people/43400206/) 2013-10-23 14:52:51
+	
+	先顶一下
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/39854398/?cid=556019816#last)
+	
+	.
+		#### [king](http://www.douban.com/group/people/56764775/) 2013-10-31 21:51:14
+	
+	楼主。virgin。。。。。
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/39854398/?cid=559925253#last)
+	
+	.
+* [![2fcdfb07ac8e18b107540cae0cb09da9.jpeg](./_resources/克服拖延好帮手——时间管理、计划目标相关APP推荐！！.resources/2fcdfb07ac8e18b107540cae0cb09da9.jpeg)](http://www.douban.com/group/people/56519927/) 
+	
+	#### [奈奈](http://www.douban.com/group/people/56519927/) 2013-11-07 13:09:08
+	
+	Mark
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/39854398/?cid=562975709#last)
+	
+	.
+		#### [迅捷](http://www.douban.com/group/people/74430096/) 2014-02-04 18:51:59
+	
+	迅捷pdf转换成word转换器下载地址 <http://www.duote.com/soft/31558.html>
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/39854398/?cid=606078004#last)
+	
+	.
+* [![d65271b10cb462a1fbe622810730cab2.jpeg](./_resources/克服拖延好帮手——时间管理、计划目标相关APP推荐！！.resources/d65271b10cb462a1fbe622810730cab2.jpeg)](http://www.douban.com/group/people/pinyuwu/) 
+	
+	#### [品雨巫](http://www.douban.com/group/people/pinyuwu/) (没有如果) 2014-02-04 21:12:44
+	
+	喵
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/39854398/?cid=606149610#last)
+	
+	.
+* [![f66cce6b8617b62cd33735a7127d8715.jpeg](./_resources/克服拖延好帮手——时间管理、计划目标相关APP推荐！！.resources/f66cce6b8617b62cd33735a7127d8715.jpeg)](http://www.douban.com/group/people/Leungmankit/) 
+	
+	#### [leungmankit](http://www.douban.com/group/people/Leungmankit/) 2014-02-05 09:56:51
+	
+	太雜亂
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/39854398/?cid=606377713#last)
+	
+	.
+* [![3b72dad57a353044a609eef987ca16d3.jpeg](./_resources/克服拖延好帮手——时间管理、计划目标相关APP推荐！！.resources/3b72dad57a353044a609eef987ca16d3.jpeg)](http://www.douban.com/group/people/51685599/) 
+	
+	#### [gloria92611](http://www.douban.com/group/people/51685599/) 2014-02-07 01:38:28
+	
+	mark
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/39854398/?cid=607355992#last)
+	
+	.
+* [![5a05b130cc76ec45a8a74b30514449c2.jpeg](./_resources/克服拖延好帮手——时间管理、计划目标相关APP推荐！！.resources/5a05b130cc76ec45a8a74b30514449c2.jpeg)](http://www.douban.com/group/people/68579477/) 
+	
+	#### [小樱桃](http://www.douban.com/group/people/68579477/) 2014-02-07 01:40:45
+	
+	楼主好人！！怒码！
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/39854398/?cid=607356742#last)
+	
+	.
+		#### [树叶风](http://www.douban.com/group/people/57997021/) 2014-02-10 21:08:02
+	
+	喜欢你的分析、归类哦。
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/39854398/?cid=609581032#last)
+	
+	.
+* [![ab552d9e6922946d8dec9d0de9dd507a.jpeg](./_resources/克服拖延好帮手——时间管理、计划目标相关APP推荐！！.resources/ab552d9e6922946d8dec9d0de9dd507a.jpeg)](http://www.douban.com/group/people/unicar/) 
+	
+	#### [酱油搬砖工](http://www.douban.com/group/people/unicar/) (微信号：焦虑星球) 2014-02-10 21:26:29
+	
+	喜欢你的分析、归类哦。 <http://www.douban.com/group/topic/39854398/#>[树叶风](http://www.douban.com/group/people/57997021/)
+	
+	谢谢噢～：）觉得有用就好～
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/39854398/?cid=609592544#last)
+	
+	.
+* [![3359be4b576cd0be2613edd79ba81a1e.jpeg](./_resources/克服拖延好帮手——时间管理、计划目标相关APP推荐！！.resources/3359be4b576cd0be2613edd79ba81a1e.jpeg)](http://www.douban.com/group/people/IDEN/) 
+	
+	#### [你才是傻逼](http://www.douban.com/group/people/IDEN/) (尚未示意。) 2014-02-13 10:09:52
+	
+	赞。
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/39854398/?cid=611097995#last)
+	
+	.
+* [![16305afb0ba9276907240e0aa744a88f.jpeg](./_resources/克服拖延好帮手——时间管理、计划目标相关APP推荐！！.resources/16305afb0ba9276907240e0aa744a88f.jpeg)](http://www.douban.com/group/people/bonniesyx/) 
+	
+	#### [原本是五好青年](http://www.douban.com/group/people/bonniesyx/) (心如止水，返璞归真。) 2014-02-14 22:32:34
+	
+	赞！卤煮辛苦了...
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/39854398/?cid=612110237#last)
+	
+	.
+* [![17905f0310e9986dc36aafd79a234964.jpeg](./_resources/克服拖延好帮手——时间管理、计划目标相关APP推荐！！.resources/17905f0310e9986dc36aafd79a234964.jpeg)](http://www.douban.com/group/people/79819729/) 
+	
+	#### [蜕变](http://www.douban.com/group/people/79819729/) (在路上。。。) 2014-02-14 22:35:53
+	
+	楼主可以弄一个手帐，我觉得不错，最近刚看了一本书《记事本圆梦计划》讲手帐的。推荐
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/39854398/?cid=612112320#last)
+	
+	.
+* [![ab552d9e6922946d8dec9d0de9dd507a.jpeg](./_resources/克服拖延好帮手——时间管理、计划目标相关APP推荐！！.resources/ab552d9e6922946d8dec9d0de9dd507a.jpeg)](http://www.douban.com/group/people/unicar/) 
+	
+	#### [酱油搬砖工](http://www.douban.com/group/people/unicar/) (微信号：焦虑星球) 2014-02-14 23:16:55
+	
+	楼主可以弄一个手帐，我觉得不错，最近刚看了一本书《记事本圆梦计划》讲手帐的。推荐 <http://www.douban.com/group/topic/39854398/#>[蜕变](http://www.douban.com/group/people/79819729/)
+	
+	是的，楼主也在全力研究手帐中！多谢推荐～哈哈
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/39854398/?cid=612139189#last)
+	
+	.
+* [![af62aa22fc64678fcd9323d4a630572d.jpeg](./_resources/克服拖延好帮手——时间管理、计划目标相关APP推荐！！.resources/af62aa22fc64678fcd9323d4a630572d.jpeg)](http://www.douban.com/group/people/47587494/) 
+	
+	#### [暖暖](http://www.douban.com/group/people/47587494/) 2014-02-18 10:20:53
+	
+	点赞！露珠好辛苦
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/39854398/?cid=613957069#last)
+	
+	.
+* [![a5d999675091d750280cb49ed8e0937c.jpeg](./_resources/克服拖延好帮手——时间管理、计划目标相关APP推荐！！.resources/a5d999675091d750280cb49ed8e0937c.jpeg)](http://www.douban.com/group/people/51469752/) 
+	
+	#### [豆豆豆豆。](http://www.douban.com/group/people/51469752/) (不去拼一次，怎么释怀) 2014-02-18 20:55:30
+	
+	M，下来用一下。
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/39854398/?cid=614318475#last)
+	
+	.
+* [![d1f12c6f70b53584fe4f3ef59b083dc1.jpeg](./_resources/克服拖延好帮手——时间管理、计划目标相关APP推荐！！.resources/d1f12c6f70b53584fe4f3ef59b083dc1.jpeg)](http://www.douban.com/group/people/52872697/) 
+	
+	#### [Aubrey](http://www.douban.com/group/people/52872697/) 2014-02-19 01:31:33
+	
+	lz我想问下有没有那种，长期习惯比如背单词这种的，我希望他每天能有闹钟提醒，不同的目标可以设定不同的时间闹钟，然后可以看一个整体的进程这种app，我下了那个目标管理不过好像没有闹钟的说。。。。。。谢谢你啦~~~
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/39854398/?cid=614489060#last)
+	
+	.
+		#### [ownworld](http://www.douban.com/group/people/54785950/) 2014-02-19 02:17:16
+	
+	好东西
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/39854398/?cid=614500293#last)
+	
+	.
+* [![ab552d9e6922946d8dec9d0de9dd507a.jpeg](./_resources/克服拖延好帮手——时间管理、计划目标相关APP推荐！！.resources/ab552d9e6922946d8dec9d0de9dd507a.jpeg)](http://www.douban.com/group/people/unicar/) 
+	
+	#### [酱油搬砖工](http://www.douban.com/group/people/unicar/) (微信号：焦虑星球) 2014-02-19 10:21:37
+	
+	lz我想问下有没有那种，长期习惯比如背单词这种的，我希望他每天能有闹钟提醒，不同的目标可以设 [...](http://www.douban.com/group/topic/39854398/#) [Aubrey](http://www.douban.com/group/people/52872697/)
+	
+	iHour应该可以满足你的需求！
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/39854398/?cid=614584532#last)
+	
+	.
+* [![d1f12c6f70b53584fe4f3ef59b083dc1.jpeg](./_resources/克服拖延好帮手——时间管理、计划目标相关APP推荐！！.resources/d1f12c6f70b53584fe4f3ef59b083dc1.jpeg)](http://www.douban.com/group/people/52872697/) 
+	
+	#### [Aubrey](http://www.douban.com/group/people/52872697/) 2014-02-19 15:42:11
+	
+	iHour应该可以满足你的需求！ <http://www.douban.com/group/topic/39854398/#>[酱油搬砖工](http://www.douban.com/group/people/unicar/)
+	
+	嗯嗯，下了感觉很棒，谢谢lz推荐~~o(\*^▽^\*)o
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/39854398/?cid=614774338#last)
+	
+	.
+		#### [师雨夕](http://www.douban.com/group/people/77796336/) 2014-05-13 16:55:38
+	
+	we
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/39854398/?cid=666521011#last)
+	
+	.
+* [![9d38f096e8bb5b12e38ab02a914f6f64.jpeg](./_resources/克服拖延好帮手——时间管理、计划目标相关APP推荐！！.resources/9d38f096e8bb5b12e38ab02a914f6f64.jpeg)](http://www.douban.com/group/people/bulehelen/) 
+	
+	#### [小猫步殊](http://www.douban.com/group/people/bulehelen/) (绝版) 2014-06-18 10:31:10
+	
+	扇贝打卡背单词
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/39854398/?cid=691666410#last)
+	
+	.
+* [![60fc72107314b573a5bbf5b23b5f1653.jpeg](./_resources/克服拖延好帮手——时间管理、计划目标相关APP推荐！！.resources/60fc72107314b573a5bbf5b23b5f1653.jpeg)](http://www.douban.com/group/people/aiyueliang/) 
+	
+	#### [marsh](http://www.douban.com/group/people/aiyueliang/) 2014-06-20 21:12:10
+	
+	m
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/39854398/?cid=693481065#last)
+	
+	.
+* [![1a2c73dac2a7b86dc5085f5555d82c23.jpeg](./_resources/克服拖延好帮手——时间管理、计划目标相关APP推荐！！.resources/1a2c73dac2a7b86dc5085f5555d82c23.jpeg)](http://www.douban.com/group/people/3176575/) 
+	
+	#### [hausJame](http://www.douban.com/group/people/3176575/) 2014-08-05 14:20:16
+	
+	我表示那个运营商很是流弊啊~
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/39854398/?cid=726991445#last)
+	
+	.
+* [![79e72f12c0a129baf39dd9466a00d311.jpeg](./_resources/克服拖延好帮手——时间管理、计划目标相关APP推荐！！.resources/79e72f12c0a129baf39dd9466a00d311.jpeg)](http://www.douban.com/group/people/87579934/) 
+	
+	#### [IceChan](http://www.douban.com/group/people/87579934/) (你喜欢的不一定我喜欢) 2014-08-20 17:26:41
+	
+	m
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/39854398/?cid=741025046#last)
+	
+	.
+* [![8b5981cb2bbf34205ef7c70b211ea909.jpeg](./_resources/克服拖延好帮手——时间管理、计划目标相关APP推荐！！.resources/8b5981cb2bbf34205ef7c70b211ea909.jpeg)](http://www.douban.com/group/people/shennanye/) 
+	
+	#### [青祤](http://www.douban.com/group/people/shennanye/) (戒不掉的是期待) 2014-08-23 23:35:53
+	
+	大赞。不过我下过很多个，最终还是用自带的日历
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/39854398/?cid=744220204#last)
+	
+	.
+* [![2ccae4b008f9d4e5340aa2bd26f0dd7a.jpeg](./_resources/克服拖延好帮手——时间管理、计划目标相关APP推荐！！.resources/2ccae4b008f9d4e5340aa2bd26f0dd7a.jpeg)](http://www.douban.com/group/people/98538289/) 
+	
+	#### [你的微笑最美](http://www.douban.com/group/people/98538289/) 2014-08-24 01:14:26
+	
+	我觉得拖延症会转变为强迫症
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/39854398/?cid=744301565#last)
+	
+	.
+* [![0c4c43511000af7b2c0c431486bfc3e3.jpeg](./_resources/克服拖延好帮手——时间管理、计划目标相关APP推荐！！.resources/0c4c43511000af7b2c0c431486bfc3e3.jpeg)](http://www.douban.com/group/people/91144720/) 
+	
+	#### [沙漠中的鱼](http://www.douban.com/group/people/91144720/) 2014-09-18 09:47:22
+	
+	m
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/39854398/?cid=762054964#last)
+	
+	.
+		#### [已注销](http://www.douban.com/group/people/101531297/) 2014-10-17 16:40:03
+	
+	《2014年双十一活动商品清单》是2014年双十一活动所有参加活动商品历史价格对比清单！这是
+	我一个在阿里巴巴上班的朋友给我的。
+	同时还有他们内部的购物入口，有很多商品的价格都是3折甚至更低！
+	想要的朋友自己去下载吧：<http://dou.bz/05QTIr>
+	0000000
+	
+	[赞 (30)](#) [回应](http://www.douban.com/group/topic/39854398/?cid=781114417#last)
+	
+	.
+
+## 你的回应
+
+回应请先 [登录](http://www.douban.com/accounts/register?reason=discuss) , 或 [注册](http://www.douban.com/accounts/register?reason=discuss)
+
+推荐到广播

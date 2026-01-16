@@ -1,0 +1,600 @@
+---
+created: 2017-09-16 12:01:16
+jarvis_ai_meta:
+  key_people: []
+  mood: 专注、有成就感
+  summary: 王霞客重新研读数据分析课程代码，练习了数据清洗、列名修改和绘制直方图与箱线图。
+  tagged_at: '2026-01-11 05:29:09'
+  time_space:
+    date: '2017-09-16'
+    location: ''
+source: http://localhost:8888/notebooks/Desktop/%E7%AC%AC%E4%BA%8C%E8%AF%BE%E6%9D%90%E6%96%99/%E9%87%8D%E6%96%B0%E7%A0%94%E8%AF%BBfish%E5%8D%83%E8%81%8A%E8%AF%BE%E4%BB%A3%E7%A0%8102.ipynb#
+tags:
+- 数据分析
+- 数据可视化
+- Matplotlib
+- Pandas
+- Python
+updated: 2017-09-16 12:01:16
+---
+
+# 重新研读fish千聊课代码02
+
+[![unknown_filename.10.png](./_resources/重新研读fish千聊课代码02.resources/unknown_filename.10.png)](http://localhost:8888/tree)
+重新研读fish千聊课代码02 Last Checkpoint: 20 hours ago (autosaved) ![unknown_filename.11.png](./_resources/重新研读fish千聊课代码02.resources/unknown_filename.11.png)  
+
+Python 3 __
+
+Trusted
+
+In \[1\]:
+
+**import** pandas **as** pd
+**import** numpy **as** np
+**import** matplotlib.pyplot **as** plt
+**%** config InlineBackend.figure\_format\="retina"
+_#% config InlineBackend.figure\_format = 'retina' # 设置图像清晰度_
+_###!! 错误，IinlineBackend后面，应该加点，我没有加点_
+**%**matplotlib inline
+
+In \[3\]:
+
+data = pd.read\_csv('WorldIndex.csv'
+ )
+data.head()
+
+Out\[3\]:
+
+|     | Country | Continent | Life\_expectancy | GDP\_per\_capita | Population |
+| --- | --- | --- | --- | --- | --- |
+| 0   | Algeria | Africa | 75.042537 | 4132.760292 | 39871528.0 |
+| 1   | Angola | Africa | 52.666098 | 3695.793748 | 27859305.0 |
+| 2   | Benin | Africa | 59.720707 | 783.947091 | 10575952.0 |
+| 3   | Botswana | Africa | 64.487415 | 6532.060501 | 2209197.0 |
+| 4   | Burundi | Africa | 57.107049 | 303.681022 | 10199270.0 |
+
+In \[11\]:
+
+​
+_##!!这个info带括号，和不带括号差别好大呀。 不带括号的话，是非常庞大的信息，带了括号后，信息简洁的多。不带括号的，是显示总的信息和明细信息。带括号，_
+_#则只显示z总体信息_
+data.info()
+
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 177 entries, 0 to 176
+Data columns (total 5 columns):
+Country            177 non-null object
+Continent          177 non-null object
+Life\_expectancy    169 non-null float64
+GDP\_per\_capita     169 non-null float64
+Population         176 non-null float64
+dtypes: float64(3), object(2)
+memory usage: 7.0+ KB
+
+In \[4\]:
+
+_###！！从info看来，总共有177行，但是life，gdp，pop三项，的数量都少于177，这意味着有空的行。所以需要删除空行，我记得好像是dropna方法_
+df =data.dropna()
+df.info()
+_##！！这里面的思路是这样的，把空行给删掉，成为新的数据啦，于是把新数据赋值给df。 那么data这个数据有变化吗？_
+data.info()
+​
+_\## 我尝试了一下，原来的data数据是没有变化的。_
+
+<class 'pandas.core.frame.DataFrame'>
+Int64Index: 164 entries, 0 to 175
+Data columns (total 5 columns):
+Country            164 non-null object
+Continent          164 non-null object
+Life\_expectancy    164 non-null float64
+GDP\_per\_capita     164 non-null float64
+Population         164 non-null float64
+dtypes: float64(3), object(2)
+memory usage: 7.7+ KB
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 177 entries, 0 to 176
+Data columns (total 5 columns):
+Country            177 non-null object
+Continent          177 non-null object
+Life\_expectancy    169 non-null float64
+GDP\_per\_capita     169 non-null float64
+Population         176 non-null float64
+dtypes: float64(3), object(2)
+memory usage: 7.0+ KB
+
+In \[16\]:
+
+df.head()
+​
+_##仔细看了看这个df数据，它的列名有点长了，不方后期切片索引，要不，就把列名称改一改吧_
+
+Out\[16\]:
+
+|     | Country | Continent | Life\_expectancy | GDP\_per\_capita | Population |
+| --- | --- | --- | --- | --- | --- |
+| 0   | Algeria | Africa | 75.042537 | 4132.760292 | 39871528.0 |
+| 1   | Angola | Africa | 52.666098 | 3695.793748 | 27859305.0 |
+| 2   | Benin | Africa | 59.720707 | 783.947091 | 10575952.0 |
+| 3   | Botswana | Africa | 64.487415 | 6532.060501 | 2209197.0 |
+| 4   | Burundi | Africa | 57.107049 | 303.681022 | 10199270.0 |
+
+In \[6\]:
+
+_##该列名称，用的是columns=\[\]的方法。_
+df.columns\=\['Country','Continent','Life','GDP','Pop'\]
+df.tail()
+_##!! 必须赞叹一下，这功能太帅了呀。_ 
+
+Out\[6\]:
+
+|     | Country | Continent | Life | GDP | Pop |
+| --- | --- | --- | --- | --- | --- |
+| 171 | Guyana | South America | 66.507512 | 4136.689919 | 768514.0 |
+| 172 | Paraguay | South America | 73.025634 | 4109.367724 | 6639119.0 |
+| 173 | Peru | South America | 74.780732 | 6030.343259 | 31376671.0 |
+| 174 | Suriname | South America | 71.294171 | 8818.982566 | 553208.0 |
+| 175 | Uruguay | South America | 77.138220 | 15524.842470 | 3431552.0 |
+
+### 画直方图[¶](http://localhost:8888/notebooks/Desktop/%E7%AC%AC%E4%BA%8C%E8%AF%BE%E6%9D%90%E6%96%99/%E9%87%8D%E6%96%B0%E7%A0%94%E8%AF%BBfish%E5%8D%83%E8%81%8A%E8%AF%BE%E4%BB%A3%E7%A0%8102.ipynb#画直方图)
+
+直方图的方法是.hist（）
+
+In \[7\]:
+
+plt.hist(df.Life,bins\=20,rwidth\=0.9,color\='blue')
+​
+_###!!! 又是单词拼写错误，rwidth我拼写成ridwit_
+_###!!! 错误2，没有写plt.show，结果只是出来一堆数字，应该是坐标数字_
+plt.show()
+
+![unknown_filename.5.png](./_resources/重新研读fish千聊课代码02.resources/unknown_filename.5.png)
+
+#### 箱图[¶](http://localhost:8888/notebooks/Desktop/%E7%AC%AC%E4%BA%8C%E8%AF%BE%E6%9D%90%E6%96%99/%E9%87%8D%E6%96%B0%E7%A0%94%E8%AF%BBfish%E5%8D%83%E8%81%8A%E8%AF%BE%E4%BB%A3%E7%A0%8102.ipynb#箱图)
+
+plt.boxplot
+
+In \[8\]:
+
+plt.boxplot(df.Life)
+​
+​
+​
+​
+_###我记得有个函数，可以不用写pltshow，就能出图_
+_\## 查到了，%matplotlib inline_
+
+Out\[8\]:
+
+{'boxes': \[<matplotlib.lines.Line2D at 0xa0643c8>\],
+ 'caps': \[<matplotlib.lines.Line2D at 0xa071da0>,
+  <matplotlib.lines.Line2D at 0xa071f60>\],
+ 'fliers': \[<matplotlib.lines.Line2D at 0xa077fd0>\],
+ 'means': \[\],
+ 'medians': \[<matplotlib.lines.Line2D at 0xa0777b8>\],
+ 'whiskers': \[<matplotlib.lines.Line2D at 0xa064d30>,
+  <matplotlib.lines.Line2D at 0xa064f28>\]}
+
+![unknown_filename.2.png](./_resources/重新研读fish千聊课代码02.resources/unknown_filename.2.png)
+
+In \[37\]:
+
+plt.boxplot(df.GDP)
+_###用箱图画了人均寿命和人居GDP_
+
+Out\[37\]:
+
+{'boxes': \[<matplotlib.lines.Line2D at 0x9ed53c8>\],
+ 'caps': \[<matplotlib.lines.Line2D at 0x9edc2e8>,
+  <matplotlib.lines.Line2D at 0x9de2ba8>\],
+ 'fliers': \[<matplotlib.lines.Line2D at 0x9d78518>\],
+ 'means': \[\],
+ 'medians': \[<matplotlib.lines.Line2D at 0x9d904a8>\],
+ 'whiskers': \[<matplotlib.lines.Line2D at 0x9ed5b70>,
+  <matplotlib.lines.Line2D at 0x9edc710>\]}
+
+![unknown_filename.12.png](./_resources/重新研读fish千聊课代码02.resources/unknown_filename.12.png)
+
+In \[11\]:
+
+_###箱图和直方图，是用于画连续变量的。 接下来要画离散变量了。可以用条形图和饼图_
+_#但是按国家来计算的话，分布太细散了，还是根据大洲吧来作图吧。 先把大洲汇总。 咦，对了，可以用groupby啊_
+conti\=list(df.groupby('Continent').size().index)
+conti
+​
+_#哇哇，我自己竟然摸索了一种方法，把名称取出来了，简单说，这部分就是列表化索引列。_
+​
+
+Out\[11\]:
+
+\['Africa', 'Asia', 'Europe', 'North America', 'Oceania', 'South America'\]
+
+In \[9\]:
+
+list(df.Continent.value\_counts().index)
+
+Out\[9\]:
+
+\['Africa', 'Europe', 'Asia', 'North America', 'South America', 'Oceania'\]
+
+In \[12\]:
+
+x =np.arange(len(conti))
+x
+​
+_##!!错误，少输入了arange，话说这个arrange的作用是啥啊？_
+
+Out\[12\]:
+
+array(\[0, 1, 2, 3, 4, 5\])
+
+这一段的作用什么啊，是把各大洲的名称，映射为数字吗？
+
+In \[59\]:
+
+plt.bar(x,df.groupby('Continent').size())
+plt.xticks(x,conti,rotation\=20)
+_##拼写错误两处：xticks，被我拼写为xtricks。 rotation被我拼写为rodation。 话说，rotation什么意思啊？ 搜了一下，旋转的意思_
+​
+
+Out\[59\]:
+
+(\[<matplotlib.axis.XTick at 0xb54ad68>,
+  <matplotlib.axis.XTick at 0x9ff5048>,
+  <matplotlib.axis.XTick at 0xb555e80>,
+  <matplotlib.axis.XTick at 0xc66c780>,
+  <matplotlib.axis.XTick at 0xc66f198>,
+  <matplotlib.axis.XTick at 0xc66fb70>\],
+ <a list of 6 Text xticklabel objects>)
+
+![unknown_filename.13.png](./_resources/重新研读fish千聊课代码02.resources/unknown_filename.13.png)
+
+In \[13\]:
+
+conti\_count\=df.groupby('Continent').size()
+conti\_count
+
+Out\[13\]:
+
+Continent
+Africa           48
+Asia             36
+Europe           41
+North America    19
+Oceania           9
+South America    11
+dtype: int64
+
+In \[14\]:
+
+plt.pie(conti\_count,labels\=conti,autopct\='%1.2f%%')_#autopct,是自动显示百分比的意思，但是后面的%是什么意思，搞不懂。只知道.2代表小数点后2位_
+plt.axis('equal'
+)_\## axis代表的意思是轴，参数equal即意味着饼图的横轴和纵轴，相等。 那么就是一个圆啦。_
+​
+
+Out\[14\]:
+
+(-1.1155765255707346,
+ 1.1007417393128922,
+ -1.108024726836466,
+ 1.1119198978159677)
+
+![unknown_filename.6.png](./_resources/重新研读fish千聊课代码02.resources/unknown_filename.6.png)
+
+## 散点图[¶](http://localhost:8888/notebooks/Desktop/%E7%AC%AC%E4%BA%8C%E8%AF%BE%E6%9D%90%E6%96%99/%E9%87%8D%E6%96%B0%E7%A0%94%E8%AF%BBfish%E5%8D%83%E8%81%8A%E8%AF%BE%E4%BB%A3%E7%A0%8102.ipynb#散点图)
+
+散点图可以绘制出数据间的相关性
+
+In \[15\]:
+
+plt.plot(df.GDP,df.Life,'g.')
+
+Out\[15\]:
+
+\[<matplotlib.lines.Line2D at 0xa632b70>\]
+
+![unknown_filename.4.png](./_resources/重新研读fish千聊课代码02.resources/unknown_filename.4.png)
+
+In \[16\]:
+
+plt.scatter(df.GDP,df.Life)
+
+Out\[16\]:
+
+<matplotlib.collections.PathCollection at 0xa2e4748>
+
+![unknown_filename.15.png](./_resources/重新研读fish千聊课代码02.resources/unknown_filename.15.png)
+
+In \[17\]:
+
+_##矩阵图_
+_#plt.scatter\_matrix(df)_
+_##!又一个比较大的错误，这个scatter\_matrix是pandas的，不是plt的。 完全不是同一个库啊。 这就是常识缺乏了。那么pd可以画散点图吗？_
+ pd.scatter\_matrix(df)
+
+ **File** **"<ipython-input-17-99f234ae8126>"****, line** **4**
+ **pd.scatter\_matrix(df)**
+ **^**
+**IndentationError****:** unexpected indent
+
+In \[80\]:
+
+ pd.scatter\_matrix(df)
+
+d:\\ProgramData\\Anaconda3\\lib\\site-packages\\ipykernel\_launcher.py:1: FutureWarning: pandas.scatter\_matrix is deprecated. Use pandas.plotting.scatter\_matrix instead
+  """Entry point for launching an IPython kernel.
+
+Out\[80\]:
+
+array(\[\[<matplotlib.axes.\_subplots.AxesSubplot object at 0x000000000A7B3828>,
+        <matplotlib.axes.\_subplots.AxesSubplot object at 0x000000000E432518>,
+        <matplotlib.axes.\_subplots.AxesSubplot object at 0x000000000D8C1400>\],
+       \[<matplotlib.axes.\_subplots.AxesSubplot object at 0x000000000DF8CC50>,
+        <matplotlib.axes.\_subplots.AxesSubplot object at 0x000000000DFE67F0>,
+        <matplotlib.axes.\_subplots.AxesSubplot object at 0x000000000DFE6828>\],
+       \[<matplotlib.axes.\_subplots.AxesSubplot object at 0x000000000E0BD4E0>,
+        <matplotlib.axes.\_subplots.AxesSubplot object at 0x000000000E12AC50>,
+        <matplotlib.axes.\_subplots.AxesSubplot object at 0x000000000E196BE0>\]\], dtype=object)
+
+![unknown_filename.3.png](./_resources/重新研读fish千聊课代码02.resources/unknown_filename.3.png)
+
+### 图表定制[¶](http://localhost:8888/notebooks/Desktop/%E7%AC%AC%E4%BA%8C%E8%AF%BE%E6%9D%90%E6%96%99/%E9%87%8D%E6%96%B0%E7%A0%94%E8%AF%BBfish%E5%8D%83%E8%81%8A%E8%AF%BE%E4%BB%A3%E7%A0%8102.ipynb#图表定制)
+
+plt.rcParam\['font.sanz\_serif'\]=\[
+
+In \[18\]:
+
+​
+plt.rcParams\['font.sans-serif'\]=\['SimHei'\]
+_##拼写错误sans\_serif被我拼写为sanz\_serif了。_ 
+_##！！翻译了一下 sans serif是无衬线字体的意思。_
+_\## 第三个错误：sans-serif。我写成了下划线。_
+​
+plt.scatter(df.GDP,df.Life)
+plt.xlabel('各国人均GDP')
+plt.ylabel('人均寿命（年）')
+​
+plt.title('经济与寿命的相关性2015')
+​
+plt.xscale('log')
+_###！！ 新增知识点：对数变换。  到底什么意思，是指显示方式简化吗？这样看的话，确实显示更直观了。其实也是数字之间跨度更大了_
+
+![unknown_filename.7.png](./_resources/重新研读fish千聊课代码02.resources/unknown_filename.7.png)
+
+这一段代码，对我最困扰的就是设置中文显示的问题。 单词不熟，到底该横线还是下划线，不清晰，使得拼写老犯错。
+
+In \[19\]:
+
+x
+
+plt.rcParams\['font.sans-serif'\]=\['SimHei'\]
+​
+plt.scatter(df.GDP,df.Life)
+plt.xlabel('各国人均GDP')
+plt.ylabel('人均寿命（年）')
+​
+plt.title('经济与寿命的相关性2015')
+​
+plt.xscale('log')
+​
+tick\_val\=\[1000,10000,100000\]
+tick\_lab\=\['1k','10k','100k'\]
+_###如果只是到这一步的话，图形不会有任何改变，因为现在x轴的名字已经被固定了，只有重置一下_
+plt.xticks(tick\_val,tick\_lab)
+_###问题？？？这段儿就不太懂了，是把数字映射为10K等文字吗？_
+​
+
+Out\[19\]:
+
+(\[<matplotlib.axis.XTick at 0xbfe6588>,
+  <matplotlib.axis.XTick at 0xbe01f98>,
+  <matplotlib.axis.XTick at 0xc006588>\],
+ <a list of 3 Text xticklabel objects>)
+
+![unknown_filename.1.png](./_resources/重新研读fish千聊课代码02.resources/unknown_filename.1.png)
+
+这几段代码，都是逐步增加知识点的。
+第一段新增的知识点有：
+1\. 设置中文标题。
+2\. 对数变换
+​
+第二段新增的知识点有：
+\-  置换x轴的刻度。 
+​
+马上接下来的一段会新增，**\*\*泡泡颜色\*\***和**\*\*泡泡大小\*\***。 接着来吧
+
+In \[38\]:
+
+x
+
+size = df.Pop**/**1e6**\***2.1   _#此处新增一个参数size，用人口除以20万，为甚要除以20万呢？   问题。_
+_##!! 除以20万的目的是把尺寸缩小到坐标轴能够容纳的程度。 不是固定数值，只是这样看起来更合适，更直观而已。_ 
+​
+plt.rcParams\['font.sans-serif'\]=\['SimHei'\]
+​
+plt.scatter(df.GDP,df.Life,s\=size)
+​
+plt.xlabel('各国人均GDP')
+plt.ylabel('人均寿命（年）')
+​
+plt.title('经济与寿命的相关性2015')
+​
+plt.xscale('log')
+​
+tick\_val\=\[1000,10000,100000\]
+tick\_lab\=\['1k','10k','100k'\]
+_###如果只是到这一步的话，图形不会有任何改变，因为现在x轴的名字已经被固定了，只有重置一下_
+plt.xticks(tick\_val,tick\_lab)
+plt.show()
+​
+_##其实我可以把这段背下来使用的。_
+​
+_#新增知识点：plt.scatter(x,y,s),s代表点（也可以理解为小圆）的直径大小。s应该就是scatter的简写吧。_
+​
+df.groupby('Continent').size()
+
+![unknown_filename.8.png](./_resources/重新研读fish千聊课代码02.resources/unknown_filename.8.png)
+
+Out\[38\]:
+
+Continent
+Africa           48
+Asia             36
+Europe           41
+North America    19
+Oceania           9
+South America    11
+dtype: int64
+
+接下来会引入词典功能，一直没使用过这个功能，好奇呀，到底是怎么使用的呢？ 拭目以待
+
+In \[85\]:
+
+x
+
+​
+_#错误记录：大洲之间，我没有逗号隔开，误以为空行了就可以分辨，其实是需要逗号的_
+_\## 错误记录2：我的逗号是中文状态下的，使得报错invalid character in identifier，要知道这中英文的标点，电脑不给兼容啊。坑爹！_
+map\_dict = { 
+ 'Asia':'red',
+ 'Europe':'green',
+ 'Africa':'yellow',
+ 'North America':'black',
+ 'South America':'black',
+ 'Oceania':'blue'
+}
+colors = df.Continent.map(map\_dict)
+​
+_##这个地方的转换很大，我按自己的理解梳理一下思路。 先是定义一个词典map\_dict,然后将大洲的名字对应一个颜色，如A：red。_ 
+_#然后再引入含有大洲名字的数据赋值给A。  就相当于两个方程式求解变量的感觉。 如初中数学，x = 1.5y，y=1.  可得出x=1.5._
+_##打个比喻，我有一个机器人保镖，我让他驻守关口，先给他两个规则：第一，看到坏人，就开大炮炸死他；看到好人，就发射面包给他。_ 
+_#第二：拿刀的就是坏人，举双手的人就是好人。 然后说完，就让他自己去弄了。_ 
+_#这个字典的本质，有点像这种状态，先告诉你，只要是亚洲的就给我标红色，再告诉机器，亚洲国家是哪些。_ 
+
+In \[81\]:
+
+x
+
+size = df.Pop**/**1e6**\***2.1 
+​
+plt.rcParams\['font.sans-serif'\]=\['SimHei'\]
+plt.scatter(df.GDP,df.Life,s\= size,c\=colors,alpha\=0.5)
+​
+plt.xlabel('各国人均GDP')
+plt.ylabel('人均寿命（年）')
+​
+plt.title('经济与寿命的相关性2015')
+​
+plt.xscale('log')
+​
+tick\_val\=\[1000,10000,100000\]
+tick\_lab\=\['1k','10k','100k'\]
+_###如果只是到这一步的话，图形不会有任何改变，因为现在x轴的名字已经被固定了，只有重置一下_
+plt.xticks(tick\_val,tick\_lab)
+plt.show()
+​
+​
+
+![unknown_filename.9.png](./_resources/重新研读fish千聊课代码02.resources/unknown_filename.9.png)
+
+xxxxxxxxxx
+
+添加颜色和泡泡尺寸，感觉好有用啊。 不过，自己还是花了点时间才理解了。 这感觉真好啊，哈哈哈哈哈哈。
+​
+接下来，比较简单，就是添加网格和字体到图标中。
+
+In \[87\]:
+
+plt.rcParams\['font.sans-serif'\]=\['SimHei'\]
+​
+size = df.Pop**/**1e6**\***2.1 
+​
+map\_dict = { 
+ 'Asia':'red',
+ 'Europe':'green',
+ 'Africa':'yellow',
+ 'North America':'black',
+ 'South America':'black',
+ 'Oceania':'blue'
+}
+colors = df.Continent.map(map\_dict)
+​
+plt.scatter(df.GDP,df.Life,s\= size,c\=colors,alpha\=0.5)
+plt.xlabel('各国人均GDP')
+plt.ylabel('人均寿命（年）')
+plt.title('经济与寿命的相关性2015')
+plt.xscale('log')
+tick\_val\=\[1000,10000,100000\]
+tick\_lab\=\['1k','10k','100k'\]
+​
+plt.xticks(tick\_val,tick\_lab)
+​
+plt.text(1550,73,'印度阿三')
+plt.text(5700,81,'天朝上国')_\# 很想知道，这个坐标是怎么确定的，是估计吗？还是根据印度的gdp和人均寿命的数字确定的呢？ 问题。_
+​
+plt.grid(**True**)  _#grid就是网格的意思。_
+plt.show()
+
+![unknown_filename.14.png](./_resources/重新研读fish千聊课代码02.resources/unknown_filename.14.png)
+
+我配的颜色，没有fish配得好看。 审美上差点。
+
+### 作业[¶](http://localhost:8888/notebooks/Desktop/%E7%AC%AC%E4%BA%8C%E8%AF%BE%E6%9D%90%E6%96%99/%E9%87%8D%E6%96%B0%E7%A0%94%E8%AF%BBfish%E5%8D%83%E8%81%8A%E8%AF%BE%E4%BB%A3%E7%A0%8102.ipynb#作业)
+
+绘制人均GDP数据的直方图，要求
+
+1. 设置图片标题和坐标轴名称
+
+* 只显示人均GDP在2万美元以内的数据
+* 设置区间数bins为30
+* 颜色设置成绿色
+
+参考：matplotlib中直方图函数hist的说明文档： <https://matplotlib.org/api/pyplot_api.html#matplotlib.pyplot.hist>
+
+In \[90\]:
+
+x
+
+​
+df.head()
+
+Out\[90\]:
+
+|     | Country | Continent | Life | GDP | Pop |
+| --- | --- | --- | --- | --- | --- |
+| 0   | Algeria | Africa | 75.042537 | 4132.760292 | 39871528.0 |
+| 1   | Angola | Africa | 52.666098 | 3695.793748 | 27859305.0 |
+| 2   | Benin | Africa | 59.720707 | 783.947091 | 10575952.0 |
+| 3   | Botswana | Africa | 64.487415 | 6532.060501 | 2209197.0 |
+| 4   | Burundi | Africa | 57.107049 | 303.681022 | 10199270.0 |
+
+In \[97\]:
+
+x
+
+df\_poor = df\[df.GDP**<**2e4\]
+df\_poor.head()
+​
+
+Out\[97\]:
+
+|     | Country | Continent | Life | GDP | Pop |
+| --- | --- | --- | --- | --- | --- |
+| 0   | Algeria | Africa | 75.042537 | 4132.760292 | 39871528.0 |
+| 1   | Angola | Africa | 52.666098 | 3695.793748 | 27859305.0 |
+| 2   | Benin | Africa | 59.720707 | 783.947091 | 10575952.0 |
+| 3   | Botswana | Africa | 64.487415 | 6532.060501 | 2209197.0 |
+| 4   | Burundi | Africa | 57.107049 | 303.681022 | 10199270.0 |
+
+In \[105\]:
+
+x
+
+df\_poor = df\[df.GDP**<**2e4\]
+plt.hist(df\_poor.GDP,bins\=30,rwidth\=0.85,color = 'green')
+plt.show()
+
+![unknown_filename.png](./_resources/重新研读fish千聊课代码02.resources/unknown_filename.png)
+
+In \[ \]:
+
+​

@@ -1,0 +1,48 @@
+---
+created: 2016-03-29 08:31:53
+jarvis_ai_meta:
+  key_people:
+  - 燕子(朋友/伴侣)
+  - 老高(前伴侣)
+  mood: 反思、平和
+  summary: 作者与燕子探讨恋爱观，认为健康关系应接纳彼此真实，不强求结果。
+  tagged_at: '2026-01-11 02:20:35'
+  time_space:
+    date: '2016-03-28'
+    location: 四川省达州市通川区东城街道檬子垭街59号
+location: 31.170361111111113,107.49613055555555
+tags:
+- 自我反思
+- 人际关系
+- 恋爱观
+updated: 2016-03-29 08:31:53
+---
+
+# Day One Entry: 2016年3月28日
+
+# 160328 占卜为孙取名字 燕子畅聊人生观
+
+燕子也有很多怕与不自信。 也有点失去不起的感觉。就是怕假如和我一起之后，还是失去我了，那样的话，她有点难接受。
+就以前那样默默付出，不拆散我和老高就挺好。
+其实，最需要做的是，我们都接受对方本来的样子，喜欢真实的对方，而不需要迎合对方，才是健康的关系。我得发现本来的她，然后再观察自己是否喜欢。
+
+发现真实的对方，还有不用抱着一种一定要结婚的心态，如果相处不合适，提出来，能改就一起过，不能改就各自飞奔就是啦。
+
+16°C Mostly Clear
+中国四川省达州市通川区东城街道檬子垭街59号, 达州市, 四川省, 中国
+
+![Attachment-1.jpeg](./_resources/Day_One_Entry__2016年3月28日.resources/Attachment-1.jpeg)
+
+![Attachment-2.jpeg](./_resources/Day_One_Entry__2016年3月28日.resources/Attachment-2.jpeg)
+
+![Attachment-3.jpeg](./_resources/Day_One_Entry__2016年3月28日.resources/Attachment-3.jpeg)
+
+![Attachment-4.jpeg](./_resources/Day_One_Entry__2016年3月28日.resources/Attachment-4.jpeg)
+
+![Attachment-5.jpeg](./_resources/Day_One_Entry__2016年3月28日.resources/Attachment-5.jpeg)
+
+![Attachment-6.jpeg](./_resources/Day_One_Entry__2016年3月28日.resources/Attachment-6.jpeg)
+
+![Attachment-7.jpeg](./_resources/Day_One_Entry__2016年3月28日.resources/Attachment-7.jpeg)
+
+发自我的 iPhone

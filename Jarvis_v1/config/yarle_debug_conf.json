@@ -1,0 +1,17 @@
+{
+  "enexSources": [
+    "C:\\Users\\王波\\OneDrive - Personal\\my_system\\Inbox\\Enex_Flat\\01_\u6bcf\u65e5\u6536\u96c6\u7ec4__EverMemo.enex"
+  ],
+  "outputDir": "C:\\Users\\王波\\OneDrive - Personal\\my_system\\Inbox\\Yarle_Debug_Output",
+  "templateFile": "C:\\Users\\王波\\OneDrive - Personal\\my_system\\Jarvis_v1\\config\\debug_template.md",
+  "isMetadataNeeded": true,
+  "isNotebookNameNeeded": true,
+  "isZettelkastenNeeded": false,
+  "useHashTags": true,
+  "outputFormat": "ObsidianMD",
+  "skipWebClips": false,
+  "isSmallestImageSizeNeeded": true,
+  "trimTitle": true,
+  "replaceSpacesInTags": true,
+  "dateFormat": "YYYY-MM-DD"
+}

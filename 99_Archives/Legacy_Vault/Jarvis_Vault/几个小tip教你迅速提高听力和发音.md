@@ -1,0 +1,967 @@
+---
+created: 2014-11-21 19:14:25
+jarvis_ai_meta:
+  key_people:
+  - 八大仙人(豆瓣用户)
+  - Mavis胖(笔记作者)
+  mood: 求知
+  summary: 用户收藏了一篇关于美式英语发音和听力技巧的详细教程文章。
+  tagged_at: '2026-01-11 03:18:32'
+  time_space:
+    date: '2014-11-21'
+    location: 豆瓣小组
+source: http://www.douban.com/group/topic/32490524
+tags:
+- 听力技巧
+- 美式发音
+- 英语学习
+- 美剧学习
+- 语音模仿
+updated: 2014-11-21 19:16:12
+---
+
+# 几个小tip教你迅速提高听力和发音
+
+[![68119edbb3835f6557df1972bd94f78a.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/68119edbb3835f6557df1972bd94f78a.jpeg)](http://www.douban.com/group/people/Q598176297/)
+
+### 来自: [八大仙人](http://www.douban.com/group/people/Q598176297/)(最喜欢的社交活动是NTR) 2012-09-04 11:29:03
+
+美音的发音规则和几个重难点
+写在前面的话
+这篇帖子不是给所有人看的，默认的读者群是至少有过20小时以上模仿时间和经历的学习者
+一天一小时，连续20天以上，这个不是指音频长度，而是指你的练习量，一段2分钟的音频你模仿了2个小时，那么也是算模仿了2个小时的。
+如果没有这种最基本最基本的练习体验的人，会很难理解我下面说的，所以请止步，先去把最基本的练习做好再说。
+我把AAT和美剧中常见的几个小规律提炼了下，如果没有耐心读完AAT的可以看看这个，迈过中级后可以直接拿美剧上手好好练练，当然个人还是建议认真学完AAT吧
+第一部分，基本扫盲
+美音的R，L，N，U, i, i:等音节怎么发音
+R音是要把嘴唇卷起来，做发U这个音的口型，同时舌头往后卷，具体看这个视频[http://v.youku.com/v_show/id_XMjE0NjgyNTI0.html?f=5241166](http://www.douban.com/link2/?url=http%3A%2F%2Fv.youku.com%2Fv_show%2Fid_XMjE0NjgyNTI0.html%3Ff%3D5241166)
+L音最难发，使用舌尖轻轻抵触上牙齿后面的齿龈，喉咙发音，具体见这个视频[http://www.tudou.com/programs/view/_8gBu_N0yEE/](http://www.douban.com/link2/?url=http%3A%2F%2Fwww.tudou.com%2Fprograms%2Fview%2F_8gBu_N0yEE%2F)
+[http://www.tudou.com/programs/view/wniMavBHJZw/](http://www.douban.com/link2/?url=http%3A%2F%2Fwww.tudou.com%2Fprograms%2Fview%2FwniMavBHJZw%2F)
+[http://www.tudou.com/programs/view/gvuu-b9tvx0/](http://www.douban.com/link2/?url=http%3A%2F%2Fwww.tudou.com%2Fprograms%2Fview%2Fgvuu-b9tvx0%2F)
+不过视频中有个错误，L音分成词首音和词尾音，词尾音最难发出来，大家可以试试little，Kyle，title，world来试试，但是词首音，并不是跟中文中的“啦”的开头音类似的，词首音的L发音口型跟词尾音是一模一样的，所以也是要翘舌，轻抵触上齿龈的
+N这个音，口型和L一模一样，但是气流从鼻腔里面出来，鼻音嘛
+u这个音，分成了长音u:和短音U，长音很容易，短音就麻烦些，记得，美音中的短音绝对不是把长音发短了！！！！！！音色有本质的区别，把短音拉长还是跟长音完全不同，U这个音要撅嘴，把嘴唇卷起来，然后喉咙发“饿”这个音，就是反e音，实在打不出来
+i和i:同样，不是长短的区别，i发的类似军训时候喊口号的声音，短促有力的i，而不是长音衣服的衣
+以上发音，如果还是有困难，请结合这个视频和爱荷华大学出的口腔平面剖析图来自行纠正，效果奇佳
+[http://www.youku.com/playlist_show/id_5241166.html](http://www.douban.com/link2/?url=http%3A%2F%2Fwww.youku.com%2Fplaylist_show%2Fid_5241166.html)
+[http://www.douban.com/group/topic/27244879/](http://www.douban.com/link2/?url=http%3A%2F%2Fwww.douban.com%2Fgroup%2Ftopic%2F27244879%2F)
+第二部分，正经规律（一般教科书上很少认真讲的）
+1，失去爆破，这些大家都明白，比如it dosen't matter，it中的t要省去不出声，doesnt的t也是，事实上，为了让大家更容易理解，我个人建议，在学习初期，只要是单词末尾出现爆破音的（tdgkpb），最好都不要发出来，尤其不可以爆破音重读，it读成itta，这样就会多出一个音节，那么在模仿的时候就会远远跟不上局中人的速度
+2，美音中的连读规则
+其实很简单，只要是前一个单词末尾是辅音，后一个单词开头是元音，原则上就可以连在一起（当然有例外），规则说的很容易，但是要扭转国人字正腔圆，每个字都要发清楚的语言习惯却很难，只能靠不停的在剧中模仿来纠正，所以在这里就不举例了
+3，美音中的音变，也就是所谓的浊化现象
+这点，以T,D字母结尾现象最严重，也是造成严重听力困难的大难题
+但其实很简单，记得两个个就够了
+（1），t在末尾，如果是要连读的话，既下一个单词以元音开头，那么绝大部分情况下，t是要浊化成d的
+比如说Barney的经典：exhibit a
+那个末尾的t不读t，读d
+所以就变成了exhibida
+不信可以去剧中听听。
+（2），t在中间，一般情况下也是读成d，准确来说，是读成近似于d的音
+比如，better其实读成bedder，butter读成budder，
+4，H音的省略
+For him,读成forim, tell him读成tellim，tell her要读成teller
+5，英语中的little的读法
+美音中，把t浊化成d，读 liddle
+英音中，把t去掉，读li l
+第三部分，正式练习。
+下面就兹取著名美剧《老爸老妈浪漫史》第一集，作为听力和语音模仿的全面透析，大家可以自行找到剧集，看完后认真阅读笔记并反复观摩剧集，认真模仿直到脱口而出
+原版的笔记在这里，作者Mavis胖，主要是记载第一集的各种词句的用法
+[http://www.douban.com/note/222425892/](http://www.douban.com/link2/?url=http%3A%2F%2Fwww.douban.com%2Fnote%2F222425892%2F)
+我个人加了一些语音透析的tips，并为新的笔记，做的较为粗糙，没有原版的精致，希望大家看完能有切实的收获[http://www.douban.com/group/topic/32251305/](http://www.douban.com/link2/?url=http%3A%2F%2Fwww.douban.com%2Fgroup%2Ftopic%2F32251305%2F)
+PS，附注一帖[http://www.douban.com/group/topic/32251285/](http://www.douban.com/link2/?url=http%3A%2F%2Fwww.douban.com%2Fgroup%2Ftopic%2F32251285%2F)
+
+[3386人](http://www.douban.com/group/topic/32490524/?type=like#sep) 喜欢 [喜欢](http://www.douban.com/accounts/register?reason=like)
+
+.
+[回应](http://www.douban.com/group/topic/32490524/#sep) [推荐](http://www.douban.com/group/topic/32490524/?type=rec#sep) [喜欢](http://www.douban.com/group/topic/32490524/?type=like#sep) [只看楼主](http://www.douban.com/group/topic/32490524/?author=1#sep)
+
+* [![db3c26f3ddaf28b6cbbeb75d7e878ecb.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/db3c26f3ddaf28b6cbbeb75d7e878ecb.jpeg)](http://www.douban.com/group/people/peterzhu11/) 
+	
+	#### [Jun](http://www.douban.com/group/people/peterzhu11/) (誓为勇将一名，方不负此生！) 2012-09-04 12:31:15
+	
+	感激涕淋！
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=378819344#last)
+	
+	.
+
+* [![c54ee22390581dc88cbe823dc6079959.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/c54ee22390581dc88cbe823dc6079959.jpeg)](http://www.douban.com/group/people/jackyr/) 
+	
+	#### [L](http://www.douban.com/group/people/jackyr/) 2012-09-04 21:17:33
+	
+	thx
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=378977882#last)
+	
+	.
+* [![4406af08b90f22dde2afabe07999c8d6.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/4406af08b90f22dde2afabe07999c8d6.jpeg)](http://www.douban.com/group/people/vivawen/) 
+	
+	#### [Mrs.B](http://www.douban.com/group/people/vivawen/) (在去和上帝talking的路上) 2012-09-05 12:54:01
+	
+	mk！
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=379142220#last)
+	
+	.
+* [![ca0b767c0a5d95a95e4c8334e6ed0532.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/ca0b767c0a5d95a95e4c8334e6ed0532.jpeg)](http://www.douban.com/group/people/59292042/) 
+	
+	#### [上上上上上好佳](http://www.douban.com/group/people/59292042/) (我就是想当甜又贱的全民闺蜜) 2012-09-05 15:42:28
+	
+	正纠结发音呢 谢谢~
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=379196097#last)
+	
+	.
+* [![4e177b2691fd36101761f6eb0680a1cf.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/4e177b2691fd36101761f6eb0680a1cf.jpeg)](http://www.douban.com/group/people/freyafan/) 
+	
+	#### [Freya](http://www.douban.com/group/people/freyafan/) (每天学习八小时以下是不道德的。) 2012-09-09 19:06:58
+	
+	马
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=380440742#last)
+	
+	.
+* [![e0eb40018f80e451f6ca0826e3c0c551.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/e0eb40018f80e451f6ca0826e3c0c551.jpeg)](http://www.douban.com/group/people/57904494/) 
+	
+	#### [浮生若梦。](http://www.douban.com/group/people/57904494/) (人生短短几个秋。) 2012-10-09 10:11:07
+	
+	非常非常非常实用！找到好东西了哈哈哈哈~~~
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=388958519#last)
+	
+	.
+* [![53ce1fb9c893a48b888d9827b3a6cb45.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/53ce1fb9c893a48b888d9827b3a6cb45.jpeg)](http://www.douban.com/group/people/42790532/) 
+	
+	#### [Rooooar](http://www.douban.com/group/people/42790532/) 2012-10-25 21:00:58
+	
+	真好
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=394173557#last)
+	
+	.
+* [![c37286a17fde794ed81d43cd9620f449.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/c37286a17fde794ed81d43cd9620f449.jpeg)](http://www.douban.com/group/people/2849247/) 
+	
+	#### [澈](http://www.douban.com/group/people/2849247/) 2012-10-25 23:06:49
+	
+	想请教一个读音问题：
+	\[θ\]音标结尾的单词跟着\[s\]音标打头的单词，有什么发音技巧吗？舌头在发\[θ\]时上下齿轻咬舌头前端位置转换到发\[s\]的音时总是打结。。是不是熟练程度的问题？
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=394222316#last)
+	
+	.
+* [![3055f18135ad56161323254162558abc.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/3055f18135ad56161323254162558abc.jpeg)](http://www.douban.com/group/people/dearkev/) 
+	
+	#### [大可](http://www.douban.com/group/people/dearkev/) 2012-10-26 00:27:29
+	
+	想请教一个读音问题： \[θ\]音标结尾的单词跟着\[s\]音标打头的单词，有什么发音技巧吗？舌头在 [...](http://www.douban.com/group/topic/32490524/#) [澈](http://www.douban.com/group/people/2849247/)
+	
+	同问。。。
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=394246628#last)
+	
+	.
+		#### [韦广政@创业在中国，双手搏天下](http://www.douban.com/group/people/weiguagnzheng/) 2012-10-26 08:33:01
+	
+	学习！
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=394282233#last)
+	
+	.
+* [![6ca4e6a03a5a3c108208867872390c80.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/6ca4e6a03a5a3c108208867872390c80.jpeg)](http://www.douban.com/group/people/48056897/) 
+	
+	#### [飞](http://www.douban.com/group/people/48056897/) (双腿夹着灵魂，赶路匆忙忙。) 2012-10-26 08:38:47
+	
+	M
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=394283060#last)
+	
+	.
+* [![2c7031964511b974c045e1a380d5aecf.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/2c7031964511b974c045e1a380d5aecf.jpeg)](http://www.douban.com/group/people/46827530/) 
+	
+	#### [Miss lala](http://www.douban.com/group/people/46827530/) (三分钟热度最致命) 2012-10-26 08:49:02
+	
+	真感谢 最近voa 总是有音听不懂
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=394284716#last)
+	
+	.
+* [![cf7bb0b3bb20cfeb876a880c06e84dd1.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/cf7bb0b3bb20cfeb876a880c06e84dd1.jpeg)](http://www.douban.com/group/people/xhh1992/) 
+	
+	#### [桑田巫](http://www.douban.com/group/people/xhh1992/) (心之所愿，无所不成。) 2012-10-28 12:30:14
+	
+	马克
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=394938243#last)
+	
+	.
+* [![0849ce619c30c69558cd8cfd959c57e0.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/0849ce619c30c69558cd8cfd959c57e0.jpeg)](http://www.douban.com/group/people/44922464/) 
+	
+	#### [月之影](http://www.douban.com/group/people/44922464/) (断网，读书去……) 2012-10-28 12:56:24
+	
+	感谢LZ分享，学习！
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=394944199#last)
+	
+	.
+* [![4e7f872bce4dc9eef8f91db223d1e1a0.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/4e7f872bce4dc9eef8f91db223d1e1a0.jpeg)](http://www.douban.com/group/people/51045917/) 
+	
+	#### [神的孩子](http://www.douban.com/group/people/51045917/) 2012-12-11 19:49:16
+	
+	mark
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=409858800#last)
+	
+	.
+* [![0316e9814445c6128881511f39c03615.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/0316e9814445c6128881511f39c03615.jpeg)](http://www.douban.com/group/people/52158165/) 
+	
+	#### [达摩流浪猫](http://www.douban.com/group/people/52158165/) 2012-12-11 22:25:20
+	
+	mark
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=409918282#last)
+	
+	.
+		#### [steffenie](http://www.douban.com/group/people/2017308/) 2012-12-11 22:32:42
+	
+	m
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=409921695#last)
+	
+	.
+* [![15ec494a76f542c7d39ae0fb23881805.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/15ec494a76f542c7d39ae0fb23881805.jpeg)](http://www.douban.com/group/people/38466717/) 
+	
+	#### [小T了](http://www.douban.com/group/people/38466717/) 2012-12-11 23:03:18
+	
+	M
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=409935196#last)
+	
+	.
+* [![0698f3e5330845eeda0041eb3a10ea02.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/0698f3e5330845eeda0041eb3a10ea02.jpeg)](http://www.douban.com/group/people/36243735/) 
+	
+	#### [superqee](http://www.douban.com/group/people/36243735/) (谁在遛着谁的影子~) 2012-12-11 23:15:30
+	
+	m
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=409940085#last)
+	
+	.
+* [![2492265ea1517d27e7e81389074f2116.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/2492265ea1517d27e7e81389074f2116.jpeg)](http://www.douban.com/group/people/63717285/) 
+	
+	#### [陌上花开](http://www.douban.com/group/people/63717285/) (we read anyway.) 2012-12-11 23:37:45
+	
+	m
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=409948670#last)
+	
+	.
+* [![4fecb34ffd1bb7d95622f72808042263.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/4fecb34ffd1bb7d95622f72808042263.jpeg)](http://www.douban.com/group/people/64939219/) 
+	
+	#### [Nico](http://www.douban.com/group/people/64939219/) 2012-12-12 09:07:11
+	
+	最后一个链接貌似没有页面了~~
+	不过，我也只是路过，还没到看美剧的时候，正在AAT模仿和语法普及的时候
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=410008737#last)
+	
+	.
+* [![c5b430da4307eeebe91dab18fdbbc91f.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/c5b430da4307eeebe91dab18fdbbc91f.jpeg)](http://www.douban.com/group/people/58618086/) 
+	
+	#### [晒太阳的蜗牛](http://www.douban.com/group/people/58618086/) 2012-12-12 12:55:14
+	
+	最近正在照着中级的教程，学习赖世雄的美音音标，才发现从小学的音标居然是音式的，真正一个音一个音去听的时候，发现每一个要想把说好都不容易，首先得把自己清零，很多音跟自己固有的发音习惯和概念都不一样。我是皖南人，普通话的l和n也从来都分不清，需要下的功夫要很多。
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=410082816#last)
+	
+	.
+* [![133a25a4fc8af9db2b55b37b519f0bbe.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/133a25a4fc8af9db2b55b37b519f0bbe.jpeg)](http://www.douban.com/group/people/Passu/) 
+	
+	#### [Passu](http://www.douban.com/group/people/Passu/) (^\_^) 2012-12-12 12:57:51
+	
+	mark
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=410083780#last)
+	
+	.
+		#### [已注销](http://www.douban.com/group/people/63589088/) 2012-12-12 14:26:17
+	
+	学！
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=410115557#last)
+	
+	.
+* [![90294d2c63f90d4c1a4653e629d09eca.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/90294d2c63f90d4c1a4653e629d09eca.jpeg)](http://www.douban.com/group/people/52913677/) 
+	
+	#### [纯良无边二喜凉](http://www.douban.com/group/people/52913677/) 2012-12-12 14:34:33
+	
+	爪机M
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=410118451#last)
+	
+	.
+* [![a4b0ef6a3b65441809315b3bcc6f0dd9.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/a4b0ef6a3b65441809315b3bcc6f0dd9.jpeg)](http://www.douban.com/group/people/49833864/) 
+	
+	#### [jskaka](http://www.douban.com/group/people/49833864/) (内心要强大) 2012-12-16 15:58:59
+	
+	在学L的音，3个视频下去，有点感觉了~谢谢~
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=411570431#last)
+	
+	.
+* [![316be6c1940d385d33e4562f8e1106ae.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/316be6c1940d385d33e4562f8e1106ae.jpeg)](http://www.douban.com/group/people/65968612/) 
+	
+	#### [summer](http://www.douban.com/group/people/65968612/) 2012-12-16 16:55:08
+	
+	mark
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=411587492#last)
+	
+	.
+* [![486617d6ad08adf01a43ab0f15269c21.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/486617d6ad08adf01a43ab0f15269c21.jpeg)](http://www.douban.com/group/people/66099645/) 
+	
+	#### [两袖清风](http://www.douban.com/group/people/66099645/) (生命只得有一个她。) 2012-12-30 18:20:32
+	
+	终于找到这帖子了
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=416669592#last)
+	
+	.
+* [![c19d13a97eda0357da5348364e05a0a5.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/c19d13a97eda0357da5348364e05a0a5.jpeg)](http://www.douban.com/group/people/61958128/) 
+	
+	#### [salmon](http://www.douban.com/group/people/61958128/) (不能算。) 2012-12-30 18:38:42
+	
+	标记
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=416674020#last)
+	
+	.
+* [![486617d6ad08adf01a43ab0f15269c21.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/486617d6ad08adf01a43ab0f15269c21.jpeg)](http://www.douban.com/group/people/66099645/) 
+	
+	#### [两袖清风](http://www.douban.com/group/people/66099645/) (生命只得有一个她。) 2012-12-30 19:14:55
+	
+	U的视频是哪个，零基础的人伤不起，列表里找不到？
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=416683451#last)
+	
+	.
+* [![5b483393efa32781e85750a9b1a94fb0.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/5b483393efa32781e85750a9b1a94fb0.jpeg)](http://www.douban.com/group/people/45348541/) 
+	
+	#### [浅仓男](http://www.douban.com/group/people/45348541/) 2012-12-31 11:28:13
+	
+	谢谢
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=416874489#last)
+	
+	.
+* [![2492265ea1517d27e7e81389074f2116.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/2492265ea1517d27e7e81389074f2116.jpeg)](http://www.douban.com/group/people/63717285/) 
+	
+	#### [陌上花开](http://www.douban.com/group/people/63717285/) (we read anyway.) 2012-12-31 12:42:45
+	
+	m
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=416893973#last)
+	
+	.
+* [![264404a1b7c41166dcd8017502762158.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/264404a1b7c41166dcd8017502762158.jpeg)](http://www.douban.com/group/people/61167870/) 
+	
+	#### [蛋糕。](http://www.douban.com/group/people/61167870/) (不忘初心，方得始终) 2012-12-31 12:47:27
+	
+	m
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=416895239#last)
+	
+	.
+* [![9efc0e765e36b762d5fc4847e148b1e4.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/9efc0e765e36b762d5fc4847e148b1e4.jpeg)](http://www.douban.com/group/people/3015115/) 
+	
+	#### [夏夏夏夏夏小夏](http://www.douban.com/group/people/3015115/) (一直) 2012-12-31 13:25:53
+	
+	正好要学习！
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=416906154#last)
+	
+	.
+		#### [草草](http://www.douban.com/group/people/1140867/) 2013-01-12 11:25:27
+	
+	感谢奶爸
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=421196172#last)
+	
+	.
+* [![7b2631b61a4784a48bd67c33a11c3e67.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/7b2631b61a4784a48bd67c33a11c3e67.jpeg)](http://www.douban.com/group/people/60750256/) 
+	
+	#### [黑涩tony](http://www.douban.com/group/people/60750256/) 2013-01-12 11:32:16
+	
+	mark
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=421197867#last)
+	
+	.
+* [![20bcb61ecf5ee3959ecf73769ae173b4.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/20bcb61ecf5ee3959ecf73769ae173b4.jpeg)](http://www.douban.com/group/people/harika7/) 
+	
+	#### [夏天不要走](http://www.douban.com/group/people/harika7/) (昨日像得到，迟来无去路。) 2013-01-14 22:55:58
+	
+	THX
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=422114053#last)
+	
+	.
+* [![ae07659f9c1f1f5e02220cf082427d08.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/ae07659f9c1f1f5e02220cf082427d08.jpeg)](http://www.douban.com/group/people/55350555/) 
+	
+	#### [杰斯](http://www.douban.com/group/people/55350555/) 2013-01-16 02:07:12
+	
+	默默学习
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=422556608#last)
+	
+	.
+* [![0a8e3be4a4640d2f1947cc0441be6051.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/0a8e3be4a4640d2f1947cc0441be6051.jpeg)](http://www.douban.com/group/people/65672467/) 
+	
+	#### [殿下不靛](http://www.douban.com/group/people/65672467/) (I worth more than what I have) 2013-01-16 02:10:57
+	
+	MMMMMMM
+	WWWWWWW
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=422557028#last)
+	
+	.
+* [![de709cb75a8031d1e5e6baa31c701adc.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/de709cb75a8031d1e5e6baa31c701adc.jpeg)](http://www.douban.com/group/people/lemonnovia/) 
+	
+	#### [lemon. 鸵鸟'](http://www.douban.com/group/people/lemonnovia/) (wish u were here.) 2013-01-16 02:20:25
+	
+	m
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=422557993#last)
+	
+	.
+* [![d276821fba7c600d7b19c4c264b2dc0c.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/d276821fba7c600d7b19c4c264b2dc0c.jpeg)](http://www.douban.com/group/people/57734556/) 
+	
+	#### [纷来要勇敢](http://www.douban.com/group/people/57734556/) (愿风吹雨落，不变英雄本色。) 2013-01-16 02:27:50
+	
+	m
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=422558744#last)
+	
+	.
+* [![8bed4a386a096124ef0fc2a5046a88b8.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/8bed4a386a096124ef0fc2a5046a88b8.jpeg)](http://www.douban.com/group/people/36813192/) 
+	
+	#### [废柴G](http://www.douban.com/group/people/36813192/) 2013-01-16 02:53:55
+	
+	M
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=422561118#last)
+	
+	.
+* [![28201ed6becd79befd95c1de99595ef8.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/28201ed6becd79befd95c1de99595ef8.jpeg)](http://www.douban.com/group/people/saoirse/) 
+	
+	#### [夏天不做梦](http://www.douban.com/group/people/saoirse/) 2013-01-16 16:37:22
+	
+	L的音我也一直发不好！
+	多谢
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=422750032#last)
+	
+	.
+* [![7425952f421685ee2159c6811a33128a.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/7425952f421685ee2159c6811a33128a.jpeg)](http://www.douban.com/group/people/68229686/) 
+	
+	#### [beyond](http://www.douban.com/group/people/68229686/) 2013-01-19 17:23:22
+	
+	大写的i和大写的U 我一直读不好
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=423876991#last)
+	
+	.
+* [![9e6ac6de1a4320a08c6830c73173951b.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/9e6ac6de1a4320a08c6830c73173951b.jpeg)](http://www.douban.com/group/people/48015589/) 
+	
+	#### [Imaweirdoo](http://www.douban.com/group/people/48015589/) (。) 2013-01-20 15:57:23
+	
+	马
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=424188172#last)
+	
+	.
+		#### [BCode](http://www.douban.com/group/people/68273146/) 2013-01-21 13:30:49
+	
+	颠覆了我某些发音的错误认识，thanks
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=424528136#last)
+	
+	.
+* [![93f5de4c79dad70738d04364458177a9.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/93f5de4c79dad70738d04364458177a9.jpeg)](http://www.douban.com/group/people/69275752/) 
+	
+	#### [L-Moli](http://www.douban.com/group/people/69275752/) 2013-03-12 11:19:44
+	
+	十分不错
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=444241265#last)
+	
+	.
+* [![ba7fd7d6ab9efd6f6cb4a2b0f315b74f.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/ba7fd7d6ab9efd6f6cb4a2b0f315b74f.jpeg)](http://www.douban.com/group/people/66258420/) 
+	
+	#### [Scorpio](http://www.douban.com/group/people/66258420/) 2013-03-12 12:48:15
+	
+	m
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=444279642#last)
+	
+	.
+* [![5c8ef9598b0946e82c345f2e894bef8f.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/5c8ef9598b0946e82c345f2e894bef8f.jpeg)](http://www.douban.com/group/people/1922440/) 
+	
+	#### [et](http://www.douban.com/group/people/1922440/) (et means elect.eng. not UFO) 2013-03-12 22:32:13
+	
+	慢慢琢磨，每次来看都有新的领悟
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=444553179#last)
+	
+	.
+		#### [已注销](http://www.douban.com/group/people/66979641/) 2013-03-12 22:41:55
+	
+	m
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=444559091#last)
+	
+	.
+* [![9237f478bfce780e12e4504dd8731482.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/9237f478bfce780e12e4504dd8731482.jpeg)](http://www.douban.com/group/people/1215148/) 
+	
+	#### [鼋鸣鳖至/来去无踪@我叫刘亚玲](http://www.douban.com/group/people/1215148/) 2013-03-13 10:43:37
+	
+	这真得一个个抠，听《克莱默夫妇》kramer & kramer
+	斯特里普的纽约口音加连读加速度，吵起架好难懂....
+	capable变成了cable....
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=444702308#last)
+	
+	.
+* [![a793454e7b502d9fb169aa484db72f19.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/a793454e7b502d9fb169aa484db72f19.jpeg)](http://www.douban.com/group/people/61099333/) 
+	
+	#### [不要脸的大骗子](http://www.douban.com/group/people/61099333/) (踏实！踏实！！！！！！！！) 2013-03-13 15:45:18
+	
+	M
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=444842871#last)
+	
+	.
+* [![c498241535ecd0e9d36625ee2d7d9b52.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/c498241535ecd0e9d36625ee2d7d9b52.jpeg)](http://www.douban.com/group/people/43859715/) 
+	
+	#### [毛毛](http://www.douban.com/group/people/43859715/) 2013-03-26 08:29:22
+	
+	m
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=450713182#last)
+	
+	.
+* [![b37283645493cf6e451892808dc12d84.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/b37283645493cf6e451892808dc12d84.jpeg)](http://www.douban.com/group/people/cakotopia/) 
+	
+	#### [迟](http://www.douban.com/group/people/cakotopia/) (远) 2013-03-26 09:51:54
+	
+	鹅 都在马克
+	表示已经按艾宾浩斯学完音标了 耗时总计一个多月 每天1-2h
+	em 因为本人还在学声乐 所以喉音什么的不太是问题 两小时大声朗诵也不会嗓子痛
+	估计很多人念两小时嗓子都哑了吧- -
+	如果说歌唱艺术的主要起源还是在欧洲的话 那我充分的觉得 和他们的语言发音 也有关系
+	在上某老师的口语课老师也强调 丹田发音（说那么神秘故弄玄虚的老师啊..）很重要 其实就是气息的支撑啦啊 啊啊
+	所以说什么英语的位置靠前还是靠后 很不赞同 但整个共鸣腔 比（我）说中文 要靠上
+	也就是鼻腔的共鸣~
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=450740319#last)
+	
+	.
+* [![3baf720feaf5645efa8100a44354c79e.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/3baf720feaf5645efa8100a44354c79e.jpeg)](http://www.douban.com/group/people/ccav1/) 
+	
+	#### [兜](http://www.douban.com/group/people/ccav1/) (山有色) 2013-03-26 12:42:06
+	
+	新东方老师教过，当时真是见世面，比在学校几年学的都有用。
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=450820152#last)
+	
+	.
+* [![f8fdb12fe8d8253c621c25ebd15afbba.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/f8fdb12fe8d8253c621c25ebd15afbba.jpeg)](http://www.douban.com/group/people/imyrs/) 
+	
+	#### [satyr](http://www.douban.com/group/people/imyrs/) 2013-03-27 08:14:17
+	
+	m
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=451209368#last)
+	
+	.
+* [![93f5de4c79dad70738d04364458177a9.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/93f5de4c79dad70738d04364458177a9.jpeg)](http://www.douban.com/group/people/69275752/) 
+	
+	#### [L-Moli](http://www.douban.com/group/people/69275752/) 2013-03-27 09:11:30
+	
+	mark
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=451223313#last)
+	
+	.
+* [![9717edffaff081f05611cb8e6b5753b2.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/9717edffaff081f05611cb8e6b5753b2.jpeg)](http://www.douban.com/group/people/shadow.u/) 
+	
+	#### [Ceccci](http://www.douban.com/group/people/shadow.u/) (ROLL) 2013-03-27 09:33:30
+	
+	many thx!!!!!!!
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=451231510#last)
+	
+	.
+* [![9bb1286e2da833795dfd1a846d7e5e4f.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/9bb1286e2da833795dfd1a846d7e5e4f.jpeg)](http://www.douban.com/group/people/joy11111/) 
+	
+	#### [分裂雀斑](http://www.douban.com/group/people/joy11111/) (人生苦短欲望长。) 2013-03-27 09:35:48
+	
+	m
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=451232399#last)
+	
+	.
+* [![92d7fe8213c15e142eb8d7898f147964.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/92d7fe8213c15e142eb8d7898f147964.jpeg)](http://www.douban.com/group/people/54600199/) 
+	
+	#### [江南](http://www.douban.com/group/people/54600199/) (善其身) 2013-03-27 20:15:25
+	
+	mk
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=451530089#last)
+	
+	.
+		#### [丫丫](http://www.douban.com/group/people/70461358/) 2013-03-27 22:56:01
+	
+	美国人读little 也是 lil的 要不然你以为Lil Wayne是怎么来的...
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=451618308#last)
+	
+	.
+* [![72ba15a91381327eca9e7d6de7a114d3.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/72ba15a91381327eca9e7d6de7a114d3.jpeg)](http://www.douban.com/group/people/51729613/) 
+	
+	#### [晃荡的x小姐](http://www.douban.com/group/people/51729613/) 2013-03-28 08:07:35
+	
+	mark
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=451703452#last)
+	
+	.
+* [![b322d07b6f787113f4d9f23fe58ddebe.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/b322d07b6f787113f4d9f23fe58ddebe.jpeg)](http://www.douban.com/group/people/63624427/) 
+	
+	#### [STU-For](http://www.douban.com/group/people/63624427/) (苦逼技术员) 2013-03-28 08:53:14
+	
+	mark
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=451712786#last)
+	
+	.
+* [![2e229b9ab2cb1aa072705a607014a777.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/2e229b9ab2cb1aa072705a607014a777.jpeg)](http://www.douban.com/group/people/45956237/) 
+	
+	#### [sky_Strider](http://www.douban.com/group/people/45956237/) 2013-03-28 09:02:11
+	
+	Mark
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=451715349#last)
+	
+	.
+		#### [开心的猫咪](http://www.douban.com/group/people/70309815/) 2013-04-03 08:48:31
+	
+	好东西，必须顶。
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=454439154#last)
+	
+	.
+* [![a9b5d0dfe5bd72a609d3505ecf76dd21.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/a9b5d0dfe5bd72a609d3505ecf76dd21.jpeg)](http://www.douban.com/group/people/42483244/) 
+	
+	#### [Kevin182](http://www.douban.com/group/people/42483244/) (爱情不可靠 不要轻易相信爱情) 2013-04-14 04:40:27
+	
+	m
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=459565847#last)
+	
+	.
+* [![31585ccec2bf6401c641c2fff61106a2.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/31585ccec2bf6401c641c2fff61106a2.jpeg)](http://www.douban.com/group/people/69157398/) 
+	
+	#### [elm](http://www.douban.com/group/people/69157398/) 2013-04-21 14:48:38
+	
+	实用，学习了
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=463217475#last)
+	
+	.
+* [![d7e4b3779c3548f8934eeda39d25cb02.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/d7e4b3779c3548f8934eeda39d25cb02.jpeg)](http://www.douban.com/group/people/m3693699/) 
+	
+	#### [小野妹砸](http://www.douban.com/group/people/m3693699/) (小野妹砸) 2013-04-24 10:57:52
+	
+	收。。
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=464690656#last)
+	
+	.
+* [![2f1f90ab0a171e11e305c2470cf375a4.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/2f1f90ab0a171e11e305c2470cf375a4.jpeg)](http://www.douban.com/group/people/47788197/) 
+	
+	#### [睡睡](http://www.douban.com/group/people/47788197/) 2013-04-24 20:01:08
+	
+	m
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=464955067#last)
+	
+	.
+		#### [大鱼](http://www.douban.com/group/people/71344499/) 2013-04-27 19:22:35
+	
+	M
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=466491610#last)
+	
+	.
+* [![1c98c478aac3b4ce465a3664025214a2.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/1c98c478aac3b4ce465a3664025214a2.jpeg)](http://www.douban.com/group/people/35155692/) 
+	
+	#### [噗~砰砰砰~噗](http://www.douban.com/group/people/35155692/) (撒鼻息的深井冰啊) 2013-04-29 01:13:01
+	
+	马克
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=467135475#last)
+	
+	.
+* [![51fe1d8e069e531ebb2d0dd1c0a58dbb.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/51fe1d8e069e531ebb2d0dd1c0a58dbb.jpeg)](http://www.douban.com/group/people/40831722/) 
+	
+	#### [Roger](http://www.douban.com/group/people/40831722/) 2013-04-30 15:00:50
+	
+	码 赖世雄音标里也提到过一些
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=467705852#last)
+	
+	.
+* [![5760ac2f7e1b23f3b00b1aaa422c2e18.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/5760ac2f7e1b23f3b00b1aaa422c2e18.jpeg)](http://www.douban.com/group/people/49204774/) 
+	
+	#### [muguacookie](http://www.douban.com/group/people/49204774/) 2013-04-30 21:43:05
+	
+	M
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=467853985#last)
+	
+	.
+* [![dc4bb053b3a1b96b7d00f9148c34ad0c.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/dc4bb053b3a1b96b7d00f9148c34ad0c.jpeg)](http://www.douban.com/group/people/56687207/) 
+	
+	#### [叫我鸟人](http://www.douban.com/group/people/56687207/) 2013-04-30 21:54:49
+	
+	m
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=467860441#last)
+	
+	.
+* [![ff2a8cf33bd33e334de91466aaa4d1e6.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/ff2a8cf33bd33e334de91466aaa4d1e6.jpeg)](http://www.douban.com/group/people/kiiizuna/) 
+	
+	#### [Kizuna](http://www.douban.com/group/people/kiiizuna/) (明心見性~！) 2013-04-30 22:13:23
+	
+	口语比听写跟难提高啊T\_T
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=467870202#last)
+	
+	.
+* [![92d7fe8213c15e142eb8d7898f147964.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/92d7fe8213c15e142eb8d7898f147964.jpeg)](http://www.douban.com/group/people/54600199/) 
+	
+	#### [江南](http://www.douban.com/group/people/54600199/) (善其身) 2013-05-01 00:49:48
+	
+	mk 要学起英语来啊啊啊啊！
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=467950210#last)
+	
+	.
+* [![e8e0b30d0473452439919d9555321486.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/e8e0b30d0473452439919d9555321486.jpeg)](http://www.douban.com/group/people/41464753/) 
+	
+	#### [苍穹浮云](http://www.douban.com/group/people/41464753/) (梦想 行动 坚持) 2013-05-12 19:43:08
+	
+	恩 确实时 读的快了单词尾部爆破音一律不发
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=473813429#last)
+	
+	.
+* [![3083ece75d7b16698a69f7505ea13f22.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/3083ece75d7b16698a69f7505ea13f22.jpeg)](http://www.douban.com/group/people/50425329/) 
+	
+	#### [兔兔兔兔兔子](http://www.douban.com/group/people/50425329/) (咚咚隆咚呛) 2013-05-14 07:39:08
+	
+	我正在努力向看帖子的要求迈进！！
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=474501934#last)
+	
+	.
+* [![577b03f89ef70a9c4e9a572d40d99fa3.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/577b03f89ef70a9c4e9a572d40d99fa3.jpeg)](http://www.douban.com/group/people/49421150/) 
+	
+	#### [大骨头](http://www.douban.com/group/people/49421150/) (god bless us) 2013-05-28 15:53:28
+	
+	m
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=481807022#last)
+	
+	.
+* [![92c0328c2c21f08e181c388a6315fea4.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/92c0328c2c21f08e181c388a6315fea4.jpeg)](http://www.douban.com/group/people/48189169/) 
+	
+	#### [化火~](http://www.douban.com/group/people/48189169/) (寒山远黛) 2013-05-28 16:13:42
+	
+	怒马一记
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=481819421#last)
+	
+	.
+		#### [给猫金币](http://www.douban.com/group/people/59082410/) 2013-05-28 16:35:10
+	
+	m！
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=481832006#last)
+	
+	.
+* [![ab11ca823345e6ef6aa70f18a7d57908.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/ab11ca823345e6ef6aa70f18a7d57908.jpeg)](http://www.douban.com/group/people/44437224/) 
+	
+	#### [洗之郎CIci](http://www.douban.com/group/people/44437224/) 2013-05-28 22:51:09
+	
+	MMM
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=482016571#last)
+	
+	.
+* [![d47455304487a62893473738b78c2331.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/d47455304487a62893473738b78c2331.jpeg)](http://www.douban.com/group/people/71351470/) 
+	
+	#### [我是一只大豆瓣](http://www.douban.com/group/people/71351470/) 2013-05-28 23:09:34
+	
+	馬
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=482028240#last)
+	
+	.
+		#### [已注销](http://www.douban.com/group/people/48964916/) 2013-06-06 22:05:50
+	
+	马克，明天开始练。
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=486613444#last)
+	
+	.
+		#### [已注销](http://www.douban.com/group/people/68169341/) 2013-06-06 22:53:26
+	
+	写得太好了，正需要，马克
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=486642765#last)
+	
+	.
+		#### [pizikezi](http://www.douban.com/group/people/67265284/) 2013-06-08 01:53:21
+	
+	m
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=487235606#last)
+	
+	.
+* [![d5a777ffa3ce55cef48fed11064ba37d.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/d5a777ffa3ce55cef48fed11064ba37d.jpeg)](http://www.douban.com/group/people/62925808/) 
+	
+	#### [z](http://www.douban.com/group/people/62925808/) 2013-06-08 08:21:41
+	
+	m
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=487265454#last)
+	
+	.
+* [![5221b7a8a5f15046c18527c7a78933a9.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/5221b7a8a5f15046c18527c7a78933a9.jpeg)](http://www.douban.com/group/people/50335875/) 
+	
+	#### [李等待。](http://www.douban.com/group/people/50335875/) (留学星人。) 2013-06-08 08:22:30
+	
+	有用，
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=487265646#last)
+	
+	.
+* [![b42e22daa8687f795ae3f8f33f12fc88.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/b42e22daa8687f795ae3f8f33f12fc88.jpeg)](http://www.douban.com/group/people/52253846/) 
+	
+	#### [小眼睛妹妹](http://www.douban.com/group/people/52253846/) 2013-06-16 03:14:34
+	
+	m
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=491259094#last)
+	
+	.
+* [![304a486bb694584596f8f5c8e0b967c8.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/304a486bb694584596f8f5c8e0b967c8.jpeg)](http://www.douban.com/group/people/54651497/) 
+	
+	#### [夏至](http://www.douban.com/group/people/54651497/) 2013-06-23 11:37:16
+	
+	这个很重要的说。
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=494941650#last)
+	
+	.
+* [![6546599ece53206fef16f1358979be0f.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/6546599ece53206fef16f1358979be0f.jpeg)](http://www.douban.com/group/people/55341950/) 
+	
+	#### [睡觉-做梦](http://www.douban.com/group/people/55341950/) (你长得好像我们星球的人。) 2013-06-23 11:41:38
+	
+	都是硬伤T\_T
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=494943306#last)
+	
+	.
+* [![88cb4bed57cab14fd1b35e5e3b1a1939.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/88cb4bed57cab14fd1b35e5e3b1a1939.jpeg)](http://www.douban.com/group/people/xuanyuanliuche/) 
+	
+	#### [魂锁羚](http://www.douban.com/group/people/xuanyuanliuche/) (我和时代咬耳朵) 2013-06-23 17:31:28
+	
+	留签，有时间细看。
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=495081616#last)
+	
+	.
+* [![3bc34c253f9751b329f9080236ee3d99.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/3bc34c253f9751b329f9080236ee3d99.jpeg)](http://www.douban.com/group/people/61082276/) 
+	
+	#### [乱码](http://www.douban.com/group/people/61082276/) (blackandblue) 2013-06-23 17:32:25
+	
+	MK
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=495081982#last)
+	
+	.
+		#### [libera](http://www.douban.com/group/people/67497276/) 2013-07-07 17:30:08
+	
+	m好东西呀！！！
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=502050542#last)
+	
+	.
+* [![9d7e722c7818dc9802a89789b225d345.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/9d7e722c7818dc9802a89789b225d345.jpeg)](http://www.douban.com/group/people/59337197/) 
+	
+	#### [以梦为马.。](http://www.douban.com/group/people/59337197/) (与谁我都不争，与谁争我都不屑) 2013-07-07 17:31:30
+	
+	兴奋马！
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=502051059#last)
+	
+	.
+* [![3a2a803097a5aa1128d4826a9b45c235.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/3a2a803097a5aa1128d4826a9b45c235.jpeg)](http://www.douban.com/group/people/ybbl/) 
+	
+	#### [顏成子遊](http://www.douban.com/group/people/ybbl/) (一邊吃枇杷一邊玩琵琶) 2013-07-07 17:32:21
+	
+	m
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=502051407#last)
+	
+	.
+* [![42dc35e729fbab45f5a8562c23bd605e.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/42dc35e729fbab45f5a8562c23bd605e.jpeg)](http://www.douban.com/group/people/46816335/) 
+	
+	#### [枫叶回忆](http://www.douban.com/group/people/46816335/) (爱看书么？) 2013-07-08 15:26:51
+	
+	超级mark
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=502504416#last)
+	
+	.
+* [![c7c28fccda2fede8f840f93e7e6e1b43.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/c7c28fccda2fede8f840f93e7e6e1b43.jpeg)](http://www.douban.com/group/people/65243738/) 
+	
+	#### [守时光的小跳蚤](http://www.douban.com/group/people/65243738/) 2013-07-18 22:39:10
+	
+	M
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=508065249#last)
+	
+	.
+* [![cbcf9a93dd4fac06756e1a26624ce3e5.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/cbcf9a93dd4fac06756e1a26624ce3e5.jpeg)](http://www.douban.com/group/people/46214297/) 
+	
+	#### [跑路的小猫](http://www.douban.com/group/people/46214297/) 2013-07-19 14:15:34
+	
+	感觉还是说不出美国人那个味道
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=508373646#last)
+	
+	.
+* [![fd5183e28540afd821120aed37720b70.jpeg](./_resources/几个小tip教你迅速提高听力和发音.resources/fd5183e28540afd821120aed37720b70.jpeg)](http://www.douban.com/group/people/skyscraper28/) 
+	
+	#### [小呀小豆包](http://www.douban.com/group/people/skyscraper28/) (适应能力越来越差。) 2013-07-19 14:42:25
+	
+	马克〜thx〜
+	
+	[赞](#) [回应](http://www.douban.com/group/topic/32490524/?cid=508387947#last)
+	
+	.
+<前页 1 [2](http://www.douban.com/group/topic/32490524/?start=100) [后页>](http://www.douban.com/group/topic/32490524/?start=100)

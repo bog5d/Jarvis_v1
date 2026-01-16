@@ -1,0 +1,17 @@
+{
+    "enexSources": [
+        "C:\\Users\\王波\\OneDrive - Personal\\my_system\\Inbox\\Enex_Flat\\OLD2·要去干的（清单系列）__2.4_吃玩清单.enex"
+    ],
+    "outputDir": "C:\\Users\\王波\\OneDrive - Personal\\my_system\\Inbox\\Yarle_Output_Test",
+    "isMetadataNeeded": true,
+    "isNotebookNameNeeded": true,
+    "isZettelkastenNeeded": false,
+    "useHashTags": true,
+    "outputFormat": "ObsidianMD",
+    "skipWebClips": false,
+    "isSmallestImageSizeNeeded": true,
+    "trimTitle": true,
+    "replaceSpacesInTags": true,
+    "dateFormat": "YYYY-MM-DD",
+    "resourcesDir": "_resources"
+}

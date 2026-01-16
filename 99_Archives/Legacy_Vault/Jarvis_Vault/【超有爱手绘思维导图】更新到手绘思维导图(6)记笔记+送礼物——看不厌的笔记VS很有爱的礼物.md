@@ -1,0 +1,620 @@
+---
+created: 2014-11-09 22:21:17
+jarvis_ai_meta:
+  key_people: []
+  mood: 积极、分享、确信
+  summary: 暖乎乎分享其使用手绘思维导图进行求职、决策等个人管理的心得与案例。
+  tagged_at: '2026-01-11 02:50:36'
+  time_space:
+    date: '2011-01-02'
+    location: 豆瓣小组
+source: http://www.douban.com/group/topic/16792483
+tags:
+- 求职
+- 个人管理
+- 思维导图
+- 手绘
+- 决策
+updated: 2016-01-22 00:06:15
+---
+
+# 【超有爱手绘思维导图】更新到手绘思维导图(6)记笔记+送礼物——看不厌的笔记VS很有爱的礼物
+
+# 【超有爱手绘思维导图】更新到手绘思维导图(6)记笔...
+
+[![cb9ae8a199a6540b87f873c8d6ba79a2.jpeg](./_resources/【超有爱手绘思维导图】更新到手绘思维导图(6)记笔记+送礼物——看不厌的笔记VS很有爱的礼物.resources/cb9ae8a199a6540b87f873c8d6ba79a2.jpeg)](http://www.douban.com/group/people/nuanhuhu/)
+
+### 来自: [暖乎乎](http://www.douban.com/group/people/nuanhuhu/)(温暖就是力量) 2011-01-02 16:52:12
+
+|     |     |     |
+| --- | --- | --- |
+|     |     |     |
+|     | **标题：**【超有爱手绘思维导图】更新到手绘思维导图(6)记笔记+送礼物——看不厌的笔记VS很有爱的礼物 |     |
+|     |     |     |
+
+“手绘思维导图”系列收录了近两年暖乎乎手绘的思维导图，我用它们找工作、列计划、做决定、写笔记、送礼物、整理创作思路、罗列人物关系……思维导图是一种很好的思维工具，希望这个系列能让大家对它有一个感性认知，让它成为自己学习、工作、生活的好帮手。
+思维导图相册：
+【无所不能の手绘思维导图】[http://www.douban.com/photos/album/49946633/](http://www.douban.com/link2/?url=http%3A%2F%2Fwww.douban.com%2Fphotos%2Falbum%2F49946633%2F)
+【超有爱手绘思维导图】系列原文：<http://www.nuanhuhu.net/series/diy-mindmap/>
+(1)找工作——我是怎么用思维导图找到工作的
+<http://www.nuanhuhu.net/2011/01/02/mindmap1-job-hunting/>
+(2)做决定——考研OR工作？思维导图告诉我答案！
+<http://www.nuanhuhu.net/2011/01/09/mindmap2-make-decision/>
+(3)列计划——呈现生活的全貌，帮你分析+计划
+<http://www.nuanhuhu.net/2011/01/16/mindmap3-plan/>
+(4)理思路——为创作搭建骨架
+<http://www.nuanhuhu.net/2011/01/25/mindmap4-structure/>
+(5)找关系——画人物关系谱，理清组织架构
+<http://www.nuanhuhu.net/2011/02/04/mindmap5-organization/>
+(6)记笔记+送礼物——看不厌的笔记VS很有爱的礼物
+<http://www.nuanhuhu.net/2011/02/07/mindmap6-note-vs-gift/>
+(1)找工作——我是怎么用思维导图找到工作的
+大四那年，我将求职目标锁定广告/公关/咨询行业后，决定制作一份与众不同的简历，于是我画了一幅思维导图，在图中按照顺时针顺序依次展示了1.我的应届生身份与求职目标2.我的主要经历与技能3.为什么选择品牌传播行业4.对行业的基本认知5.为什么选择求职的这家公司。
+为了最大程度地体现自己的创意，我把每一单元都绘制成了一个图形。可惜除了第4部分，图形与内容并没有什么关联。当时我对这一点很苦恼，再加上整个画面看上去有点乱，信息不好识别，不知道思维导图为何物的人很可能一看就PASS掉了。思来想去，我决定以这张图为蓝本画一组漫画。
+我给这组漫画配了一个封面和一个封底（交待姓名和联系方式），用盒子装好，寄给了几家目标公司。注意，我用的是盒子，不是信封。虽然只有薄薄的几张纸，但是在求职高峰季节，用信封装的快件还是很容易被忽略的，而且很有可能被秘书打开，所以我选择了盒装。事实证明，这样做是对的，面试我的人提过，他们除了看重我的创意，还有我故意用盒子装的心思。
+后来，我陆续接到了面试通知，到心仪的LOFT里上班了。
+再后来，好多看到我这份简历原件的人都问我：“你怎么不去4A？你应该去4A的！”
+就这样，我的第一份工作来自于一幅思维导图，以及，一点点用心。
+图片见：<http://www.nuanhuhu.net/2011/01/02/mindmap1-job-hunting/>
+
+[1385人](http://www.douban.com/group/topic/16792483/?type=like#sep) 喜欢 [喜欢](http://www.douban.com/accounts/register?reason=like)
+
+.
+[回应](http://www.douban.com/group/topic/16792483/#sep) [推荐](http://www.douban.com/group/topic/16792483/?type=rec#sep) [喜欢](http://www.douban.com/group/topic/16792483/?type=like#sep) [只看楼主](http://www.douban.com/group/topic/16792483/?author=1#sep)
+
+### 最赞回应
+
+* [![cb9ae8a199a6540b87f873c8d6ba79a2.jpeg](./_resources/【超有爱手绘思维导图】更新到手绘思维导图(6)记笔记+送礼物——看不厌的笔记VS很有爱的礼物.resources/cb9ae8a199a6540b87f873c8d6ba79a2.jpeg)](http://www.douban.com/group/people/nuanhuhu/) 
+	
+	#### [暖乎乎](http://www.douban.com/group/people/nuanhuhu/) (温暖就是力量) 2011-01-15 16:07:24
+	
+	（2）做决定——考研OR工作,思维导图帮我做选择！
+	看到这张思维导图，就想起了我大四的时候，各种不确定，各种选择，各种何去何从的迷茫……原本在复习考研的我，突然有几天一直赖在床上不分昼夜地看美剧，两三天时间看了整整两季GOSSIP GIRL，期间没怎么下过床。然后被舍友喊出去吃好吃的，吃惊地发现自己的食量减半了！当一个吃货人生第一次出现“吃不下饭”这回事时，我晓得一定是哪里不对劲了。于是回到宿舍后，我坐下来画了这张图，想想我到底还要不要考研。
+	STEP1.明确自己面对的选择，把它写到图中央。我当时的选择是A.考研B.工作，于是图中央就画了个象征未来的太阳，底下写着“工作还是学习？”。
+	STEP2.列出你做这个决定需要考虑的各种因素，把这些因素逐个写到思维导图的第一层主干上。
+	我列了7个：1.知识与技能2.社会经验3.成本4.未来职业走向5.环境6.出国机会7.生活方式
+	如果这些因素中有可再分的，就继续细化，比如3.成本就被我分成了3-1时间成本和3-2经济成本。
+	STEP3.在主干下面的第二层，分别写上AB两个选择，再在第三层用关键词描述每个选择在这种因素下的利弊。
+	举例：第1个因素“知识与技能”，当时我考研的专业是对外汉语，工作的意向是贸易，因此在“A.学习”后写下了“对外汉语、教学”两个关键词；“B.工作”后写下了“经济、商务、社交”三个关键词。第2个因素“社会经验”，“A.学习”后写了个“零”（画的那个表情像不像后来出的“植物大战僵尸”里的土豆？哈哈，它抄袭！），“B.工作”后写下了“丰富”。
+	STEP4.在主干的各个因素下，为AB两个选择打分，A和B的分数相加为5，可以一个0一个5，一个1一个4或者一个2一个3。注意，你可以不用5，但一定要用一个奇数！如果是偶数，容易产生给两个选项打平分的现象，不利于最终决策，奇数才能逼自己有个明确的倾向。以上面那张图为例，在“知识与技能”因素中，我给“A.学习”打了2分，“B.工作”3分；“社会经验”因素中，“A.学习”0分，“B.工作”5分。
+	STEP5.把每个选择所得的分数相加，分数最多的那个选项就是最终的答案。在我的画里，“学习”得了14人，工作得了21分。
+	就这样，我知道我是更想工作，想明白以后，轻松了一点。某天回家，坐在沙发上，毫无征兆的，我张口说了一句：“妈，我不想考研了。”然后，没有任何迟疑的，我妈妈说：“不想考就别考了。”听到这句话，我就彻底石头落地了。
+	到今天我也不知道，我选的是对是错。当时走了另一条路会是什么样子，比现在好或者坏，谁也无从得知。反正我挺喜欢现在的日子的，这就够了。吴小莉有句话我印象挺深刻的：“决定前重重举起，决定后轻轻放下”，说的是她放弃台湾的江湖地位和6年的初恋去香港的事。
+	重重举起，轻轻放下，没错，就是这样。
+	思维导图能帮助我们做出决定，是因为它能把抽象的思维具体化，把我们模糊的倾向数字化。说到底，思维导图只是将你的意识呈现出来。其实，答案早已在你我心中。
+	图片及原文：<http://www.nuanhuhu.net/2011/01/09/mindmap2-make-decision/>
+	
+	赞 (3) [回应](http://www.douban.com/group/topic/16792483/?cid=195041783#last)
+	
+	.
+
+* [![cb9ae8a199a6540b87f873c8d6ba79a2.jpeg](./_resources/【超有爱手绘思维导图】更新到手绘思维导图(6)记笔记+送礼物——看不厌的笔记VS很有爱的礼物.resources/cb9ae8a199a6540b87f873c8d6ba79a2.jpeg)](http://www.douban.com/group/people/nuanhuhu/) 
+	
+	#### [暖乎乎](http://www.douban.com/group/people/nuanhuhu/) (温暖就是力量) 2011-01-15 16:07:24
+	
+	（2）做决定——考研OR工作,思维导图帮我做选择！
+	看到这张思维导图，就想起了我大四的时候，各种不确定，各种选择，各种何去何从的迷茫……原本在复习考研的我，突然有几天一直赖在床上不分昼夜地看美剧，两三天时间看了整整两季GOSSIP GIRL，期间没怎么下过床。然后被舍友喊出去吃好吃的，吃惊地发现自己的食量减半了！当一个吃货人生第一次出现“吃不下饭”这回事时，我晓得一定是哪里不对劲了。于是回到宿舍后，我坐下来画了这张图，想想我到底还要不要考研。
+	STEP1.明确自己面对的选择，把它写到图中央。我当时的选择是A.考研B.工作，于是图中央就画了个象征未来的太阳，底下写着“工作还是学习？”。
+	STEP2.列出你做这个决定需要考虑的各种因素，把这些因素逐个写到思维导图的第一层主干上。
+	我列了7个：1.知识与技能2.社会经验3.成本4.未来职业走向5.环境6.出国机会7.生活方式
+	如果这些因素中有可再分的，就继续细化，比如3.成本就被我分成了3-1时间成本和3-2经济成本。
+	STEP3.在主干下面的第二层，分别写上AB两个选择，再在第三层用关键词描述每个选择在这种因素下的利弊。
+	举例：第1个因素“知识与技能”，当时我考研的专业是对外汉语，工作的意向是贸易，因此在“A.学习”后写下了“对外汉语、教学”两个关键词；“B.工作”后写下了“经济、商务、社交”三个关键词。第2个因素“社会经验”，“A.学习”后写了个“零”（画的那个表情像不像后来出的“植物大战僵尸”里的土豆？哈哈，它抄袭！），“B.工作”后写下了“丰富”。
+	STEP4.在主干的各个因素下，为AB两个选择打分，A和B的分数相加为5，可以一个0一个5，一个1一个4或者一个2一个3。注意，你可以不用5，但一定要用一个奇数！如果是偶数，容易产生给两个选项打平分的现象，不利于最终决策，奇数才能逼自己有个明确的倾向。以上面那张图为例，在“知识与技能”因素中，我给“A.学习”打了2分，“B.工作”3分；“社会经验”因素中，“A.学习”0分，“B.工作”5分。
+	STEP5.把每个选择所得的分数相加，分数最多的那个选项就是最终的答案。在我的画里，“学习”得了14人，工作得了21分。
+	就这样，我知道我是更想工作，想明白以后，轻松了一点。某天回家，坐在沙发上，毫无征兆的，我张口说了一句：“妈，我不想考研了。”然后，没有任何迟疑的，我妈妈说：“不想考就别考了。”听到这句话，我就彻底石头落地了。
+	到今天我也不知道，我选的是对是错。当时走了另一条路会是什么样子，比现在好或者坏，谁也无从得知。反正我挺喜欢现在的日子的，这就够了。吴小莉有句话我印象挺深刻的：“决定前重重举起，决定后轻轻放下”，说的是她放弃台湾的江湖地位和6年的初恋去香港的事。
+	重重举起，轻轻放下，没错，就是这样。
+	思维导图能帮助我们做出决定，是因为它能把抽象的思维具体化，把我们模糊的倾向数字化。说到底，思维导图只是将你的意识呈现出来。其实，答案早已在你我心中。
+	图片及原文：<http://www.nuanhuhu.net/2011/01/09/mindmap2-make-decision/>
+	
+	赞 (3) [回应](http://www.douban.com/group/topic/16792483/?cid=195041783#last)
+	
+	.
+
+* [![37ec08e5972bee2a9f7bf430da9186b9.jpeg](./_resources/【超有爱手绘思维导图】更新到手绘思维导图(6)记笔记+送礼物——看不厌的笔记VS很有爱的礼物.resources/37ec08e5972bee2a9f7bf430da9186b9.jpeg)](http://www.douban.com/group/people/fei/) 
+	
+	#### [feiyafei](http://www.douban.com/group/people/fei/) (And the sky is grey) 2011-01-15 23:35:14
+	
+	非常好的分享，谢谢楼主！
+	
+	赞 [回应](http://www.douban.com/group/topic/16792483/?cid=195167832#last)
+	
+	.
+* [![cb9ae8a199a6540b87f873c8d6ba79a2.jpeg](./_resources/【超有爱手绘思维导图】更新到手绘思维导图(6)记笔记+送礼物——看不厌的笔记VS很有爱的礼物.resources/cb9ae8a199a6540b87f873c8d6ba79a2.jpeg)](http://www.douban.com/group/people/nuanhuhu/) 
+	
+	#### [暖乎乎](http://www.douban.com/group/people/nuanhuhu/) (温暖就是力量) 2011-01-16 00:42:19
+	
+	嘿嘿，谢谢支持，慢慢会把这两年画的思维导图都整理出来，欢迎关注：）
+	
+	赞 [回应](http://www.douban.com/group/topic/16792483/?cid=195189122#last)
+	
+	.
+* [![cb9ae8a199a6540b87f873c8d6ba79a2.jpeg](./_resources/【超有爱手绘思维导图】更新到手绘思维导图(6)记笔记+送礼物——看不厌的笔记VS很有爱的礼物.resources/cb9ae8a199a6540b87f873c8d6ba79a2.jpeg)](http://www.douban.com/group/people/nuanhuhu/) 
+	
+	#### [暖乎乎](http://www.douban.com/group/people/nuanhuhu/) (温暖就是力量) 2011-01-18 22:21:10
+	
+	手绘思维导图(3)列计划——呈现生活的全貌，帮你分析+计划
+	1.列计划
+	图1：“2011年计划”的思维导图，2010年12月
+	列计划是思维导图一个比较常用的功能。比起线性的计划或是表格式的计划，思维导图式的计划要直观一些，你不必逐条或者逐格阅览，一眼就看得到所有的细枝末节，各个部分的逻辑关系也很明晰。因为是2011年的计划，所以给图中央的头像画上了兔耳朵，强化主题。思维导图中央的画面必须能够反映这张图的主题，这是画mindmap的重要原则。我按顺时针顺序把这张计划的内容转化为线性的：
+	1.0工作：1.1关键点；1.2待解决的问题
+	2.0财务：2.1收入；2.2支出；2.3储蓄
+	3.0健康
+	4.0提升：4.1个人；4.2生活； 4.3学习
+	5.0品牌：5.1网站；5.2SNS
+	6.0写作
+	7.0人际
+	2.分析
+	图2：职场进阶分析图，2010.08
+	这是张分析图，从公司、客户和个人职责三个角度出发分析如何在现有的工作中达到个人提升的目的。图中央用阶梯来体现“进阶”的主题。内容转化为线性如下：
+	1.0公司：1.1行业；1.2资源
+	2.0个人：2.1岗位；2.2职责
+	3.0客户：3.1行业；3.2组织；3.3导师
+	需要说明的是，我之所以从这三个角度去分析，是因为我的工作性质是跨平台的。大家去应用这背后的原理就好，不要生搬我分析的角度。
+	3.呈现生活的全貌
+	图3：MY LIFE，2010.7
+	这个是想整理下生活时画的，结构和计划差不多，画了工作、财务、健康、发展和人际五个方面，就不转化成线性内容了。
+	画这种计划与分析型的思维导图，能让生活各个方面的状况全面地呈现在一张纸上，一览无余。以后列短期计划时，也可以回过头来看看各个方面的进展与实现的状况。比较不同时间画的计划图，也能够看到自己实实在在的成长。
+	图片及原文：<http://www.nuanhuhu.net/2011/01/16/mindmap3-plan/>
+	
+	赞 [回应](http://www.douban.com/group/topic/16792483/?cid=196027089#last)
+	
+	.
+* [![cb9ae8a199a6540b87f873c8d6ba79a2.jpeg](./_resources/【超有爱手绘思维导图】更新到手绘思维导图(6)记笔记+送礼物——看不厌的笔记VS很有爱的礼物.resources/cb9ae8a199a6540b87f873c8d6ba79a2.jpeg)](http://www.douban.com/group/people/nuanhuhu/) 
+	
+	#### [暖乎乎](http://www.douban.com/group/people/nuanhuhu/) (温暖就是力量) 2011-02-04 18:03:44
+	
+	手绘思维导图(4)理思路——为创作搭建骨架
+	图：写文章前画的思维导图，2008年
+	思维与创作息息相关，思维导图自然也是创作的好帮手，据说达芬奇之类大师的手稿都是用思维导图画的。于写作者而言，思维导图是列提纲的好工具。我现在画的最多的思维导图就是用于写文章前的构思。下笔之前先头脑风暴一下，然后用思维导图梳理个中的逻辑关系，成文就容易许多了。
+	这种功用没有什么好详细说明的，大家根据自己要创作的东西信笔涂鸦就是。
+	附上用这张图写的文章，恩……写这篇文章的时候我还小，大家包含：P
+	当我们不可爱了
+	某年某月，一股沙宣风从大洋彼岸吹来，马路变成了丛林深处，满大街溜达的都是采蘑菇的大小姑娘。
+	蘑菇头一直是可爱的代名词，位居童年经典造型榜首。一个大眼睛的欧洲美女顶着被沙宣改良后的酒红色蘑菇头在电视上秀了秀之后，蘑菇头添了几分妩媚的味道，顺便多了个洋名儿：沙宣头。
+	这个发型究竟是谁发明的，历史上一定没有记载。但把它发扬光大的人，非约翰列侬莫属。跟朋克头的愤世嫉俗不同，披头士的蘑菇头是一种理想主义气质的自然流露。蘑菇头也因此深得文艺女的偏爱，从陈绮贞到田原，搞独立音乐的女生都是蘑菇头的最佳代言。
+	朋友珊也算半个文艺女，沙宣头的流行给了她一个绝好的机会向偶像列侬致敬。借去北京出公差之际，珊小姐去东田造型花2000大洋做了个沙宣头，回来着实风光了一小阵。然而头发的生长周期一过，珊小姐去楼下的理发店花20小洋稍作修剪，结果一不小心变成了西瓜太郎他妹妹。
+	剪沙宣头的人，像珊小姐这样执迷偶像的有之，追忆童年的也不少，还有的是想拥有那个异国美女的风情。然而不是谁都有文艺女的理想主义气质，更不是谁都能负担起一流发型师的费用。采蘑菇的大小姑娘们，真正适合蘑菇头并剪得恰到好处的，人海里望不见几个。
+	扮可爱也好，装妩媚也罢，拍张照片留念必不可少。与相册里留着蘑菇头的那个小姑娘比一比，我们不可爱了，但我们女人了。从蘑菇头到沙宣头，与其说是晋级，不如说是复古。妩媚中掩藏着的娇羞，更像是一种升级了的可爱。就算发型失败，这个沙宣头也会是每个尝试它的人个人形象史上的经典之作。
+	束起头发，回归正统军，并入大部队。沙宣头没了，但小天真和小妩媚，它们一直都在。
+	图片及原文：<http://www.nuanhuhu.net/2011/01/25/mindmap4-structure/>
+	
+	赞 [回应](http://www.douban.com/group/topic/16792483/?cid=200924416#last)
+	
+	.
+* [![cb9ae8a199a6540b87f873c8d6ba79a2.jpeg](./_resources/【超有爱手绘思维导图】更新到手绘思维导图(6)记笔记+送礼物——看不厌的笔记VS很有爱的礼物.resources/cb9ae8a199a6540b87f873c8d6ba79a2.jpeg)](http://www.douban.com/group/people/nuanhuhu/) 
+	
+	#### [暖乎乎](http://www.douban.com/group/people/nuanhuhu/) (温暖就是力量) 2011-02-04 18:05:13
+	
+	手绘思维导图(5)找关系——画人物关系谱，理清组织架构
+	看销售小说《做单》时，发现主人公在开发客户时都会画一张人物关系图，把影响订单达成的人物统统写下来，比较他们各自对于成交的权重，分析如何各个击破。小说里没提他是不是用思维导图画的，我画人物关系图一直是用的思维导图。
+	图：我负责的客户的市场部人物关系图
+	这是我画的客户市场部门的人物关系图，中间的星星、第一层的圈圈和第二层的框框里面原本都是有字的，写的是各个岗位负责人的名字，被我修掉了。星星里是市场部部长，圈圈里是各个小组负责人，框框里是各个基层岗位的负责人。
+	画图的目的有两个：
+	一是熟悉客户对接部门的人和他们彼此之间的岗位联系。因为客户的市场部是我平时工作的主要对接部门，所以熟悉他们每个人的名字、岗位于我而言是一种必须。
+	二是清楚市场部的组织架构。画完这张图，基本上能够了解一个市场部门的岗位构成大抵是怎么个情况，都需要哪些职能，岗位彼此之间有什么重叠和差别。身为一个营销人，市场部门的组织架构也是一项常识。
+	依靠这张图，我在很短的时间内熟悉了客户市场部的面孔们，知道了工作中遇到具体的问题，该去找哪一个人。如果你在工作中有碰到问题不知道该找谁的问题，我强烈建议你也画这样一张图，不仅能迅速搞清楚组织架构，对面孔记忆也很有帮助。
+	人物关系图不仅适用于客户，也适用于自己所处的组织。
+	画一张本部门的人物关系思维导图，你就能一眼看到自己的晋升通道在哪里，要到达哪里，你还缺少什么（比如掌握其它平行岗位的职责，或者是上级做事的角度）。
+	画一张整个公司的人物关系思维导图，你就能明晰你的小小岗位在大大的组织机器里处于一个什么样位置，发挥着怎么样的作用，这样有利于提升你在工作中思考的格局，让你在工作中不仅KNOW-HOW，而且KNOW-WHY。
+	图片及原文：<http://www.nuanhuhu.net/2011/02/04/mindmap5-organization/>
+	
+	赞 [回应](http://www.douban.com/group/topic/16792483/?cid=200924700#last)
+	
+	.
+* [![cb9ae8a199a6540b87f873c8d6ba79a2.jpeg](./_resources/【超有爱手绘思维导图】更新到手绘思维导图(6)记笔记+送礼物——看不厌的笔记VS很有爱的礼物.resources/cb9ae8a199a6540b87f873c8d6ba79a2.jpeg)](http://www.douban.com/group/people/nuanhuhu/) 
+	
+	#### [暖乎乎](http://www.douban.com/group/people/nuanhuhu/) (温暖就是力量) 2011-02-07 14:18:08
+	
+	手绘思维导图(6)记笔记+送礼物——看不厌的笔记VS很有爱的礼物 
+	
+	图：《美国文化》课程笔记，也是一份给外教的礼物，2008.06
+	这是迄今为止我画过的思维导图里自己最喜欢的一张，画的是《美国文化》整整一学期的课程。外教Stephanie回国前，我把这张图送给她，我还记得她当时惊奇的反应，说：“I can’t wait to show this to Mike.”Mike是她老公。她还说要把这张图扫描下来，日后她在《美国文化》第一堂Introduction课时展示给学生们看。
+	在托尼•巴赞的《思维导图》一书中强调了用思维导图记笔记的功能。思维导图可以把课程或演讲的内容图形化，用具体的形象配合色彩，帮助人们记忆课程内容。在GTD Life开发的“梦想手账”笔记本中，也建议大家在听演讲、开会时尽量使用思维导图记笔记。
+	但是，你一定猜得出来，上面这张精美的图肯定不是在课堂上画出来的。老实说，我很少在课堂或演讲的现场用思维导图记笔记，一是有时间有限，很难将内容图象化，这需要专门的训练或者超常的图形思维（比如手绘工作者就做得到）；二是对内容结构的把控太难，除非事先拿到讲师的讲义，不然很难在听讲的过程中完全捕捉到内容的结构，而结构正是思维导图的命脉。结构如果弄错，思维导图的意义就损失了大半。
+	所以，就记笔记这种功用，我通常是在课程或演讲结束后进行。将原先记录下的内容加以整理，理清逻辑和结构，经过思考后用合适的图形进行演绎，最终画出一张思维导图来，用来复习和记忆课程或者演讲的内容。
+	麻烦吗？确实！所以这个成果不能浪费，除了自己存档使用，也可以拿来分享：或者以在白板上重现思维导图的方式将课程与他人共享，或者可以把它复制一份送给讲师。
+	图：品牌DNA的思维导图，送给客户的礼物，有LOGO的地方被我修掉了2010.09
+	说到送人，思维导图可以成为很好的礼物。2010年我先后给客户的董事长和总经理送过两张思维导图。给董事长的主题是品牌DNA，把品牌的文化和故事用思维导图展现出来，董事长很喜欢，放到了办公室的书架上；给总经理的主题是他个人，中间打印上他的照片（我画画水平有限，不然最好是全部手绘），把他的履历和特质等用思维导图画出来，他也很喜欢。这样的礼物虽然不贵重，一张A4纸，一盒水彩笔和一个宜家相框就可以了。但是心意一百分，用心也是一百分，反而会被珍视。各位做AE的童鞋可以参考之。
+	到这篇为止，思维导图的各种功用已经向大家介绍完毕，年假结束后我会写一篇总结《6大功能玩转思维导图》（暂定名）。关于思维导图，大家有任何问题，欢迎留言，大家一起来讨论，让这个工具为我们所用：）
+	图片及原文：<http://www.nuanhuhu.net/2011/02/07/mindmap6-note-vs-gift/>
+	
+	赞 [回应](http://www.douban.com/group/topic/16792483/?cid=201686460#last)
+	
+	.
+* [![a66bf1211257a9abb62ba7358f353506.jpeg](./_resources/【超有爱手绘思维导图】更新到手绘思维导图(6)记笔记+送礼物——看不厌的笔记VS很有爱的礼物.resources/a66bf1211257a9abb62ba7358f353506.jpeg)](http://www.douban.com/group/people/iceofmoon/) 
+	
+	#### [幽蓝的冰水](http://www.douban.com/group/people/iceofmoon/) 2011-03-02 12:44:39
+	
+	的确很温暖，谢谢你的分享~^\_^
+	
+	赞 [回应](http://www.douban.com/group/topic/16792483/?cid=209633650#last)
+	
+	.
+* [![cb9ae8a199a6540b87f873c8d6ba79a2.jpeg](./_resources/【超有爱手绘思维导图】更新到手绘思维导图(6)记笔记+送礼物——看不厌的笔记VS很有爱的礼物.resources/cb9ae8a199a6540b87f873c8d6ba79a2.jpeg)](http://www.douban.com/group/people/nuanhuhu/) 
+	
+	#### [暖乎乎](http://www.douban.com/group/people/nuanhuhu/) (温暖就是力量) 2011-03-06 20:14:58
+	
+	：）
+	
+	赞 [回应](http://www.douban.com/group/topic/16792483/?cid=211156205#last)
+	
+	.
+* [![2955e5eda8a774fa6e4a55d6cbfd4718.jpeg](./_resources/【超有爱手绘思维导图】更新到手绘思维导图(6)记笔记+送礼物——看不厌的笔记VS很有爱的礼物.resources/2955e5eda8a774fa6e4a55d6cbfd4718.jpeg)](http://www.douban.com/group/people/ynw0613/) 
+	
+	#### [筱叶在励志](http://www.douban.com/group/people/ynw0613/) (做个内心强大的女子) 2012-04-05 09:41:10
+	
+	哇，有才，学习
+	
+	赞 [回应](http://www.douban.com/group/topic/16792483/?cid=332719557#last)
+	
+	.
+* [![5a4164b36f1c5f694f0c3da4b51b7f44.jpeg](./_resources/【超有爱手绘思维导图】更新到手绘思维导图(6)记笔记+送礼物——看不厌的笔记VS很有爱的礼物.resources/5a4164b36f1c5f694f0c3da4b51b7f44.jpeg)](http://www.douban.com/group/people/44807263/) 
+	
+	#### [星月夜空](http://www.douban.com/group/people/44807263/) 2012-04-06 08:41:44
+	
+	open your door
+	
+	赞 [回应](http://www.douban.com/group/topic/16792483/?cid=332996036#last)
+	
+	.
+* [![32a6e2a0a3ba2c32bbc3fbd8f16f5dff.jpeg](./_resources/【超有爱手绘思维导图】更新到手绘思维导图(6)记笔记+送礼物——看不厌的笔记VS很有爱的礼物.resources/32a6e2a0a3ba2c32bbc3fbd8f16f5dff.jpeg)](http://www.douban.com/group/people/50579703/) 
+	
+	#### [viz](http://www.douban.com/group/people/50579703/) 2013-04-06 00:34:28
+	
+	感谢分享。很实用的文章
+	
+	赞 [回应](http://www.douban.com/group/topic/16792483/?cid=455699139#last)
+	
+	.
+		#### [向着明天奔跑](http://www.douban.com/group/people/72578223/) 2013-07-21 23:38:43
+	
+	mark
+	
+	赞 [回应](http://www.douban.com/group/topic/16792483/?cid=509642757#last)
+	
+	.
+		#### [已注销](http://www.douban.com/group/people/yctx/) 2013-08-09 10:57:15
+	
+	这个是用什么笔画的啊？
+	
+	赞 [回应](http://www.douban.com/group/topic/16792483/?cid=519286206#last)
+	
+	.
+* [![7edde194a6122fcfa773561fb97ef939.jpeg](./_resources/【超有爱手绘思维导图】更新到手绘思维导图(6)记笔记+送礼物——看不厌的笔记VS很有爱的礼物.resources/7edde194a6122fcfa773561fb97ef939.jpeg)](http://www.douban.com/group/people/NIFUTT/) 
+	
+	#### [Nevel Grace](http://www.douban.com/group/people/NIFUTT/) 2013-11-07 11:01:26
+	
+	m
+	
+	赞 [回应](http://www.douban.com/group/topic/16792483/?cid=562920015#last)
+	
+	.
+* [![7fef3f521cfddcde295c810929175e63.jpeg](./_resources/【超有爱手绘思维导图】更新到手绘思维导图(6)记笔记+送礼物——看不厌的笔记VS很有爱的礼物.resources/7fef3f521cfddcde295c810929175e63.jpeg)](http://www.douban.com/group/people/3383374/) 
+	
+	#### [红小姐](http://www.douban.com/group/people/3383374/) (执子之手 与子偕老) 2013-12-03 15:12:46
+	
+	这个帖子好！暖呼呼组长真是神人啊
+	
+	赞 [回应](http://www.douban.com/group/topic/16792483/?cid=575296299#last)
+	
+	.
+* [![2e00c757fa6783993d7104584c3f339d.jpeg](./_resources/【超有爱手绘思维导图】更新到手绘思维导图(6)记笔记+送礼物——看不厌的笔记VS很有爱的礼物.resources/2e00c757fa6783993d7104584c3f339d.jpeg)](http://www.douban.com/group/people/61799305/) 
+	
+	#### [笨蛋0007](http://www.douban.com/group/people/61799305/) 2014-01-06 14:28:36
+	
+	mark，
+	
+	赞 [回应](http://www.douban.com/group/topic/16792483/?cid=592191500#last)
+	
+	.
+* [![4de8d2e548740da4221c0c1c33288bb7.jpeg](./_resources/【超有爱手绘思维导图】更新到手绘思维导图(6)记笔记+送礼物——看不厌的笔记VS很有爱的礼物.resources/4de8d2e548740da4221c0c1c33288bb7.jpeg)](http://www.douban.com/group/people/3650470/) 
+	
+	#### [白桦](http://www.douban.com/group/people/3650470/) 2014-01-07 08:40:30
+	
+	好东西，收藏了。
+	
+	赞 [回应](http://www.douban.com/group/topic/16792483/?cid=592574002#last)
+	
+	.
+* [![ee7072178309958e7b80869215b66e77.jpeg](./_resources/【超有爱手绘思维导图】更新到手绘思维导图(6)记笔记+送礼物——看不厌的笔记VS很有爱的礼物.resources/ee7072178309958e7b80869215b66e77.jpeg)](http://www.douban.com/group/people/hety/) 
+	
+	#### [雨夜。](http://www.douban.com/group/people/hety/) (◔ ‸◔？) 2014-01-17 20:48:09
+	
+	马
+	
+	赞 [回应](http://www.douban.com/group/topic/16792483/?cid=598048148#last)
+	
+	.
+* [![2f7b77ae50715a7c5a3d38ffd8f46653.jpeg](./_resources/【超有爱手绘思维导图】更新到手绘思维导图(6)记笔记+送礼物——看不厌的笔记VS很有爱的礼物.resources/2f7b77ae50715a7c5a3d38ffd8f46653.jpeg)](http://www.douban.com/group/people/40976042/) 
+	
+	#### [奸菲](http://www.douban.com/group/people/40976042/) 2014-01-18 00:04:38
+	
+	收
+	
+	赞 [回应](http://www.douban.com/group/topic/16792483/?cid=598149745#last)
+	
+	.
+* [![60330aca289a653219bd556eddae3f71.jpeg](./_resources/【超有爱手绘思维导图】更新到手绘思维导图(6)记笔记+送礼物——看不厌的笔记VS很有爱的礼物.resources/60330aca289a653219bd556eddae3f71.jpeg)](http://www.douban.com/group/people/younghui/) 
+	
+	#### [提督府上的光辉](http://www.douban.com/group/people/younghui/) 2014-01-20 21:07:15
+	
+	m
+	
+	赞 [回应](http://www.douban.com/group/topic/16792483/?cid=599443706#last)
+	
+	.
+		#### [已注销](http://www.douban.com/group/people/83859277/) 2014-02-24 23:56:40
+	
+	m
+	
+	赞 [回应](http://www.douban.com/group/topic/16792483/?cid=617846508#last)
+	
+	.
+* [![e0878b8e428b8f9652b50fa2b62b8de7.jpeg](./_resources/【超有爱手绘思维导图】更新到手绘思维导图(6)记笔记+送礼物——看不厌的笔记VS很有爱的礼物.resources/e0878b8e428b8f9652b50fa2b62b8de7.jpeg)](http://www.douban.com/group/people/59344806/) 
+	
+	#### [ki](http://www.douban.com/group/people/59344806/) 2014-02-27 16:33:18
+	
+	M
+	
+	赞 [回应](http://www.douban.com/group/topic/16792483/?cid=619393558#last)
+	
+	.
+		#### [YMBO](http://www.douban.com/group/people/80676709/) 2014-03-01 01:59:53
+	
+	mark
+	
+	赞 [回应](http://www.douban.com/group/topic/16792483/?cid=620264885#last)
+	
+	.
+		#### [return1212](http://www.douban.com/group/people/84410435/) 2014-03-10 00:07:31
+	
+	m
+	
+	赞 [回应](http://www.douban.com/group/topic/16792483/?cid=625392978#last)
+	
+	.
+* [![498a244085cac81002722e3fcf04f845.jpeg](./_resources/【超有爱手绘思维导图】更新到手绘思维导图(6)记笔记+送礼物——看不厌的笔记VS很有爱的礼物.resources/498a244085cac81002722e3fcf04f845.jpeg)](http://www.douban.com/group/people/55967855/) 
+	
+	#### [梦中千百度](http://www.douban.com/group/people/55967855/) 2014-03-10 00:30:35
+	
+	m
+	
+	赞 [回应](http://www.douban.com/group/topic/16792483/?cid=625405314#last)
+	
+	.
+* [![6dc09ec150d92548f8466f9bf30e43d7.jpeg](./_resources/【超有爱手绘思维导图】更新到手绘思维导图(6)记笔记+送礼物——看不厌的笔记VS很有爱的礼物.resources/6dc09ec150d92548f8466f9bf30e43d7.jpeg)](http://www.douban.com/group/people/48236696/) 
+	
+	#### [wiwi的食趣生活](http://www.douban.com/group/people/48236696/) 2014-03-12 15:47:40
+	
+	m
+	
+	赞 [回应](http://www.douban.com/group/topic/16792483/?cid=626945135#last)
+	
+	.
+		#### [狒狒](http://www.douban.com/group/people/40300559/) 2014-04-03 10:20:59
+	
+	m
+	
+	赞 [回应](http://www.douban.com/group/topic/16792483/?cid=639875899#last)
+	
+	.
+		#### [我爱吃丸子](http://www.douban.com/group/people/87695864/) (你没有不努力的理由) 2014-04-21 00:12:33
+	
+	m
+	
+	赞 [回应](http://www.douban.com/group/topic/16792483/?cid=650983131#last)
+	
+	.
+		#### [UNICO](http://www.douban.com/group/people/57702024/) 2014-05-06 22:48:46
+	
+	好东西~学习了
+	
+	赞 [回应](http://www.douban.com/group/topic/16792483/?cid=661524842#last)
+	
+	.
+* [![9d0ca7cd75d574bb79e17d8f124d1e82.jpeg](./_resources/【超有爱手绘思维导图】更新到手绘思维导图(6)记笔记+送礼物——看不厌的笔记VS很有爱的礼物.resources/9d0ca7cd75d574bb79e17d8f124d1e82.jpeg)](http://www.douban.com/group/people/51550294/) 
+	
+	#### [consummate](http://www.douban.com/group/people/51550294/) 2014-05-06 23:01:44
+	
+	不错~
+	
+	赞 [回应](http://www.douban.com/group/topic/16792483/?cid=661536575#last)
+	
+	.
+* [![79298b55b0ba3f5302c5132dfbcd7123.jpeg](./_resources/【超有爱手绘思维导图】更新到手绘思维导图(6)记笔记+送礼物——看不厌的笔记VS很有爱的礼物.resources/79298b55b0ba3f5302c5132dfbcd7123.jpeg)](http://www.douban.com/group/people/56926817/) 
+	
+	#### [阳光型幽怨少女](http://www.douban.com/group/people/56926817/) 2014-05-16 23:05:03
+	
+	m
+	
+	赞 [回应](http://www.douban.com/group/topic/16792483/?cid=668945256#last)
+	
+	.
+* [![590b3683e4bf729844eb3ecf5f37cba3.jpeg](./_resources/【超有爱手绘思维导图】更新到手绘思维导图(6)记笔记+送礼物——看不厌的笔记VS很有爱的礼物.resources/590b3683e4bf729844eb3ecf5f37cba3.jpeg)](http://www.douban.com/group/people/2842172/) 
+	
+	#### [一只](http://www.douban.com/group/people/2842172/) (有你的快乐) 2014-05-17 12:13:53
+	
+	我喜欢
+	
+	赞 [回应](http://www.douban.com/group/topic/16792483/?cid=669227828#last)
+	
+	.
+* [![59a07f82a40c905bbd4926392c211344.jpeg](./_resources/【超有爱手绘思维导图】更新到手绘思维导图(6)记笔记+送礼物——看不厌的笔记VS很有爱的礼物.resources/59a07f82a40c905bbd4926392c211344.jpeg)](http://www.douban.com/group/people/65739232/) 
+	
+	#### [ruolin月亮](http://www.douban.com/group/people/65739232/) 2014-05-17 14:10:30
+	
+	m
+	
+	赞 [回应](http://www.douban.com/group/topic/16792483/?cid=669291560#last)
+	
+	.
+* [![570637766a7723f8acde16bdbbb187e9.jpeg](./_resources/【超有爱手绘思维导图】更新到手绘思维导图(6)记笔记+送礼物——看不厌的笔记VS很有爱的礼物.resources/570637766a7723f8acde16bdbbb187e9.jpeg)](http://www.douban.com/group/people/67928088/) 
+	
+	#### [吴全顺](http://www.douban.com/group/people/67928088/) 2014-05-23 07:32:05
+	
+	马
+	
+	赞 [回应](http://www.douban.com/group/topic/16792483/?cid=673374394#last)
+	
+	.
+* [![eb478b9ccee3e2e228fbafa163c8e983.jpeg](./_resources/【超有爱手绘思维导图】更新到手绘思维导图(6)记笔记+送礼物——看不厌的笔记VS很有爱的礼物.resources/eb478b9ccee3e2e228fbafa163c8e983.jpeg)](http://www.douban.com/group/people/58777102/) 
+	
+	#### [楚门de世界](http://www.douban.com/group/people/58777102/) (事实并不会因为被忽略就不存在。) 2014-06-12 10:49:00
+	
+	好强大
+	
+	赞 [回应](http://www.douban.com/group/topic/16792483/?cid=687597710#last)
+	
+	.
+* [![34bc628c0331a79c99f09e7d7dea2796.jpeg](./_resources/【超有爱手绘思维导图】更新到手绘思维导图(6)记笔记+送礼物——看不厌的笔记VS很有爱的礼物.resources/34bc628c0331a79c99f09e7d7dea2796.jpeg)](http://www.douban.com/group/people/50780101/) 
+	
+	#### [涅槃的苏菲亚](http://www.douban.com/group/people/50780101/) 2014-06-25 19:01:03
+	
+	m
+	
+	赞 [回应](http://www.douban.com/group/topic/16792483/?cid=696838973#last)
+	
+	.
+* [![2f1cca2eb592221cb7e89ace17284925.jpeg](./_resources/【超有爱手绘思维导图】更新到手绘思维导图(6)记笔记+送礼物——看不厌的笔记VS很有爱的礼物.resources/2f1cca2eb592221cb7e89ace17284925.jpeg)](http://www.douban.com/group/people/91825372/) 
+	
+	#### [木木](http://www.douban.com/group/people/91825372/) 2014-07-08 09:12:55
+	
+	受益匪浅，谢谢lz分享！
+	
+	赞 [回应](http://www.douban.com/group/topic/16792483/?cid=705525719#last)
+	
+	.
+* [![48a3df4b904e093b6b6a5ab2336d21de.jpeg](./_resources/【超有爱手绘思维导图】更新到手绘思维导图(6)记笔记+送礼物——看不厌的笔记VS很有爱的礼物.resources/48a3df4b904e093b6b6a5ab2336d21de.jpeg)](http://www.douban.com/group/people/10834938/) 
+	
+	#### [梵高的星空](http://www.douban.com/group/people/10834938/) (:D im here) 2014-07-09 16:29:43
+	
+	m
+	
+	赞 [回应](http://www.douban.com/group/topic/16792483/?cid=706560273#last)
+	
+	.
+		#### [行吟泽畔](http://www.douban.com/group/people/93736034/) 2014-07-27 17:12:22
+	
+	栖息谷论坛注册邀请码淘宝专卖店
+	[http://item.taobao.com/item.htm?id=40214307089](http://www.douban.com/link2/?url=http%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D40214307089)
+	投入小，产出大，超级划算。
+	与其苦苦等待别人发放，不如花几块钱自己购买。立刻点击链接，栖息谷瞬间拥有。
+	
+	赞 [回应](http://www.douban.com/group/topic/16792483/?cid=720052336#last)
+	
+	.
+* [![9e9fd40a8abb5984ad81c11e688840e2.jpeg](./_resources/【超有爱手绘思维导图】更新到手绘思维导图(6)记笔记+送礼物——看不厌的笔记VS很有爱的礼物.resources/9e9fd40a8abb5984ad81c11e688840e2.jpeg)](http://www.douban.com/group/people/76296030/) 
+	
+	#### [Mayzul](http://www.douban.com/group/people/76296030/) 2014-08-18 23:56:59
+	
+	m
+	
+	赞 [回应](http://www.douban.com/group/topic/16792483/?cid=739346245#last)
+	
+	.
+* [![e1e329b2fe7edd844b2ef1b2415dee31.jpeg](./_resources/【超有爱手绘思维导图】更新到手绘思维导图(6)记笔记+送礼物——看不厌的笔记VS很有爱的礼物.resources/e1e329b2fe7edd844b2ef1b2415dee31.jpeg)](http://www.douban.com/group/people/66221574/) 
+	
+	#### [7S](http://www.douban.com/group/people/66221574/) 2014-08-19 08:59:07
+	
+	马克
+	
+	赞 [回应](http://www.douban.com/group/topic/16792483/?cid=739546129#last)
+	
+	.
+		#### [宝哥哥](http://www.douban.com/group/people/97104038/) 2014-08-24 20:21:36
+	
+	好 玩 可以学学
+	
+	赞 [回应](http://www.douban.com/group/topic/16792483/?cid=744991707#last)
+	
+	.
+		#### [宝哥哥](http://www.douban.com/group/people/97104038/) 2014-08-24 20:22:50
+	
+	好 玩 可以学学
+	
+	赞 [回应](http://www.douban.com/group/topic/16792483/?cid=744992850#last)
+	
+	.
+* [![a99e70b9d81610e0debfe3cbe96fbd88.jpeg](./_resources/【超有爱手绘思维导图】更新到手绘思维导图(6)记笔记+送礼物——看不厌的笔记VS很有爱的礼物.resources/a99e70b9d81610e0debfe3cbe96fbd88.jpeg)](http://www.douban.com/group/people/59709290/) 
+	
+	#### [lichengxqq](http://www.douban.com/group/people/59709290/) 2014-09-06 20:14:54
+	
+	厉害
+	
+	赞 [回应](http://www.douban.com/group/topic/16792483/?cid=754632470#last)
+	
+	.
+		#### [已注销](http://www.douban.com/group/people/83509582/) 2014-09-13 21:49:56
+	
+	强悍
+	
+	赞 [回应](http://www.douban.com/group/topic/16792483/?cid=759233282#last)
+	
+	.
+		#### [lucifer_ao](http://www.douban.com/group/people/73663200/) 2014-10-10 01:20:28
+	
+	M
+	
+	赞 [回应](http://www.douban.com/group/topic/16792483/?cid=776024828#last)
+	
+	.
+* [![9e9fd40a8abb5984ad81c11e688840e2.jpeg](./_resources/【超有爱手绘思维导图】更新到手绘思维导图(6)记笔记+送礼物——看不厌的笔记VS很有爱的礼物.resources/9e9fd40a8abb5984ad81c11e688840e2.jpeg)](http://www.douban.com/group/people/76296030/) 
+	
+	#### [Mayzul](http://www.douban.com/group/people/76296030/) 2014-10-10 23:14:22
+	
+	m
+	
+	赞 [回应](http://www.douban.com/group/topic/16792483/?cid=776648834#last)
+	
+	.
+* [![2868c9043e6205ae7d617d2a78577557.jpeg](./_resources/【超有爱手绘思维导图】更新到手绘思维导图(6)记笔记+送礼物——看不厌的笔记VS很有爱的礼物.resources/2868c9043e6205ae7d617d2a78577557.jpeg)](http://www.douban.com/group/people/65542543/) 
+	
+	#### [罗夸夸](http://www.douban.com/group/people/65542543/) 2014-10-15 16:44:42
+	
+	马克
+	
+	赞 [回应](http://www.douban.com/group/topic/16792483/?cid=779768611#last)
+	
+	.
+* [![0b7e371b7b49dc4cf38a9a0bb2497e9e.jpeg](./_resources/【超有爱手绘思维导图】更新到手绘思维导图(6)记笔记+送礼物——看不厌的笔记VS很有爱的礼物.resources/0b7e371b7b49dc4cf38a9a0bb2497e9e.jpeg)](http://www.douban.com/group/people/25059508/) 
+	
+	#### [Anna Epple](http://www.douban.com/group/people/25059508/) 2014-10-17 16:40:19
+	
+	m
+	
+	赞 [回应](http://www.douban.com/group/topic/16792483/?cid=781114589#last)
+	
+	.
+
+## 你的回应
+
+回应请先 [登录](http://www.douban.com/accounts/register?reason=discuss) , 或 [注册](http://www.douban.com/accounts/register?reason=discuss)
+
+推荐到广播
+
+[![492ff52b4925015ddb1b3fd23066e3e6.jpeg](./_resources/【超有爱手绘思维导图】更新到手绘思维导图(6)记笔记+送礼物——看不厌的笔记VS很有爱的礼物.resources/492ff52b4925015ddb1b3fd23066e3e6.jpeg)](http://www.douban.com/group/mindmaps/?ref=sidebar)
+
+[概念图&思维导图(心智圖)](http://www.douban.com/group/mindmaps/?ref=sidebar)
+
+			
+_12710_ 人聚集在这个小组
+
+[加入小组](http://www.douban.com/group/topic/16792483/#)
+
+## 最新话题  ( [更多](http://www.douban.com/group/mindmaps/#topics) )
+
+* [【思维导图资料】脑力开发资料，自己攒下来的，有图](http://www.douban.com/group/topic/57468845/)   (周沐-成都)
+
+* [迷你思维导图视频课程，要的留邮箱](http://www.douban.com/group/topic/54860396/)   (小善也为)
+* [*不看后悔*最新天猫双11特价商品内部清单](http://www.douban.com/group/topic/65594207/)   (xing68478)
+* [双.十.一购物真的便宜吗？看看真相吧！双.十.一购...](http://www.douban.com/group/topic/65593500/)   (符什重)
+* [思维导图学习,思维导图软件Xmind3.4.1中文版,思维...](http://www.douban.com/group/topic/62929672/)   (微心理网)
+
+### 手机扫描二维码，把小组装进口袋
+
+![ffd9100ff091c7da0818873d3de54bdc.png](./_resources/【超有爱手绘思维导图】更新到手绘思维导图(6)记笔记+送礼物——看不厌的笔记VS很有爱的礼物.resources/ffd9100ff091c7da0818873d3de54bdc.png)
+[iPhone](http://www.douban.com/mobile/ipa?app_name=group) [iPad](http://www.douban.com/mobile/ipa?app_name=group-ipad) [Android](http://andariel.douban.com/d/com.douban.group)
+
+.

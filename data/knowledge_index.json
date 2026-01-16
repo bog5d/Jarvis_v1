@@ -1,0 +1,70 @@
+{
+  "last_updated": "2026-01-07T13:56:27.353237",
+  "tags": {
+    "Meeting": [
+      "meeting_notes_2024.md"
+    ],
+    "KnowledgeManagement": [
+      "meeting_notes_2024.md"
+    ],
+    "Obsidian": [
+      "meeting_notes_2024.md"
+    ],
+    "Strategy": [
+      "meeting_notes_2024.md"
+    ],
+    "Security": [
+      "old_project_notes.md"
+    ],
+    "Python": [
+      "old_project_notes.md"
+    ],
+    "Architecture": [
+      "old_project_notes.md"
+    ],
+    "SystemDesign": [
+      "old_project_notes.md"
+    ],
+    "Performance": [
+      "old_project_notes.md"
+    ],
+    "Docker": [
+      "tech_snippet.md"
+    ],
+    "DevOps": [
+      "tech_snippet.md"
+    ],
+    "Deployment": [
+      "tech_snippet.md"
+    ]
+  },
+  "file_map": {
+    "meeting_notes_2024.md": {
+      "mtime": 1767765380.5454805,
+      "tags": [
+        "Meeting",
+        "KnowledgeManagement",
+        "Obsidian",
+        "Strategy"
+      ]
+    },
+    "old_project_notes.md": {
+      "mtime": 1767765380.5454805,
+      "tags": [
+        "Security",
+        "Python",
+        "Architecture",
+        "SystemDesign",
+        "Performance"
+      ]
+    },
+    "tech_snippet.md": {
+      "mtime": 1767765380.5454805,
+      "tags": [
+        "Docker",
+        "DevOps",
+        "Deployment"
+      ]
+    }
+  }
+}

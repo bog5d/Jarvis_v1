@@ -1,0 +1,32 @@
+{
+    "enexSources": [
+        "D:\\My_System\\Inbox\\Enex_Export\\OLD2·要去干的（清单系列）\\2.4 吃玩清单 (1).enex"
+    ],
+    "outputDir": "D:\\My_System\\Inbox\\Yarle_Test_Output",
+    "isMetadataNeeded": true,
+    "isNotebookNameNeeded": true,
+    "isZettelkastenNeeded": false,
+    "useZettelIdAsFilename": false,
+    "plainTextNotesOnly": false,
+    "skipLocation": true,
+    "skipCreationTime": false,
+    "skipUpdateTime": false,
+    "skipSourceUrl": false,
+    "skipWebClips": false,
+    "skipTags": false,
+    "useHashTags": true,
+    "outputFormat": "ObsidianMD",
+    "skipEnexFileNameFromOutputPath": true,
+    "keepMDCharactersOfENNotes": false,
+    "monospaceIsCodeBlock": true,
+    "keepOriginalHtml": false,
+    "nestedTags": {
+        "separatorInEN": "/",
+        "replaceSeparatorWith": "/"
+    },
+    "resourcesDir": "_resources",
+    "turndownOptions": {
+        "headingStyle": "atx"
+    },
+    "templateFile": "D:\\My_System\\Jarvis_v1\\config\\yarle_template.md"
+}

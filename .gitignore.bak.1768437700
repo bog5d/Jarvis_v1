@@ -1,0 +1,20 @@
+# 忽略代码库 (已有单独的 Git 管理)
+Jarvis_v1/
+
+# 忽略巨大的归档文件 (GitHub 存不下，且不需要版本控制)
+99_Archive/
+
+# 忽略微力同步的配置文件夹
+.verysync/
+.stfolder/
+
+# 忽略 Obsidian 的缓存和工作区状态 (只同步配置)
+.obsidian/workspace*
+.obsidian/cache/
+
+# 忽略系统垃圾
+.trash/
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
