@@ -1,5 +1,12 @@
 # Jarvis_v1
 
+## SCP v3.8｜集团工程原则（仅引用）
+
+现行唯一上位规范：https://github.com/bog5d/grill-to-spec/blob/main/SCP-v3.8.md 。中大型软件、跨模块与AI Agent任务先读中央 README、START_HERE、SCP-v3.8、HARNESS，按 GCCSEG 对齐终局目标及独立验收。L0 小任务按安全/复用/回归简化，不自建Harness。
+文件/录音等资料真正被正确处理、归档、可检索并可恢复才算用户效果；监听心跳、Dashboard正常或日志增长不能替代有效完成。持久化执行必须保留合法授权边界。
+
+工程进度不等于用户效果达成率；真实证据、当前生效配置、硬门槛和 UNKNOWN/FAIL 规则按中央 v3.8 执行。不改变既有数据隐私、历史状态或业务授权。
+
 > **🤖 To AI Assistant (AI 助手必读)**
 > 
 > 1. **Context**: Before starting any task, **PLEASE READ** `ROADMAP.md` (for architecture & plans) and `CHANGELOG.md` (for history).
